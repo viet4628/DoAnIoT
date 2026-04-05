@@ -82,7 +82,37 @@ services:
       emqx:
         condition: service_started
 
+  # ──────────────────────────────────────────────
+  # Redis Cache (Optional for Production)
+  # ──────────────────────────────────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: doaniot-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes
+
+  # ──────────────────────────────────────────────
+  # NGINX API Gateway (Reverse Proxy)
+  # ──────────────────────────────────────────────
+  nginx:
+    image: nginx:alpine
+    container_name: doaniot-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - backend
+      - emqx
+
 volumes:
   emqx-data:
   emqx-log:
   doaniot_postgres_data:
+  redis-data:
