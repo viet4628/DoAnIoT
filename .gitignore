@@ -1,0 +1,17 @@
+# Environment (secrets)
+.env
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# skill 
+.agent/

@@ -1,0 +1,20 @@
+menu "Example Configuration"
+
+    config EXAMPLE_PROV_MGR_MAX_RETRY_CNT
+        int "Max retry count for provisioning"
+        default 5
+        help
+            Maximum Wi-Fi connection retries during provisioning.
+            After this limit, provisioned credentials are reset.
+
+    config BROKER_URL
+        string "Broker URL"
+        default "mqtt://mqtt.eclipseprojects.io"
+        help
+            URL of the broker to connect to
+
+    config BROKER_URL_FROM_STDIN
+        bool
+        default y if BROKER_URL = "FROM_STDIN"
+
+endmenu

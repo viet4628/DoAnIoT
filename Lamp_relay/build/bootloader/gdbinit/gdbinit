@@ -1,0 +1,2 @@
+source /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/gdbinit/symbols
+source /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/gdbinit/connect

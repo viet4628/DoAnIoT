@@ -1,0 +1,88 @@
+version: '3.8'
+
+services:
+  # ──────────────────────────────────────────────
+  # MQTT Broker (EMQX)
+  # ──────────────────────────────────────────────
+  emqx:
+    image: emqx/emqx:latest
+    container_name: emqx
+    restart: unless-stopped
+    ports:
+      - "${EMQX_MQTT_PORT:-1883}:1883"
+      - "${EMQX_WS_PORT:-8083}:8083"
+      - "${EMQX_DASHBOARD_PORT:-18083}:18083"
+    environment:
+      - EMQX_NODE__NAME=emqx@127.0.0.1
+      - EMQX_NODE__COOKIE=${EMQX_COOKIE:-emqxsecretcookie}
+      - EMQX_MQTT__ALLOW_ANONYMOUS=true
+      - EMQX_AUTHORIZATION__NO_MATCH=allow
+      - EMQX_AUTHORIZATION__DENY_ACTION=ignore
+      - EMQX_LISTENERS__TCP__DEFAULT__BIND=0.0.0.0:1883
+      - EMQX_LISTENERS__WS__DEFAULT__BIND=0.0.0.0:8083
+      - EMQX_DASHBOARD__LISTENERS__HTTP__BIND=0.0.0.0:18083
+    volumes:
+      - emqx-data:/opt/emqx/data
+      - emqx-log:/opt/emqx/log
+
+  # ──────────────────────────────────────────────
+  # MQTT Test Client (MQTTX Web)
+  # ──────────────────────────────────────────────
+  mqttx-web:
+    image: emqx/mqttx-web
+    container_name: mqttx-web
+    restart: unless-stopped
+    ports:
+      - "${MQTTX_WEB_PORT:-8080}:80"
+    depends_on:
+      - emqx
+
+  # ──────────────────────────────────────────────
+  # PostgreSQL Database
+  # ──────────────────────────────────────────────
+  postgres:
+    image: postgres:15-alpine
+    container_name: doaniot-postgres
+    restart: unless-stopped
+    ports:
+      - "${POSTGRES_HOST_PORT:-5434}:5432"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-doaniotdb}
+      POSTGRES_USER: ${POSTGRES_USER:-doaniotuser}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-doaniotpass}
+    volumes:
+      - doaniot_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-doaniotuser} -d ${POSTGRES_DB:-doaniotdb}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  # ──────────────────────────────────────────────
+  # Spring Boot Backend
+  # ──────────────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: doaniot-backend
+    restart: unless-stopped
+    ports:
+      - "${BACKEND_HOST_PORT:-8093}:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-doaniotdb}
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER:-doaniotuser}
+      SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD:-doaniotpass}
+      SPRING_JPA_HIBERNATE_DDL_AUTO: ${JPA_DDL_AUTO:-update}
+      SPRING_JPA_SHOW_SQL: ${JPA_SHOW_SQL:-true}
+      MQTT_BROKER_URL: tcp://emqx:1883
+    depends_on:
+      postgres:
+        condition: service_healthy
+      emqx:
+        condition: service_started
+
+volumes:
+  emqx-data:
+  emqx-log:
+  doaniot_postgres_data:

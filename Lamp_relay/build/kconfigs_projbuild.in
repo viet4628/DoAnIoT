@@ -1,0 +1,6 @@
+source "/home/viet/esp/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/home/viet/esp/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "/home/viet/esp/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "/home/viet/esp/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/home/viet/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+source "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/main/Kconfig.projbuild"
