@@ -17,7 +17,7 @@ esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.obj: \
  /home/viet/esp/esp-idf/components/esp_common/include/esp_check.h \
  /home/viet/esp/esp-idf/components/esp_common/include/esp_err.h \
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/cdefs.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \

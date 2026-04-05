@@ -1,6 +1,6 @@
 esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_console.c.obj: \
  /home/viet/esp/esp-idf/components/bootloader_support/src/bootloader_console.c \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/bootloader_support/private_include/bootloader_console.h \
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/viet/esp/esp-idf/components/soc/include/soc/uart_periph.h \

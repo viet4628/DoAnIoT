@@ -1,6 +1,6 @@
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj: \
  /home/viet/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/nvs_flash/src/nvs.hpp \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/memory \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/bits/memoryfwd.h \

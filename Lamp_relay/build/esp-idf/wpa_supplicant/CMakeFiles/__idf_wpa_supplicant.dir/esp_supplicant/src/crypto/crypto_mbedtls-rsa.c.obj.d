@@ -5,7 +5,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private_access.h \
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \

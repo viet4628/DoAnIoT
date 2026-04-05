@@ -1,6 +1,6 @@
 esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.obj: \
  /home/viet/esp/esp-idf/components/driver/deprecated/mcpwm_legacy.c \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/lock.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \

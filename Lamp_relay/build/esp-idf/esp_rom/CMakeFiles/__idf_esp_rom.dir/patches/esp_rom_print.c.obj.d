@@ -23,7 +23,7 @@ esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.obj: \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/param.h \
  /home/viet/esp/esp-idf/components/esp_rom/esp32s3/esp_rom_caps.h \
  /home/viet/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \

@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/viet/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader
 
 # Utility rule file for menuconfig.
 
@@ -67,11 +67,11 @@ include CMakeFiles/menuconfig.dir/compiler_depend.make
 include CMakeFiles/menuconfig.dir/progress.make
 
 CMakeFiles/menuconfig:
-	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config.env
-	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/viet/esp/esp-idf/Kconfig --sdkconfig-rename /home/viet/esp/esp-idf/sdkconfig.rename --config /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config.env --env IDF_TARGET=esp32s3 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=5.5.2 --dont-write-deprecated --output config /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/sdkconfig
+	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config.env
+	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/viet/esp/esp-idf/Kconfig --sdkconfig-rename /home/viet/esp/esp-idf/sdkconfig.rename --config /home/viet/Downloads/DoAnIoT/Lamp_relay/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config.env --env IDF_TARGET=esp32s3 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=5.5.2 --dont-write-deprecated --output config /home/viet/Downloads/DoAnIoT/Lamp_relay/sdkconfig
 	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/tools/check_term.py
-	/usr/bin/cmake -E env COMPONENT_KCONFIGS_SOURCE_FILE=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/kconfigs.in COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/kconfigs_projbuild.in KCONFIG_CONFIG=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/sdkconfig IDF_TARGET=esp32s3 IDF_TOOLCHAIN=gcc IDF_ENV_FPGA= IDF_INIT_VERSION=5.5.2 IDF_MINIMAL_BUILD=n /home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python -m menuconfig /home/viet/esp/esp-idf/Kconfig
-	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/viet/esp/esp-idf/Kconfig --sdkconfig-rename /home/viet/esp/esp-idf/sdkconfig.rename --config /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config.env --env IDF_TARGET=esp32s3 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=5.5.2 --output header /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h --output cmake /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.cmake --output json /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.json --output json_menus /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config/kconfig_menus.json
+	/usr/bin/cmake -E env COMPONENT_KCONFIGS_SOURCE_FILE=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/kconfigs.in COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/kconfigs_projbuild.in KCONFIG_CONFIG=/home/viet/Downloads/DoAnIoT/Lamp_relay/sdkconfig IDF_TARGET=esp32s3 IDF_TOOLCHAIN=gcc IDF_ENV_FPGA= IDF_INIT_VERSION=5.5.2 IDF_MINIMAL_BUILD=n /home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python -m menuconfig /home/viet/esp/esp-idf/Kconfig
+	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/viet/esp/esp-idf/Kconfig --sdkconfig-rename /home/viet/esp/esp-idf/sdkconfig.rename --config /home/viet/Downloads/DoAnIoT/Lamp_relay/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config.env --env IDF_TARGET=esp32s3 --env IDF_TOOLCHAIN=gcc --env IDF_ENV_FPGA= --env IDF_INIT_VERSION=5.5.2 --output header /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h --output cmake /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.cmake --output json /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.json --output json_menus /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config/kconfig_menus.json
 
 menuconfig: CMakeFiles/menuconfig
 menuconfig: CMakeFiles/menuconfig.dir/build.make
@@ -86,6 +86,6 @@ CMakeFiles/menuconfig.dir/clean:
 .PHONY : CMakeFiles/menuconfig.dir/clean
 
 CMakeFiles/menuconfig.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/menuconfig.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/menuconfig.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/menuconfig.dir/depend
 

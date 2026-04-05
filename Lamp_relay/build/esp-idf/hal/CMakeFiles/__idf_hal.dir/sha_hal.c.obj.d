@@ -16,7 +16,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.obj: \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/queue.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/cdefs.h \
  /home/viet/esp/esp-idf/components/hal/include/hal/sha_types.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/sha.h \
  /home/viet/esp/esp-idf/components/esp_rom/esp32s3/include/esp32s3/rom/ets_sys.h \
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \

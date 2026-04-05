@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/viet/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader
 
 # Utility rule file for size-components.
 
@@ -67,7 +67,7 @@ include CMakeFiles/size-components.dir/compiler_depend.make
 include CMakeFiles/size-components.dir/progress.make
 
 CMakeFiles/size-components: bootloader.map
-	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python;-m;esp_idf_size" -D IDF_SIZE_MODE=--archives -D MAP_FILE=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/bootloader.map -D OUTPUT_JSON= -P /home/viet/esp/esp-idf/tools/cmake/run_size_tool.cmake
+	/usr/bin/cmake -D "IDF_SIZE_TOOL=/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python;-m;esp_idf_size" -D IDF_SIZE_MODE=--archives -D MAP_FILE=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/bootloader.map -D OUTPUT_JSON= -P /home/viet/esp/esp-idf/tools/cmake/run_size_tool.cmake
 
 size-components: CMakeFiles/size-components
 size-components: CMakeFiles/size-components.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/size-components.dir/clean:
 .PHONY : CMakeFiles/size-components.dir/clean
 
 CMakeFiles/size-components.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/size-components.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/size-components.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/size-components.dir/depend
 

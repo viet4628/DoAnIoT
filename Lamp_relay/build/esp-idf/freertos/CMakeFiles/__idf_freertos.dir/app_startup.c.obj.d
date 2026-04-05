@@ -1,6 +1,6 @@
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.obj: \
  /home/viet/esp/esp-idf/components/freertos/app_startup.c \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h \
  /home/viet/esp/esp-idf/components/newlib/platform_include/assert.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h \

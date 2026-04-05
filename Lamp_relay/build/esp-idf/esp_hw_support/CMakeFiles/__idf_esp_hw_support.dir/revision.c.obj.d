@@ -1,6 +1,6 @@
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/revision.c.obj: \
  /home/viet/esp/esp-idf/components/esp_hw_support/revision.c \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /home/viet/esp/esp-idf/components/newlib/platform_include/assert.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h \

@@ -3,7 +3,7 @@
 
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/crosscore_int.c.obj
  /home/viet/esp/esp-idf/components/esp_system/crosscore_int.c
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h
@@ -125,7 +125,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_types.h
@@ -182,7 +182,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj
 
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_ipc.c.obj
  /home/viet/esp/esp-idf/components/esp_system/esp_ipc.c
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
@@ -303,7 +303,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_system.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -402,7 +402,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_system.c.obj
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_system_console.c.obj
  /home/viet/esp/esp-idf/components/esp_system/esp_system_console.c
  /home/viet/esp/esp-idf/components/esp_system/include/esp_system_console.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_rom/include/esp_rom_uart.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h
@@ -468,7 +468,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/freertos_hooks.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_types.h
@@ -568,7 +568,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/int_wdt.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -716,7 +716,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/panic.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_types.h
@@ -819,7 +819,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/panic.c.obj
 
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_helpers.c.obj
  /home/viet/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers.c
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/string.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -971,7 +971,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_stubs.
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h
@@ -1020,7 +1020,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/assert.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
@@ -1080,7 +1080,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_w
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h
  /home/viet/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/assert.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
@@ -1211,7 +1211,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_arch.c
  /home/viet/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-matmap.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/assert.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
@@ -1306,7 +1306,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_arch.c
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/trax.c.obj
  /home/viet/esp/esp-idf/components/esp_system/port/arch/xtensa/trax.c
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -1396,7 +1396,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -1581,7 +1581,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/esp_ipc_isr.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_types.h
@@ -1693,7 +1693,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/esp_system_chip.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_macros.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/assert.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
@@ -1812,7 +1812,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/image_process.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
@@ -1889,7 +1889,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/panic_handler.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_types.h
@@ -1993,7 +1993,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/apb_backup_d
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/esp_system/include/esp_private/esp_system_attr.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_attr.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h
@@ -2104,7 +2104,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/cache_err_in
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
@@ -2230,7 +2230,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/clk.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/time.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h
@@ -2361,7 +2361,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/reset_reason
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -2415,7 +2415,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/system_inter
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -2536,7 +2536,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32s3/system_inter
 
 esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/stack_check.c.obj
  /home/viet/esp/esp-idf/components/esp_system/stack_check.c
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_system/include/esp_system.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h
@@ -2595,7 +2595,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/startup.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -2679,7 +2679,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/startup_funcs.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -2869,7 +2869,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/system_time.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -2979,7 +2979,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt/task_wdt.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -3103,7 +3103,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt/task_wdt_impl_timerg
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -3257,7 +3257,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/ubsan.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_types.h
@@ -3318,7 +3318,7 @@ esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/xt_wdt.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h

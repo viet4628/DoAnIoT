@@ -17,4 +17,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/bootloader.elf
+file /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/bootloader.elf

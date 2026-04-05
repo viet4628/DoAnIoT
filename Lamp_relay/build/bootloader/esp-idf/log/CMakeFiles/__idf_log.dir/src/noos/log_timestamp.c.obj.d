@@ -1,7 +1,7 @@
 esp-idf/log/CMakeFiles/__idf_log.dir/src/noos/log_timestamp.c.obj: \
  /home/viet/esp/esp-idf/components/log/src/noos/log_timestamp.c \
  /home/viet/esp/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \

@@ -1,6 +1,6 @@
 esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.obj: \
  /home/viet/esp/esp-idf/components/spi_flash/memspi_host_driver.c \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/viet/esp/esp-idf/components/spi_flash/include/spi_flash/spi_flash_defs.h \
  /home/viet/esp/esp-idf/components/spi_flash/include/memspi_host_driver.h \

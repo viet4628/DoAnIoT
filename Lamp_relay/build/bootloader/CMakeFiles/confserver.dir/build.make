@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/viet/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader
 
 # Utility rule file for confserver.
 
@@ -67,8 +67,8 @@ include CMakeFiles/confserver.dir/compiler_depend.make
 include CMakeFiles/confserver.dir/progress.make
 
 CMakeFiles/confserver:
-	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config.env
-	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python -m kconfserver --env-file /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config.env --kconfig /home/viet/esp/esp-idf/Kconfig --sdkconfig-rename /home/viet/esp/esp-idf/sdkconfig.rename --config /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/sdkconfig
+	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config.env
+	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python -m kconfserver --env-file /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config.env --kconfig /home/viet/esp/esp-idf/Kconfig --sdkconfig-rename /home/viet/esp/esp-idf/sdkconfig.rename --config /home/viet/Downloads/DoAnIoT/Lamp_relay/sdkconfig
 
 confserver: CMakeFiles/confserver
 confserver: CMakeFiles/confserver.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/confserver.dir/clean:
 .PHONY : CMakeFiles/confserver.dir/clean
 
 CMakeFiles/confserver.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/confserver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/confserver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/confserver.dir/depend
 

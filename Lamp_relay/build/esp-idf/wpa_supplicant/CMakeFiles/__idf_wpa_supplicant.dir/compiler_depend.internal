@@ -14,7 +14,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -246,7 +246,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -477,7 +477,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private_access.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -726,7 +726,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_err.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -960,7 +960,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/string.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h
@@ -1121,7 +1121,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_types.h
@@ -1171,7 +1171,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/cr
  /home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -1436,7 +1436,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -1624,7 +1624,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -1893,7 +1893,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -2108,7 +2108,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/string.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h
@@ -2250,7 +2250,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -2287,7 +2287,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -2452,7 +2452,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -2656,7 +2656,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -2831,7 +2831,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/es
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -3014,7 +3014,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/eloop.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -3207,7 +3207,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/os_xtensa.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/string.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h
@@ -3361,7 +3361,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ap_config.c.ob
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/ap_config.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -3530,7 +3530,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/comeback_token
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -3697,7 +3697,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_11.c.o
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -3873,7 +3873,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_1x.c.o
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -4053,7 +4053,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/pmksa_cache_au
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -4222,7 +4222,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/sta_info.c.obj
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/sta_info.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -4401,7 +4401,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth.c.obj
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -4588,7 +4588,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth_ie.c.
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -4756,7 +4756,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/dragonfly.
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/common/dragonfly.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -4917,7 +4917,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/ieee802_11
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -5086,7 +5086,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae.c.obj
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/common/sae.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -5255,7 +5255,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae_pk.c.o
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/common/sae_pk.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -5429,7 +5429,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/wpa_common
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/common/wpa_common.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -5600,7 +5600,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-ccm.c.
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -5760,7 +5760,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-gcm.c.
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -5920,7 +5920,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-siv.c.
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -6081,7 +6081,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-unwrap
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -6241,7 +6241,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-wrap.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -6401,7 +6401,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ccmp.c.obj
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -6594,7 +6594,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/crypto_ops
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/string.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/lock.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h
@@ -6727,7 +6727,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/des-intern
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -6888,7 +6888,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_group5.
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -7048,7 +7048,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_groups.
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -7210,7 +7210,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/md4-intern
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -7370,7 +7370,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ms_funcs.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -7532,7 +7532,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/rc4.c.obj
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/rc4.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -7692,7 +7692,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-prf.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -7853,7 +7853,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tlspr
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -8013,7 +8013,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tprf.
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -8174,7 +8174,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-kdf
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -8333,7 +8333,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-prf
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -8494,7 +8494,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-tls
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -8653,7 +8653,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-prf
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -8814,7 +8814,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-tls
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -8973,7 +8973,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common/eap_ws
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -9139,7 +9139,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/chap.c.o
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -9305,7 +9305,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap.c.ob
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -9482,7 +9482,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_comm
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -9643,7 +9643,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -9821,7 +9821,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -9984,7 +9984,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -10151,7 +10151,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_mschapv2.c.obj
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/common.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/os.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/types.h
@@ -10330,7 +10330,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -10503,7 +10503,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -10663,7 +10663,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls.
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -10833,7 +10833,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls_
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -11004,7 +11004,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_ttls
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -11180,7 +11180,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/mschapv2
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -11340,7 +11340,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/pmksa_ca
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -11510,7 +11510,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa.c.ob
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -11694,7 +11694,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa_ie.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -11860,7 +11860,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/base64.c.ob
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/base64.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -12004,7 +12004,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/bitfield.c.
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/bitfield.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -12163,7 +12163,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/common.c.ob
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/common.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -12328,7 +12328,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/ext_passwor
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/ext_password.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -12488,7 +12488,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/json.c.obj
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/json.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -12648,7 +12648,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/uuid.c.obj
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/uuid.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -12807,7 +12807,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpa_debug.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -12965,7 +12965,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpabuf.c.ob
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -13124,7 +13124,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps.c.obj
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -13290,7 +13290,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_buil
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -13459,7 +13459,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_pars
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -13622,7 +13622,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_proc
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -13787,7 +13787,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_common.c.
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps_common.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -13963,7 +13963,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_dev_attr.
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -14128,7 +14128,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_enrollee.
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/includes.h
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/supplicant_opt.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_private.h
  /home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h

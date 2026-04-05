@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/viet/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bootloader.elf.dir/depend.make
@@ -70,22 +70,22 @@ include CMakeFiles/bootloader.elf.dir/progress.make
 include CMakeFiles/bootloader.elf.dir/flags.make
 
 project_elf_src_esp32s3.c:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32s3.c"
-	/usr/bin/cmake -E touch /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/project_elf_src_esp32s3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32s3.c"
+	/usr/bin/cmake -E touch /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/project_elf_src_esp32s3.c
 
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/bootloader.elf.dir/flags.make
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj: project_elf_src_esp32s3.c
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/bootloader.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj"
-	/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj -MF CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj.d -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj -c /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/project_elf_src_esp32s3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj"
+	/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj -MF CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj.d -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.obj -c /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/project_elf_src_esp32s3.c
 
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.i"
-	/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/project_elf_src_esp32s3.c > CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.i
+	/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/project_elf_src_esp32s3.c > CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.i
 
 CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.s"
-	/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/project_elf_src_esp32s3.c -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.s
+	/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/project_elf_src_esp32s3.c -o CMakeFiles/bootloader.elf.dir/project_elf_src_esp32s3.c.s
 
 # Object files for target bootloader.elf
 bootloader_elf_OBJECTS = \
@@ -174,7 +174,7 @@ bootloader.elf: /home/viet/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom
 bootloader.elf: /home/viet/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
 bootloader.elf: /home/viet/esp/esp-idf/components/bootloader/subproject/main/ld/esp32s3/bootloader.rom.ld
 bootloader.elf: CMakeFiles/bootloader.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable bootloader.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable bootloader.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bootloader.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -186,6 +186,6 @@ CMakeFiles/bootloader.elf.dir/clean:
 .PHONY : CMakeFiles/bootloader.elf.dir/clean
 
 CMakeFiles/bootloader.elf.dir/depend: project_elf_src_esp32s3.c
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/bootloader.elf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/bootloader.elf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bootloader.elf.dir/depend
 

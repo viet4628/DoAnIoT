@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Utility rule file for bootloader.
 
@@ -76,51 +76,51 @@ CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloade
 CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloader-configure
 CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloader-build
 CMakeFiles/bootloader-complete: bootloader-prefix/src/bootloader-stamp/bootloader-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'bootloader'"
-	/usr/bin/cmake -E make_directory /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles/bootloader-complete
-	/usr/bin/cmake -E touch /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'bootloader'"
+	/usr/bin/cmake -E make_directory /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles
+	/usr/bin/cmake -E touch /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles/bootloader-complete
+	/usr/bin/cmake -E touch /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-done
 
 bootloader-prefix/src/bootloader-stamp/bootloader-build: bootloader-prefix/src/bootloader-stamp/bootloader-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'bootloader'"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'bootloader'"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader && $(MAKE)
 
 bootloader-prefix/src/bootloader-stamp/bootloader-configure: bootloader-prefix/tmp/bootloader-cfgcmd.txt
 bootloader-prefix/src/bootloader-stamp/bootloader-configure: bootloader-prefix/src/bootloader-stamp/bootloader-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'bootloader'"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader && /usr/bin/cmake -DSDKCONFIG=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/sdkconfig -DIDF_PATH=/home/viet/esp/esp-idf -DIDF_TARGET=esp32s3 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python -DEXTRA_COMPONENT_DIRS=/home/viet/esp/esp-idf/components/bootloader -DPROJECT_SOURCE_DIR=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay -DIGNORE_EXTRA_COMPONENT= "-GUnix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader && /usr/bin/cmake -E touch /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'bootloader'"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader && /usr/bin/cmake -DSDKCONFIG=/home/viet/Downloads/DoAnIoT/Lamp_relay/sdkconfig -DIDF_PATH=/home/viet/esp/esp-idf -DIDF_TARGET=esp32s3 -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python -DEXTRA_COMPONENT_DIRS=/home/viet/esp/esp-idf/components/bootloader -DPROJECT_SOURCE_DIR=/home/viet/Downloads/DoAnIoT/Lamp_relay -DIGNORE_EXTRA_COMPONENT= "-GUnix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader && /usr/bin/cmake -E touch /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure
 
 bootloader-prefix/src/bootloader-stamp/bootloader-download: bootloader-prefix/src/bootloader-stamp/bootloader-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'bootloader'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'bootloader'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-download
+	/usr/bin/cmake -E touch /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-download
 
 bootloader-prefix/src/bootloader-stamp/bootloader-install: bootloader-prefix/src/bootloader-stamp/bootloader-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'bootloader'"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader && /usr/bin/cmake -E echo_append
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader && /usr/bin/cmake -E touch /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'bootloader'"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader && /usr/bin/cmake -E echo_append
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader && /usr/bin/cmake -E touch /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-install
 
 bootloader-prefix/src/bootloader-stamp/bootloader-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'bootloader'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'bootloader'"
 	/usr/bin/cmake -E make_directory /home/viet/esp/esp-idf/components/bootloader/subproject
-	/usr/bin/cmake -E make_directory /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader
-	/usr/bin/cmake -E make_directory /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader-prefix
-	/usr/bin/cmake -E make_directory /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader-prefix/tmp
-	/usr/bin/cmake -E make_directory /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp
-	/usr/bin/cmake -E make_directory /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader-prefix/src
-	/usr/bin/cmake -E make_directory /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp
-	/usr/bin/cmake -E touch /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir
+	/usr/bin/cmake -E make_directory /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader
+	/usr/bin/cmake -E make_directory /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader-prefix
+	/usr/bin/cmake -E make_directory /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader-prefix/tmp
+	/usr/bin/cmake -E make_directory /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp
+	/usr/bin/cmake -E make_directory /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader-prefix/src
+	/usr/bin/cmake -E make_directory /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp
+	/usr/bin/cmake -E touch /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir
 
 bootloader-prefix/src/bootloader-stamp/bootloader-patch: bootloader-prefix/src/bootloader-stamp/bootloader-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'bootloader'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'bootloader'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch
+	/usr/bin/cmake -E touch /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch
 
 bootloader-prefix/src/bootloader-stamp/bootloader-update: bootloader-prefix/src/bootloader-stamp/bootloader-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'bootloader'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'bootloader'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-update
+	/usr/bin/cmake -E touch /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader-prefix/src/bootloader-stamp/bootloader-update
 
 bootloader: CMakeFiles/bootloader
 bootloader: CMakeFiles/bootloader-complete
@@ -143,6 +143,6 @@ CMakeFiles/bootloader.dir/clean:
 .PHONY : CMakeFiles/bootloader.dir/clean
 
 CMakeFiles/bootloader.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles/bootloader.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles/bootloader.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bootloader.dir/depend
 

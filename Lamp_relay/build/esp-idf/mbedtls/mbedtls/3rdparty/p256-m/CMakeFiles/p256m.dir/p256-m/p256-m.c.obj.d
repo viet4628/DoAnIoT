@@ -12,7 +12,7 @@ esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m/p256-m.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \

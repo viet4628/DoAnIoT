@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdmmc//CMakeFiles/progress.marks
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_sdmmc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles 0
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdmmc//CMakeFiles/progress.marks
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_sdmmc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_sdmmc/clean
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_sdmmc/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_sdmmc/preinstall
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_sdmmc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_sdmmc/preinstall
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_sdmmc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/rule:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/rule
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/rule
 .PHONY : esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_driver_sdmmc: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdm
 
 # fast build rule for target.
 __idf_esp_driver_sdmmc/fast:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build
 .PHONY : __idf_esp_driver_sdmmc/fast
 
 src/sdmmc_host.obj: src/sdmmc_host.c.obj
@@ -180,7 +180,7 @@ src/sdmmc_host.obj: src/sdmmc_host.c.obj
 
 # target to build an object file
 src/sdmmc_host.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.obj
 .PHONY : src/sdmmc_host.c.obj
 
 src/sdmmc_host.i: src/sdmmc_host.c.i
@@ -188,7 +188,7 @@ src/sdmmc_host.i: src/sdmmc_host.c.i
 
 # target to preprocess a source file
 src/sdmmc_host.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.i
 .PHONY : src/sdmmc_host.c.i
 
 src/sdmmc_host.s: src/sdmmc_host.c.s
@@ -196,7 +196,7 @@ src/sdmmc_host.s: src/sdmmc_host.c.s
 
 # target to generate assembly for a file
 src/sdmmc_host.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_host.c.s
 .PHONY : src/sdmmc_host.c.s
 
 src/sdmmc_transaction.obj: src/sdmmc_transaction.c.obj
@@ -204,7 +204,7 @@ src/sdmmc_transaction.obj: src/sdmmc_transaction.c.obj
 
 # target to build an object file
 src/sdmmc_transaction.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.obj
 .PHONY : src/sdmmc_transaction.c.obj
 
 src/sdmmc_transaction.i: src/sdmmc_transaction.c.i
@@ -212,7 +212,7 @@ src/sdmmc_transaction.i: src/sdmmc_transaction.c.i
 
 # target to preprocess a source file
 src/sdmmc_transaction.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.i
 .PHONY : src/sdmmc_transaction.c.i
 
 src/sdmmc_transaction.s: src/sdmmc_transaction.c.s
@@ -220,7 +220,7 @@ src/sdmmc_transaction.s: src/sdmmc_transaction.c.s
 
 # target to generate assembly for a file
 src/sdmmc_transaction.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sdmmc_transaction.c.s
 .PHONY : src/sdmmc_transaction.c.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

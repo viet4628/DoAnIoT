@@ -14,7 +14,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/spi_share_hw_ctrl.c.o
  /home/viet/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
  /home/viet/esp/esp-idf/components/soc/include/soc/spi_periph.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /home/viet/esp/esp-idf/components/esp_common/include/esp_assert.h \
  /home/viet/esp/esp-idf/components/newlib/platform_include/assert.h \

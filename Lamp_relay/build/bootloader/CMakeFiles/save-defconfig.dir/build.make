@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/viet/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader
 
 # Utility rule file for save-defconfig.
 
@@ -67,8 +67,8 @@ include CMakeFiles/save-defconfig.dir/compiler_depend.make
 include CMakeFiles/save-defconfig.dir/progress.make
 
 CMakeFiles/save-defconfig:
-	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config.env
-	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/viet/esp/esp-idf/Kconfig --sdkconfig-rename /home/viet/esp/esp-idf/sdkconfig.rename --config /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config.env --dont-write-deprecated --output savedefconfig /home/viet/esp/esp-idf/components/bootloader/subproject/sdkconfig.defaults
+	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/tools/kconfig_new/prepare_kconfig_files.py --list-separator=semicolon --env-file /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config.env
+	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python -m kconfgen --list-separator=semicolon --kconfig /home/viet/esp/esp-idf/Kconfig --sdkconfig-rename /home/viet/esp/esp-idf/sdkconfig.rename --config /home/viet/Downloads/DoAnIoT/Lamp_relay/sdkconfig --env IDF_MINIMAL_BUILD=n --env-file /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config.env --dont-write-deprecated --output savedefconfig /home/viet/esp/esp-idf/components/bootloader/subproject/sdkconfig.defaults
 
 save-defconfig: CMakeFiles/save-defconfig
 save-defconfig: CMakeFiles/save-defconfig.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/save-defconfig.dir/clean:
 .PHONY : CMakeFiles/save-defconfig.dir/clean
 
 CMakeFiles/save-defconfig.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/save-defconfig.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/save-defconfig.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/save-defconfig.dir/depend
 

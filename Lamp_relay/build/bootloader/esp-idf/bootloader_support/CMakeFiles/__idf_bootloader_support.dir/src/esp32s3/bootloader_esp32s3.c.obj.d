@@ -7,7 +7,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32s3/b
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/viet/esp/esp-idf/components/log/include/esp_log.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \

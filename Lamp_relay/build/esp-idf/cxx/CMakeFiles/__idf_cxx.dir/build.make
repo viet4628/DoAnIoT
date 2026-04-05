@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Include any dependencies generated for this target.
 include esp-idf/cxx/CMakeFiles/__idf_cxx.dir/depend.make
@@ -72,44 +72,44 @@ include esp-idf/cxx/CMakeFiles/__idf_cxx.dir/flags.make
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj: esp-idf/cxx/CMakeFiles/__idf_cxx.dir/flags.make
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj: /home/viet/esp/esp-idf/components/cxx/cxx_exception_stubs.cpp
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj: esp-idf/cxx/CMakeFiles/__idf_cxx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj -MF CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj.d -o CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj -c /home/viet/esp/esp-idf/components/cxx/cxx_exception_stubs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj -MF CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj.d -o CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj -c /home/viet/esp/esp-idf/components/cxx/cxx_exception_stubs.cpp
 
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.i"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viet/esp/esp-idf/components/cxx/cxx_exception_stubs.cpp > CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viet/esp/esp-idf/components/cxx/cxx_exception_stubs.cpp > CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.i
 
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.s"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viet/esp/esp-idf/components/cxx/cxx_exception_stubs.cpp -o CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viet/esp/esp-idf/components/cxx/cxx_exception_stubs.cpp -o CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.s
 
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj: esp-idf/cxx/CMakeFiles/__idf_cxx.dir/flags.make
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj: /home/viet/esp/esp-idf/components/cxx/cxx_guards.cpp
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj: esp-idf/cxx/CMakeFiles/__idf_cxx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj -MF CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj.d -o CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj -c /home/viet/esp/esp-idf/components/cxx/cxx_guards.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj -MF CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj.d -o CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj -c /home/viet/esp/esp-idf/components/cxx/cxx_guards.cpp
 
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.i"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viet/esp/esp-idf/components/cxx/cxx_guards.cpp > CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viet/esp/esp-idf/components/cxx/cxx_guards.cpp > CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.i
 
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.s"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viet/esp/esp-idf/components/cxx/cxx_guards.cpp -o CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viet/esp/esp-idf/components/cxx/cxx_guards.cpp -o CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.s
 
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj: esp-idf/cxx/CMakeFiles/__idf_cxx.dir/flags.make
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj: /home/viet/esp/esp-idf/components/cxx/cxx_init.cpp
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj: esp-idf/cxx/CMakeFiles/__idf_cxx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj -MF CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj.d -o CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj -c /home/viet/esp/esp-idf/components/cxx/cxx_init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj -MF CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj.d -o CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj -c /home/viet/esp/esp-idf/components/cxx/cxx_init.cpp
 
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/__idf_cxx.dir/cxx_init.cpp.i"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viet/esp/esp-idf/components/cxx/cxx_init.cpp > CMakeFiles/__idf_cxx.dir/cxx_init.cpp.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viet/esp/esp-idf/components/cxx/cxx_init.cpp > CMakeFiles/__idf_cxx.dir/cxx_init.cpp.i
 
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/__idf_cxx.dir/cxx_init.cpp.s"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viet/esp/esp-idf/components/cxx/cxx_init.cpp -o CMakeFiles/__idf_cxx.dir/cxx_init.cpp.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viet/esp/esp-idf/components/cxx/cxx_init.cpp -o CMakeFiles/__idf_cxx.dir/cxx_init.cpp.s
 
 # Object files for target __idf_cxx
 __idf_cxx_OBJECTS = \
@@ -125,19 +125,19 @@ esp-idf/cxx/libcxx.a: esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj
 esp-idf/cxx/libcxx.a: esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj
 esp-idf/cxx/libcxx.a: esp-idf/cxx/CMakeFiles/__idf_cxx.dir/build.make
 esp-idf/cxx/libcxx.a: esp-idf/cxx/CMakeFiles/__idf_cxx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libcxx.a"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx && $(CMAKE_COMMAND) -P CMakeFiles/__idf_cxx.dir/cmake_clean_target.cmake
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_cxx.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libcxx.a"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx && $(CMAKE_COMMAND) -P CMakeFiles/__idf_cxx.dir/cmake_clean_target.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_cxx.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/build: esp-idf/cxx/libcxx.a
 .PHONY : esp-idf/cxx/CMakeFiles/__idf_cxx.dir/build
 
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx && $(CMAKE_COMMAND) -P CMakeFiles/__idf_cxx.dir/cmake_clean.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx && $(CMAKE_COMMAND) -P CMakeFiles/__idf_cxx.dir/cmake_clean.cmake
 .PHONY : esp-idf/cxx/CMakeFiles/__idf_cxx.dir/clean
 
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/cxx /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx/CMakeFiles/__idf_cxx.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/cxx /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx/CMakeFiles/__idf_cxx.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/cxx/CMakeFiles/__idf_cxx.dir/depend
 

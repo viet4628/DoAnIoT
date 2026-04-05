@@ -13,7 +13,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/rtc_cntl_hal.c.obj: \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/gpio_num.h \
  /home/viet/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/hal/esp32s3/include/hal/rtc_cntl_ll.h \
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc.h \
  /home/viet/esp/esp-idf/components/esp_common/include/esp_assert.h \

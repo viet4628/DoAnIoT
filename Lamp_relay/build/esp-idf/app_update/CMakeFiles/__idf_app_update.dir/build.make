@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Include any dependencies generated for this target.
 include esp-idf/app_update/CMakeFiles/__idf_app_update.dir/depend.make
@@ -72,30 +72,30 @@ include esp-idf/app_update/CMakeFiles/__idf_app_update.dir/flags.make
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/flags.make
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj: /home/viet/esp/esp-idf/components/app_update/esp_ota_ops.c
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/app_update && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj -MF CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj.d -o CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj -c /home/viet/esp/esp-idf/components/app_update/esp_ota_ops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/app_update && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj -MF CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj.d -o CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj -c /home/viet/esp/esp-idf/components/app_update/esp_ota_ops.c
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.i"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/app_update && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/esp/esp-idf/components/app_update/esp_ota_ops.c > CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/app_update && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/esp/esp-idf/components/app_update/esp_ota_ops.c > CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.i
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.s"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/app_update && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/esp/esp-idf/components/app_update/esp_ota_ops.c -o CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/app_update && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/esp/esp-idf/components/app_update/esp_ota_ops.c -o CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.s
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/flags.make
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj: /home/viet/esp/esp-idf/components/app_update/esp_ota_app_desc.c
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/app_update && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj -MF CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj.d -o CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj -c /home/viet/esp/esp-idf/components/app_update/esp_ota_app_desc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/app_update && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj -MF CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj.d -o CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj -c /home/viet/esp/esp-idf/components/app_update/esp_ota_app_desc.c
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.i"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/app_update && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/esp/esp-idf/components/app_update/esp_ota_app_desc.c > CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/app_update && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/esp/esp-idf/components/app_update/esp_ota_app_desc.c > CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.i
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.s"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/app_update && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/esp/esp-idf/components/app_update/esp_ota_app_desc.c -o CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/app_update && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/esp/esp-idf/components/app_update/esp_ota_app_desc.c -o CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.s
 
 # Object files for target __idf_app_update
 __idf_app_update_OBJECTS = \
@@ -109,19 +109,19 @@ esp-idf/app_update/libapp_update.a: esp-idf/app_update/CMakeFiles/__idf_app_upda
 esp-idf/app_update/libapp_update.a: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj
 esp-idf/app_update/libapp_update.a: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/build.make
 esp-idf/app_update/libapp_update.a: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libapp_update.a"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/app_update && $(CMAKE_COMMAND) -P CMakeFiles/__idf_app_update.dir/cmake_clean_target.cmake
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/app_update && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_app_update.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libapp_update.a"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/app_update && $(CMAKE_COMMAND) -P CMakeFiles/__idf_app_update.dir/cmake_clean_target.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/app_update && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_app_update.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/build: esp-idf/app_update/libapp_update.a
 .PHONY : esp-idf/app_update/CMakeFiles/__idf_app_update.dir/build
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/app_update && $(CMAKE_COMMAND) -P CMakeFiles/__idf_app_update.dir/cmake_clean.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/app_update && $(CMAKE_COMMAND) -P CMakeFiles/__idf_app_update.dir/cmake_clean.cmake
 .PHONY : esp-idf/app_update/CMakeFiles/__idf_app_update.dir/clean
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/app_update /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/app_update /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/app_update/CMakeFiles/__idf_app_update.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/app_update /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/app_update /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/app_update/CMakeFiles/__idf_app_update.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/app_update/CMakeFiles/__idf_app_update.dir/depend
 

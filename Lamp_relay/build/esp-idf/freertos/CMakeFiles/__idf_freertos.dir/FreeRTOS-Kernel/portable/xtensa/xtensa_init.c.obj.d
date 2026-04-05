@@ -17,7 +17,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/x
  /home/viet/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/tie.h \
  /home/viet/esp/esp-idf/components/xtensa/include/xtensa/corebits.h \
  /home/viet/esp/esp-idf/components/xtensa/esp32s3/include/xtensa/config/system.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /home/viet/esp/esp-idf/components/newlib/platform_include/assert.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h \

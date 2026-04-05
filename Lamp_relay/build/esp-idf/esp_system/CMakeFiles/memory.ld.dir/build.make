@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Utility rule file for memory.ld.
 
@@ -70,8 +70,8 @@ esp-idf/esp_system/CMakeFiles/memory.ld: esp-idf/esp_system/ld/memory.ld
 
 esp-idf/esp_system/ld/memory.ld: config/sdkconfig.h
 esp-idf/esp_system/ld/memory.ld: /home/viet/esp/esp-idf/components/esp_system/ld/esp32s3/memory.ld.in
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_system/ld/memory.ld linker script..."
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_system && /usr/bin/cmake -DCC=/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DSOURCE=/home/viet/esp/esp-idf/components/esp_system/ld/esp32s3/memory.ld.in -DTARGET=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_system/ld/memory.ld -DCONFIG_DIR=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config -DLD_DIR=/home/viet/esp/esp-idf/components/esp_system/ld -P /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_system/ld/linker_script_generator.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_system/ld/memory.ld linker script..."
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_system && /usr/bin/cmake -DCC=/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DSOURCE=/home/viet/esp/esp-idf/components/esp_system/ld/esp32s3/memory.ld.in -DTARGET=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_system/ld/memory.ld -DCONFIG_DIR=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/config -DLD_DIR=/home/viet/esp/esp-idf/components/esp_system/ld -P /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_system/ld/linker_script_generator.cmake
 
 memory.ld: esp-idf/esp_system/CMakeFiles/memory.ld
 memory.ld: esp-idf/esp_system/ld/memory.ld
@@ -83,10 +83,10 @@ esp-idf/esp_system/CMakeFiles/memory.ld.dir/build: memory.ld
 .PHONY : esp-idf/esp_system/CMakeFiles/memory.ld.dir/build
 
 esp-idf/esp_system/CMakeFiles/memory.ld.dir/clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_system && $(CMAKE_COMMAND) -P CMakeFiles/memory.ld.dir/cmake_clean.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_system && $(CMAKE_COMMAND) -P CMakeFiles/memory.ld.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_system/CMakeFiles/memory.ld.dir/clean
 
 esp-idf/esp_system/CMakeFiles/memory.ld.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/esp_system /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_system /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_system/CMakeFiles/memory.ld.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/esp_system /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_system /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_system/CMakeFiles/memory.ld.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esp_system/CMakeFiles/memory.ld.dir/depend
 

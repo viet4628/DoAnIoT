@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/viet/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader
 
 # Utility rule file for dfu.
 
@@ -67,7 +67,7 @@ include CMakeFiles/dfu.dir/compiler_depend.make
 include CMakeFiles/dfu.dir/progress.make
 
 CMakeFiles/dfu: bootloader
-	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/tools/mkdfu.py write -o /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/dfu.bin --json /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/flasher_args.json --pid 9 --flash-size 2MB
+	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/tools/mkdfu.py write -o /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/dfu.bin --json /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/flasher_args.json --pid 9 --flash-size 2MB
 
 dfu: CMakeFiles/dfu
 dfu: CMakeFiles/dfu.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/dfu.dir/clean:
 .PHONY : CMakeFiles/dfu.dir/clean
 
 CMakeFiles/dfu.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/dfu.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/dfu.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dfu.dir/depend
 

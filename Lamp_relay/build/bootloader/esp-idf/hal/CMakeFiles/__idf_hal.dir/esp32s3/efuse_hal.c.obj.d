@@ -1,6 +1,6 @@
 esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj: \
  /home/viet/esp/esp-idf/components/hal/esp32s3/efuse_hal.c \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/param.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \

@@ -1,4 +1,4 @@
-/* * Data converted from /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

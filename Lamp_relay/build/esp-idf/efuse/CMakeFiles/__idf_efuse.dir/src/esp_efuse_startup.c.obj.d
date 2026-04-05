@@ -1,6 +1,6 @@
 esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.obj: \
  /home/viet/esp/esp-idf/components/efuse/src/esp_efuse_startup.c \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/viet/esp/esp-idf/components/soc/include/soc/chip_revision.h \
  /home/viet/esp/esp-idf/components/hal/esp32s3/include/hal/efuse_hal.h \

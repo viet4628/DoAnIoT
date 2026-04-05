@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Utility rule file for gen_project_binary.
 
@@ -69,10 +69,10 @@ include CMakeFiles/gen_project_binary.dir/progress.make
 CMakeFiles/gen_project_binary: .bin_timestamp
 
 .bin_timestamp: mqtt5.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32s3 elf2image --flash_mode dio --flash_freq 80m --flash_size 2MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 99 -o /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/mqtt5.bin /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/mqtt5.elf
-	/usr/bin/cmake -E echo "Generated /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/mqtt5.bin"
-	/usr/bin/cmake -E md5sum /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/mqtt5.bin > /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/.bin_timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
+	/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32s3 elf2image --flash_mode dio --flash_freq 80m --flash_size 2MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 99 -o /home/viet/Downloads/DoAnIoT/Lamp_relay/build/mqtt5.bin /home/viet/Downloads/DoAnIoT/Lamp_relay/build/mqtt5.elf
+	/usr/bin/cmake -E echo "Generated /home/viet/Downloads/DoAnIoT/Lamp_relay/build/mqtt5.bin"
+	/usr/bin/cmake -E md5sum /home/viet/Downloads/DoAnIoT/Lamp_relay/build/mqtt5.bin > /home/viet/Downloads/DoAnIoT/Lamp_relay/build/.bin_timestamp
 
 gen_project_binary: .bin_timestamp
 gen_project_binary: CMakeFiles/gen_project_binary
@@ -88,6 +88,6 @@ CMakeFiles/gen_project_binary.dir/clean:
 .PHONY : CMakeFiles/gen_project_binary.dir/clean
 
 CMakeFiles/gen_project_binary.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles/gen_project_binary.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles/gen_project_binary.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gen_project_binary.dir/depend
 

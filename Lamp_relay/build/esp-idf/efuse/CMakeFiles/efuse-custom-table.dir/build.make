@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Utility rule file for efuse-custom-table.
 
@@ -74,10 +74,10 @@ esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/build: efuse-custom-table
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/build
 
 esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse-custom-table.dir/cmake_clean.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/efuse && $(CMAKE_COMMAND) -P CMakeFiles/efuse-custom-table.dir/cmake_clean.cmake
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/clean
 
 esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/efuse /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/efuse /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/efuse /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/efuse /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/depend
 

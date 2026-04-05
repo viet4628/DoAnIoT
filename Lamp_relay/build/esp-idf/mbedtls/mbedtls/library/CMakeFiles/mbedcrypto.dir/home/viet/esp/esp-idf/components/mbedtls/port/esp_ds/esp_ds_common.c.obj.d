@@ -1,6 +1,6 @@
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/components/mbedtls/port/esp_ds/esp_ds_common.c.obj: \
  /home/viet/esp/esp-idf/components/mbedtls/port/esp_ds/esp_ds_common.c \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/esp_hw_support/include/esp_ds.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /home/viet/esp/esp-idf/components/esp_hw_support/include/esp_hmac.h \

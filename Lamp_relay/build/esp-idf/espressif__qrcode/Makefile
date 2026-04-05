@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/espressif__qrcode//CMakeFiles/progress.marks
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__qrcode/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles 0
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/espressif__qrcode//CMakeFiles/progress.marks
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__qrcode/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__qrcode/clean
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__qrcode/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__qrcode/preinstall
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__qrcode/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__qrcode/preinstall
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__qrcode/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/rule:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/rule
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/rule
 .PHONY : esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_espressif__qrcode: esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__q
 
 # fast build rule for target.
 __idf_espressif__qrcode/fast:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build
 .PHONY : __idf_espressif__qrcode/fast
 
 esp_qrcode_main.obj: esp_qrcode_main.c.obj
@@ -180,7 +180,7 @@ esp_qrcode_main.obj: esp_qrcode_main.c.obj
 
 # target to build an object file
 esp_qrcode_main.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_main.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_main.c.obj
 .PHONY : esp_qrcode_main.c.obj
 
 esp_qrcode_main.i: esp_qrcode_main.c.i
@@ -188,7 +188,7 @@ esp_qrcode_main.i: esp_qrcode_main.c.i
 
 # target to preprocess a source file
 esp_qrcode_main.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_main.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_main.c.i
 .PHONY : esp_qrcode_main.c.i
 
 esp_qrcode_main.s: esp_qrcode_main.c.s
@@ -196,7 +196,7 @@ esp_qrcode_main.s: esp_qrcode_main.c.s
 
 # target to generate assembly for a file
 esp_qrcode_main.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_main.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_main.c.s
 .PHONY : esp_qrcode_main.c.s
 
 esp_qrcode_wrapper.obj: esp_qrcode_wrapper.c.obj
@@ -204,7 +204,7 @@ esp_qrcode_wrapper.obj: esp_qrcode_wrapper.c.obj
 
 # target to build an object file
 esp_qrcode_wrapper.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_wrapper.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_wrapper.c.obj
 .PHONY : esp_qrcode_wrapper.c.obj
 
 esp_qrcode_wrapper.i: esp_qrcode_wrapper.c.i
@@ -212,7 +212,7 @@ esp_qrcode_wrapper.i: esp_qrcode_wrapper.c.i
 
 # target to preprocess a source file
 esp_qrcode_wrapper.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_wrapper.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_wrapper.c.i
 .PHONY : esp_qrcode_wrapper.c.i
 
 esp_qrcode_wrapper.s: esp_qrcode_wrapper.c.s
@@ -220,7 +220,7 @@ esp_qrcode_wrapper.s: esp_qrcode_wrapper.c.s
 
 # target to generate assembly for a file
 esp_qrcode_wrapper.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_wrapper.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_wrapper.c.s
 .PHONY : esp_qrcode_wrapper.c.s
 
 qrcodegen.obj: qrcodegen.c.obj
@@ -228,7 +228,7 @@ qrcodegen.obj: qrcodegen.c.obj
 
 # target to build an object file
 qrcodegen.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/qrcodegen.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/qrcodegen.c.obj
 .PHONY : qrcodegen.c.obj
 
 qrcodegen.i: qrcodegen.c.i
@@ -236,7 +236,7 @@ qrcodegen.i: qrcodegen.c.i
 
 # target to preprocess a source file
 qrcodegen.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/qrcodegen.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/qrcodegen.c.i
 .PHONY : qrcodegen.c.i
 
 qrcodegen.s: qrcodegen.c.s
@@ -244,7 +244,7 @@ qrcodegen.s: qrcodegen.c.s
 
 # target to generate assembly for a file
 qrcodegen.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/qrcodegen.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/build.make esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/qrcodegen.c.s
 .PHONY : qrcodegen.c.s
 
 # Help Target
@@ -280,6 +280,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

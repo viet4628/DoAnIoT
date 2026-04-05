@@ -1,0 +1,9 @@
+Command: make -j 10 all
+/home/viet/Downloads/DoAnIoT/Lamp_relay/main/app_main.c: In function 'handler_scan':
+/home/viet/Downloads/DoAnIoT/Lamp_relay/main/app_main.c:436:5: error: implicit declaration of function 'esp_wifi_scan_get_count'; did you mean 'esp_wifi_scan_get_ap_num'? [-Wimplicit-function-declaration]
+  436 |     esp_wifi_scan_get_count(&ap_count);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+      |     esp_wifi_scan_get_ap_num
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:76: esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4620: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2

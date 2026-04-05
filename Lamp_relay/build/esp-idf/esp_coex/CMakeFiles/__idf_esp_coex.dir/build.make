@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/depend.make
@@ -72,44 +72,44 @@ include esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/flags.make
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.obj: esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/flags.make
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.obj: /home/viet/esp/esp-idf/components/esp_coex/esp32s3/esp_coex_adapter.c
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.obj: esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.obj"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.obj -MF CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.obj.d -o CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.obj -c /home/viet/esp/esp-idf/components/esp_coex/esp32s3/esp_coex_adapter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.obj"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.obj -MF CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.obj.d -o CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.obj -c /home/viet/esp/esp-idf/components/esp_coex/esp32s3/esp_coex_adapter.c
 
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.i"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/esp/esp-idf/components/esp_coex/esp32s3/esp_coex_adapter.c > CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/esp/esp-idf/components/esp_coex/esp32s3/esp_coex_adapter.c > CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.i
 
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.s"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/esp/esp-idf/components/esp_coex/esp32s3/esp_coex_adapter.c -o CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/esp/esp-idf/components/esp_coex/esp32s3/esp_coex_adapter.c -o CMakeFiles/__idf_esp_coex.dir/esp32s3/esp_coex_adapter.c.s
 
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj: esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/flags.make
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj: /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj: esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj -MF CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj.d -o CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj -c /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj -MF CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj.d -o CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj -c /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c
 
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.i"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c > CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c > CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.i
 
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.s"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c -o CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c -o CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.s
 
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj: esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/flags.make
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj: /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug.c
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj: esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj -MF CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj.d -o CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj -c /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj -MF CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj.d -o CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj -c /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug.c
 
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.i"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug.c > CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug.c > CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.i
 
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.s"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug.c -o CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug.c -o CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.s
 
 # Object files for target __idf_esp_coex
 __idf_esp_coex_OBJECTS = \
@@ -125,19 +125,19 @@ esp-idf/esp_coex/libesp_coex.a: esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/s
 esp-idf/esp_coex/libesp_coex.a: esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj
 esp-idf/esp_coex/libesp_coex.a: esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/build.make
 esp-idf/esp_coex/libesp_coex.a: esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libesp_coex.a"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_coex.dir/cmake_clean_target.cmake
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_coex.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libesp_coex.a"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_coex.dir/cmake_clean_target.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_coex.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/build: esp-idf/esp_coex/libesp_coex.a
 .PHONY : esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/build
 
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_coex.dir/cmake_clean.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_coex.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/clean
 
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/esp_coex /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/esp_coex /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/depend
 

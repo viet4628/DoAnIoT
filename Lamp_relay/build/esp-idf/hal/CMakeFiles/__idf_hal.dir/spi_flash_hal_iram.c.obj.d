@@ -1,6 +1,6 @@
 esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.obj: \
  /home/viet/esp/esp-idf/components/hal/spi_flash_hal_iram.c \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/hal/include/hal/spi_flash_hal.h \
  /home/viet/esp/esp-idf/components/hal/esp32s3/include/hal/spi_flash_ll.h \
  /home/viet/esp/esp-idf/components/hal/esp32s3/include/hal/gpspi_flash_ll.h \

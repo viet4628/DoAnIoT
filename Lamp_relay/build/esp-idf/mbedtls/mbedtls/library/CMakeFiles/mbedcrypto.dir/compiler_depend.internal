@@ -6,7 +6,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aes.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -104,7 +104,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesce.c.obj
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -164,7 +164,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesni.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -229,7 +229,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aria.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -312,7 +312,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1parse.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -398,7 +398,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1write.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -495,7 +495,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/base64.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -574,7 +574,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -664,7 +664,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_core.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -754,7 +754,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -810,7 +810,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod_raw.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -866,7 +866,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/block_cipher.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -934,7 +934,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/camellia.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -990,7 +990,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ccm.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -1076,7 +1076,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chacha20.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -1132,7 +1132,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chachapoly.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -1188,7 +1188,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -1289,7 +1289,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -1386,7 +1386,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cmac.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -1489,7 +1489,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/constant_time.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -1543,7 +1543,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -1636,7 +1636,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/des.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -1692,7 +1692,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/dhm.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -1748,7 +1748,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdh.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -1816,7 +1816,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdsa.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -1909,7 +1909,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecjpake.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -1965,7 +1965,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -2058,7 +2058,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -2131,7 +2131,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves_new.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -2187,7 +2187,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -2273,7 +2273,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -2359,7 +2359,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/error.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -2523,7 +2523,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/gcm.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -2620,7 +2620,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hkdf.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -2676,7 +2676,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -2766,7 +2766,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -2866,7 +2866,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -3043,7 +3043,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/assert.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
@@ -3087,7 +3087,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/port/aes/esp_aes_common.c
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/port/aes/include/esp_aes_internal.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/aes/esp_aes.h
@@ -3182,7 +3182,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -3289,7 +3289,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -3355,7 +3355,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/port/bignum/bignum_alt.c
  /home/viet/esp/esp-idf/components/newlib/platform_include/assert.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
@@ -3424,7 +3424,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/port/bignum/esp_bignum.c
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -3586,7 +3586,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/assert.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
@@ -3708,7 +3708,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/components/mbedtls/port/esp_ds/esp_ds_common.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/port/esp_ds/esp_ds_common.c
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/esp_hw_support/include/esp_ds.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h
  /home/viet/esp/esp-idf/components/esp_hw_support/include/esp_hmac.h
@@ -3863,7 +3863,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -3948,7 +3948,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
 
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/rsa_sign_alt.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_ds/esp_ds_rsa.h
  /home/viet/esp/esp-idf/components/esp_hw_support/include/esp_ds.h
@@ -4150,7 +4150,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/esp/esp-idf/components/mbedtls/port/esp_hardware.c
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -4226,7 +4226,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -4263,7 +4263,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/components/mbedtls/port/esp_mem.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/port/esp_mem.c
  /home/viet/esp/esp-idf/components/esp_common/include/esp_attr.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/heap/include/esp_heap_caps.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h
@@ -4305,7 +4305,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/esp/esp-idf/components/mbedtls/port/esp_timing.c
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -4377,7 +4377,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/components/mbedtls/port/md/esp_md.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/port/md/esp_md.c
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h
@@ -4442,7 +4442,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha1.c
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -4533,7 +4533,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha256.c
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -4624,7 +4624,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/esp/esp-idf/components/mbedtls/port/sha/core/esp_sha512.c
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -4727,7 +4727,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
  /home/viet/esp/esp-idf/components/esp_common/include/esp_assert.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/assert.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
@@ -4779,7 +4779,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -4937,7 +4937,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h
  /home/viet/esp/esp-idf/components/newlib/platform_include/sys/reent.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h
@@ -5028,7 +5028,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/lmots.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -5154,7 +5154,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/lms.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -5300,7 +5300,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -5446,7 +5446,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md5.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -5533,7 +5533,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -5589,7 +5589,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/nist_kw.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -5645,7 +5645,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/oid.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -5789,7 +5789,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/padlock.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -5854,7 +5854,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pem.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -5948,7 +5948,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -6078,7 +6078,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk_ecc.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -6205,7 +6205,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -6353,7 +6353,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs12.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -6478,7 +6478,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs5.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -6626,7 +6626,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkparse.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -6778,7 +6778,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkwrite.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -6929,7 +6929,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -7012,7 +7012,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform_util.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -7095,7 +7095,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/poly1305.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -7151,7 +7151,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -7331,7 +7331,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -7476,7 +7476,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.ob
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -7613,7 +7613,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.ob
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -7752,7 +7752,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrap
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -7902,7 +7902,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -8058,7 +8058,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ffdh.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -8214,7 +8214,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -8338,7 +8338,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -8464,7 +8464,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_pake.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -8614,7 +8614,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -8773,7 +8773,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -8829,7 +8829,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_manage
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -8975,7 +8975,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.o
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -9120,7 +9120,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -9206,7 +9206,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_util.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -9335,7 +9335,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ripemd160.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -9391,7 +9391,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -9544,7 +9544,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -9612,7 +9612,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha1.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -9705,7 +9705,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha256.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -9798,7 +9798,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha3.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -9854,7 +9854,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha512.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -9947,7 +9947,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/threading.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -10003,7 +10003,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/timing.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -10059,7 +10059,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h
@@ -10116,7 +10116,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version_features.c.obj
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h

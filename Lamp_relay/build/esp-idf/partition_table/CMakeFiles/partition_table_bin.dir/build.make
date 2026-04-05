@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Utility rule file for partition_table_bin.
 
@@ -71,12 +71,12 @@ esp-idf/partition_table/CMakeFiles/partition_table_bin: partition_table/partitio
 
 partition_table/partition-table.bin: /home/viet/esp/esp-idf/components/partition_table/partitions_singleapp_large.csv
 partition_table/partition-table.bin: /home/viet/esp/esp-idf/components/partition_table/gen_esp32part.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../partition_table/partition-table.bin"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && /home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x0 --flash-size 2MB -- /home/viet/esp/esp-idf/components/partition_table/partitions_singleapp_large.csv /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/partition_table/partition-table.bin
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Partition table binary generated. Contents:"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && /home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x0 --flash-size 2MB -- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/partition_table/partition-table.bin
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../partition_table/partition-table.bin"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && /home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x0 --flash-size 2MB -- /home/viet/esp/esp-idf/components/partition_table/partitions_singleapp_large.csv /home/viet/Downloads/DoAnIoT/Lamp_relay/build/partition_table/partition-table.bin
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && /usr/bin/cmake -E echo "Partition table binary generated. Contents:"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && /home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --primary-bootloader-offset 0x0 --flash-size 2MB -- /home/viet/Downloads/DoAnIoT/Lamp_relay/build/partition_table/partition-table.bin
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && /usr/bin/cmake -E echo "*******************************************************************************"
 
 partition_table_bin: esp-idf/partition_table/CMakeFiles/partition_table_bin
 partition_table_bin: partition_table/partition-table.bin
@@ -88,10 +88,10 @@ esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/build: partition_tabl
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/build
 
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table_bin.dir/cmake_clean.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table_bin.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/partition_table /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/partition_table /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/partition_table /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/partition_table /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/depend
 

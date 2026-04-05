@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Utility rule file for monitor.
 
@@ -67,7 +67,7 @@ include CMakeFiles/monitor.dir/compiler_depend.make
 include CMakeFiles/monitor.dir/progress.make
 
 CMakeFiles/monitor:
-	cd /home/viet/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/viet/esp/esp-idf -D "SERIAL_TOOL=/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python;-m;esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32s3-elf-;;--target;esp32s3;;--revision;0;;/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/mqtt5.elf" -D WORKING_DIRECTORY=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build -P run_serial_tool.cmake
+	cd /home/viet/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/viet/esp/esp-idf -D "SERIAL_TOOL=/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python;-m;esp_idf_monitor" -D "SERIAL_TOOL_ARGS=--toolchain-prefix;xtensa-esp32s3-elf-;;--target;esp32s3;;--revision;0;;/home/viet/Downloads/DoAnIoT/Lamp_relay/build/mqtt5.elf" -D WORKING_DIRECTORY=/home/viet/Downloads/DoAnIoT/Lamp_relay/build -P run_serial_tool.cmake
 
 monitor: CMakeFiles/monitor
 monitor: CMakeFiles/monitor.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/monitor.dir/clean:
 .PHONY : CMakeFiles/monitor.dir/clean
 
 CMakeFiles/monitor.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles/monitor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles/monitor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/monitor.dir/depend
 

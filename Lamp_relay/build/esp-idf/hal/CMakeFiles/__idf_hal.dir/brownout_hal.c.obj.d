@@ -13,7 +13,7 @@ esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.obj: \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
  /home/viet/esp/esp-idf/components/hal/platform_port/include/hal/regi2c_ctrl.h \
  /home/viet/esp/esp-idf/components/esp_hw_support/include/esp_private/regi2c_ctrl.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/esp_rom/include/esp_rom_regi2c.h \
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/regi2c_defs.h \
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \

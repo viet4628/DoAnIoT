@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Utility rule file for app-flash.
 
@@ -67,7 +67,7 @@ include esp-idf/esptool_py/CMakeFiles/app-flash.dir/compiler_depend.make
 include esp-idf/esptool_py/CMakeFiles/app-flash.dir/progress.make
 
 esp-idf/esptool_py/CMakeFiles/app-flash:
-	cd /home/viet/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/viet/esp/esp-idf -D "SERIAL_TOOL=/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python;;/home/viet/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args" -D WORKING_DIRECTORY=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build -P /home/viet/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+	cd /home/viet/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/viet/esp/esp-idf -D "SERIAL_TOOL=/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python;;/home/viet/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args" -D WORKING_DIRECTORY=/home/viet/Downloads/DoAnIoT/Lamp_relay/build -P /home/viet/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
 
 app-flash: esp-idf/esptool_py/CMakeFiles/app-flash
 app-flash: esp-idf/esptool_py/CMakeFiles/app-flash.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/esptool_py/CMakeFiles/app-flash.dir/build: app-flash
 .PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/build
 
 esp-idf/esptool_py/CMakeFiles/app-flash.dir/clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esptool_py && $(CMAKE_COMMAND) -P CMakeFiles/app-flash.dir/cmake_clean.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esptool_py && $(CMAKE_COMMAND) -P CMakeFiles/app-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/clean
 
 esp-idf/esptool_py/CMakeFiles/app-flash.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/esptool_py /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esptool_py /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esptool_py/CMakeFiles/app-flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/esptool_py /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esptool_py /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esptool_py/CMakeFiles/app-flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esptool_py/CMakeFiles/app-flash.dir/depend
 

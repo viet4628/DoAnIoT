@@ -2,7 +2,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
  /home/viet/esp/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32s3.c \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /home/viet/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \

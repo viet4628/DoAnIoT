@@ -1,7 +1,7 @@
 esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_main.c.obj: \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode/esp_qrcode_main.c \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode/esp_qrcode_main.c \
  /home/viet/esp/esp-idf/components/newlib/platform_include/stdio.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
@@ -56,5 +56,5 @@ esp-idf/espressif__qrcode/CMakeFiles/__idf_espressif__qrcode.dir/esp_qrcode_main
  /home/viet/esp/esp-idf/components/log/include/esp_log_attr.h \
  /home/viet/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/viet/esp/esp-idf/components/log/include/esp_private/log_attr.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode/qrcodegen.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode/include/qrcode.h
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode/qrcodegen.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode/include/qrcode.h

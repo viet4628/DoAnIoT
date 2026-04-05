@@ -3,7 +3,7 @@ esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.obj: 
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/library/common.h \
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h \
  /home/viet/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h \
  /home/viet/esp/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \

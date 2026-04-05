@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Utility rule file for merge-bin.
 
@@ -67,7 +67,7 @@ include CMakeFiles/merge-bin.dir/compiler_depend.make
 include CMakeFiles/merge-bin.dir/progress.make
 
 CMakeFiles/merge-bin:
-	cd /home/viet/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/viet/esp/esp-idf -D "SERIAL_TOOL=/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python;;/home/viet/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=merge_bin;-o;/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/merged-binary.bin;@/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/flash_args" -D WORKING_DIRECTORY=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build -P run_serial_tool.cmake
+	cd /home/viet/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/viet/esp/esp-idf -D "SERIAL_TOOL=/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python;;/home/viet/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=merge_bin;-o;/home/viet/Downloads/DoAnIoT/Lamp_relay/build/merged-binary.bin;@/home/viet/Downloads/DoAnIoT/Lamp_relay/build/flash_args" -D WORKING_DIRECTORY=/home/viet/Downloads/DoAnIoT/Lamp_relay/build -P run_serial_tool.cmake
 
 merge-bin: CMakeFiles/merge-bin
 merge-bin: CMakeFiles/merge-bin.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/merge-bin.dir/clean:
 .PHONY : CMakeFiles/merge-bin.dir/clean
 
 CMakeFiles/merge-bin.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles/merge-bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles/merge-bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/merge-bin.dir/depend
 

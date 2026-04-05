@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Include any dependencies generated for this target.
 include esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/depend.make
@@ -72,16 +72,16 @@ include esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/flags.make
 esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj: esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/flags.make
 esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj: /home/viet/esp/esp-idf/components/esp_driver_sdm/src/sdm.c
 esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj: esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj -MF CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj.d -o CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj -c /home/viet/esp/esp-idf/components/esp_driver_sdm/src/sdm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj -MF CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj.d -o CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj -c /home/viet/esp/esp-idf/components/esp_driver_sdm/src/sdm.c
 
 esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.i"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/esp/esp-idf/components/esp_driver_sdm/src/sdm.c > CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/esp/esp-idf/components/esp_driver_sdm/src/sdm.c > CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.i
 
 esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.s"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/esp/esp-idf/components/esp_driver_sdm/src/sdm.c -o CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm && /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/esp/esp-idf/components/esp_driver_sdm/src/sdm.c -o CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.s
 
 # Object files for target __idf_esp_driver_sdm
 __idf_esp_driver_sdm_OBJECTS = \
@@ -93,19 +93,19 @@ __idf_esp_driver_sdm_EXTERNAL_OBJECTS =
 esp-idf/esp_driver_sdm/libesp_driver_sdm.a: esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj
 esp-idf/esp_driver_sdm/libesp_driver_sdm.a: esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/build.make
 esp-idf/esp_driver_sdm/libesp_driver_sdm.a: esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libesp_driver_sdm.a"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_sdm.dir/cmake_clean_target.cmake
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_driver_sdm.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libesp_driver_sdm.a"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_sdm.dir/cmake_clean_target.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_esp_driver_sdm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/build: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
 .PHONY : esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/build
 
 esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_sdm.dir/cmake_clean.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm && $(CMAKE_COMMAND) -P CMakeFiles/__idf_esp_driver_sdm.dir/cmake_clean.cmake
 .PHONY : esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/clean
 
 esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/esp_driver_sdm /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/esp_driver_sdm /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/depend
 

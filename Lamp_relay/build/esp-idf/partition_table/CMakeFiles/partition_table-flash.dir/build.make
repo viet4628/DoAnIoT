@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Utility rule file for partition_table-flash.
 
@@ -67,8 +67,8 @@ include esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/compiler_de
 include esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/progress.make
 
 esp-idf/partition_table/CMakeFiles/partition_table-flash:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"partition_table-flash\" is deprecated. Have you wanted to run \"partition-table-flash\" instead?"
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && /usr/bin/cmake -E echo 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Warning: command \"partition_table-flash\" is deprecated. Have you wanted to run \"partition-table-flash\" instead?"
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && /usr/bin/cmake -E echo 
 
 partition_table-flash: esp-idf/partition_table/CMakeFiles/partition_table-flash
 partition_table-flash: esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/build.make
@@ -79,10 +79,10 @@ esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/build: partition_ta
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/build
 
 esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table-flash.dir/cmake_clean.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/partition_table && $(CMAKE_COMMAND) -P CMakeFiles/partition_table-flash.dir/cmake_clean.cmake
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/clean
 
 esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/partition_table /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/partition_table /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/esp/esp-idf/components/partition_table /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/partition_table /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/partition_table/CMakeFiles/partition_table-flash.dir/depend
 

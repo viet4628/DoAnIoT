@@ -1,6 +1,6 @@
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_systimer.c.obj: \
  /home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_systimer.c \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h \
  /home/viet/esp/esp-idf/components/esp_rom/esp32s3/esp_rom_caps.h \
  /home/viet/esp/esp-idf/components/hal/include/hal/systimer_hal.h \

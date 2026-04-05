@@ -9,7 +9,7 @@ esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_fl
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
  /home/viet/esp/esp-idf/components/bootloader_support/bootloader_flash/include/bootloader_flash_config.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /home/viet/esp/esp-idf/components/esp_common/include/esp_err.h \

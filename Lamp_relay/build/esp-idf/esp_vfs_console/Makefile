@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_vfs_console//CMakeFiles/progress.marks
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_vfs_console/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles 0
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_vfs_console//CMakeFiles/progress.marks
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_vfs_console/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_vfs_console/clean
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_vfs_console/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_vfs_console/preinstall
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_vfs_console/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_vfs_console/preinstall
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_vfs_console/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/rule:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/rule
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/rule
 .PHONY : esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_esp_vfs_console: esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.
 
 # fast build rule for target.
 __idf_esp_vfs_console/fast:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/build.make esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/build
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/build.make esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/build
 .PHONY : __idf_esp_vfs_console/fast
 
 vfs_console.obj: vfs_console.c.obj
@@ -180,7 +180,7 @@ vfs_console.obj: vfs_console.c.obj
 
 # target to build an object file
 vfs_console.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/build.make esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/build.make esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.obj
 .PHONY : vfs_console.c.obj
 
 vfs_console.i: vfs_console.c.i
@@ -188,7 +188,7 @@ vfs_console.i: vfs_console.c.i
 
 # target to preprocess a source file
 vfs_console.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/build.make esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/build.make esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.i
 .PHONY : vfs_console.c.i
 
 vfs_console.s: vfs_console.c.s
@@ -196,7 +196,7 @@ vfs_console.s: vfs_console.c.s
 
 # target to generate assembly for a file
 vfs_console.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/build.make esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/build.make esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.s
 .PHONY : vfs_console.c.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

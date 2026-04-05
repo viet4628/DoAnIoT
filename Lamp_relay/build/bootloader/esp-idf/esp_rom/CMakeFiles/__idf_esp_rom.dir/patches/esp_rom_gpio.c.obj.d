@@ -1,6 +1,6 @@
 esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.obj: \
  /home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_gpio.c \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/viet/esp/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \

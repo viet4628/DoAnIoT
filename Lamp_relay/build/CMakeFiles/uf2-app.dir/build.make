@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Utility rule file for uf2-app.
 
@@ -67,7 +67,7 @@ include CMakeFiles/uf2-app.dir/compiler_depend.make
 include CMakeFiles/uf2-app.dir/progress.make
 
 CMakeFiles/uf2-app:
-	/usr/bin/cmake -D IDF_PATH=/home/viet/esp/esp-idf -D "UF2_CMD=/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python;/home/viet/esp/esp-idf/tools/mkuf2.py;write;--chip;esp32s3" -D "UF2_ARGS=--json;/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/flasher_args.json;-o;/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/uf2-app.bin;--bin;app" -P /home/viet/esp/esp-idf/tools/cmake/run_uf2_cmds.cmake
+	/usr/bin/cmake -D IDF_PATH=/home/viet/esp/esp-idf -D "UF2_CMD=/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python;/home/viet/esp/esp-idf/tools/mkuf2.py;write;--chip;esp32s3" -D "UF2_ARGS=--json;/home/viet/Downloads/DoAnIoT/Lamp_relay/build/flasher_args.json;-o;/home/viet/Downloads/DoAnIoT/Lamp_relay/build/uf2-app.bin;--bin;app" -P /home/viet/esp/esp-idf/tools/cmake/run_uf2_cmds.cmake
 
 uf2-app: CMakeFiles/uf2-app
 uf2-app: CMakeFiles/uf2-app.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/uf2-app.dir/clean:
 .PHONY : CMakeFiles/uf2-app.dir/clean
 
 CMakeFiles/uf2-app.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles/uf2-app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles/uf2-app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uf2-app.dir/depend
 

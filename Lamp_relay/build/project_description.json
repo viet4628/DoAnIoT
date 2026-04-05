@@ -1,13 +1,13 @@
 {
     "version":            "1.2",
     "project_name":       "mqtt5",
-    "project_version":    "1",
-    "project_path":       "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay",
+    "project_version":    "6c1a856-dirty",
+    "project_path":       "/home/viet/Downloads/DoAnIoT/Lamp_relay",
     "idf_path":           "/home/viet/esp/esp-idf",
-    "build_dir":          "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build",
-    "config_file":        "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/sdkconfig",
-    "config_defaults":    "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/sdkconfig.defaults",
-    "bootloader_elf":     "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/bootloader.elf",
+    "build_dir":          "/home/viet/Downloads/DoAnIoT/Lamp_relay/build",
+    "config_file":        "/home/viet/Downloads/DoAnIoT/Lamp_relay/sdkconfig",
+    "config_defaults":    "/home/viet/Downloads/DoAnIoT/Lamp_relay/sdkconfig.defaults",
+    "bootloader_elf":     "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/bootloader.elf",
     "app_elf":            "mqtt5.elf",
     "app_bin":            "mqtt5.bin",
     "build_type":         "flash_app",
@@ -22,11 +22,11 @@
     "c_compiler":         "/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc",
     "config_environment" : {
         "COMPONENT_KCONFIGS" : "/home/viet/esp/esp-idf/components/driver/Kconfig;/home/viet/esp/esp-idf/components/efuse/Kconfig;/home/viet/esp/esp-idf/components/esp-tls/Kconfig;/home/viet/esp/esp-idf/components/esp_coex/Kconfig;/home/viet/esp/esp-idf/components/esp_common/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_ana_cmpr/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_bitscrambler/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_dac/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_gpio/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_gptimer/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_i2c/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_i2s/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_ledc/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_mcpwm/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_parlio/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_pcnt/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_rmt/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_sdm/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_spi/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_tsens/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_twai/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_uart/Kconfig;/home/viet/esp/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;/home/viet/esp/esp-idf/components/esp_event/Kconfig;/home/viet/esp/esp-idf/components/esp_http_server/Kconfig;/home/viet/esp/esp-idf/components/esp_hw_support/Kconfig;/home/viet/esp/esp-idf/components/esp_mm/Kconfig;/home/viet/esp/esp-idf/components/esp_netif/Kconfig;/home/viet/esp/esp-idf/components/esp_partition/Kconfig;/home/viet/esp/esp-idf/components/esp_phy/Kconfig;/home/viet/esp/esp-idf/components/esp_pm/Kconfig;/home/viet/esp/esp-idf/components/esp_ringbuf/Kconfig;/home/viet/esp/esp-idf/components/esp_rom/Kconfig;/home/viet/esp/esp-idf/components/esp_security/Kconfig;/home/viet/esp/esp-idf/components/esp_system/Kconfig;/home/viet/esp/esp-idf/components/esp_timer/Kconfig;/home/viet/esp/esp-idf/components/esp_wifi/Kconfig;/home/viet/esp/esp-idf/components/freertos/Kconfig;/home/viet/esp/esp-idf/components/hal/Kconfig;/home/viet/esp/esp-idf/components/heap/Kconfig;/home/viet/esp/esp-idf/components/log/Kconfig;/home/viet/esp/esp-idf/components/lwip/Kconfig;/home/viet/esp/esp-idf/components/mbedtls/Kconfig;/home/viet/esp/esp-idf/components/mqtt/esp-mqtt/Kconfig;/home/viet/esp/esp-idf/components/newlib/Kconfig;/home/viet/esp/esp-idf/components/nvs_flash/Kconfig;/home/viet/esp/esp-idf/components/pthread/Kconfig;/home/viet/esp/esp-idf/components/soc/Kconfig;/home/viet/esp/esp-idf/components/spi_flash/Kconfig;/home/viet/esp/esp-idf/components/tcp_transport/Kconfig;/home/viet/esp/esp-idf/components/vfs/Kconfig",
-        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/viet/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/viet/esp/esp-idf/components/esp_app_format/Kconfig.projbuild;/home/viet/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/viet/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/viet/esp/esp-idf/components/partition_table/Kconfig.projbuild;/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/main/Kconfig.projbuild"
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/viet/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/viet/esp/esp-idf/components/esp_app_format/Kconfig.projbuild;/home/viet/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/home/viet/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/viet/esp/esp-idf/components/partition_table/Kconfig.projbuild;/home/viet/Downloads/DoAnIoT/Lamp_relay/main/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "xtensa" ],
     "build_components" : [ "app_update", "bootloader", "bootloader_support", "cxx", "driver", "efuse", "esp-tls", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_bitscrambler", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_tsens", "esp_driver_twai", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_event", "esp_http_server", "esp_hw_support", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "esp_vfs_console", "esp_wifi", "espressif__qrcode", "esptool_py", "freertos", "hal", "heap", "http_parser", "json", "log", "lwip", "main", "mbedtls", "mqtt", "newlib", "nvs_flash", "partition_table", "pthread", "sdmmc", "soc", "spi_flash", "tcp_transport", "vfs", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "/home/viet/esp/esp-idf/components/app_update", "/home/viet/esp/esp-idf/components/bootloader", "/home/viet/esp/esp-idf/components/bootloader_support", "/home/viet/esp/esp-idf/components/cxx", "/home/viet/esp/esp-idf/components/driver", "/home/viet/esp/esp-idf/components/efuse", "/home/viet/esp/esp-idf/components/esp-tls", "/home/viet/esp/esp-idf/components/esp_app_format", "/home/viet/esp/esp-idf/components/esp_bootloader_format", "/home/viet/esp/esp-idf/components/esp_coex", "/home/viet/esp/esp-idf/components/esp_common", "/home/viet/esp/esp-idf/components/esp_driver_ana_cmpr", "/home/viet/esp/esp-idf/components/esp_driver_bitscrambler", "/home/viet/esp/esp-idf/components/esp_driver_dac", "/home/viet/esp/esp-idf/components/esp_driver_gpio", "/home/viet/esp/esp-idf/components/esp_driver_gptimer", "/home/viet/esp/esp-idf/components/esp_driver_i2c", "/home/viet/esp/esp-idf/components/esp_driver_i2s", "/home/viet/esp/esp-idf/components/esp_driver_ledc", "/home/viet/esp/esp-idf/components/esp_driver_mcpwm", "/home/viet/esp/esp-idf/components/esp_driver_parlio", "/home/viet/esp/esp-idf/components/esp_driver_pcnt", "/home/viet/esp/esp-idf/components/esp_driver_rmt", "/home/viet/esp/esp-idf/components/esp_driver_sdio", "/home/viet/esp/esp-idf/components/esp_driver_sdm", "/home/viet/esp/esp-idf/components/esp_driver_sdmmc", "/home/viet/esp/esp-idf/components/esp_driver_sdspi", "/home/viet/esp/esp-idf/components/esp_driver_spi", "/home/viet/esp/esp-idf/components/esp_driver_tsens", "/home/viet/esp/esp-idf/components/esp_driver_twai", "/home/viet/esp/esp-idf/components/esp_driver_uart", "/home/viet/esp/esp-idf/components/esp_driver_usb_serial_jtag", "/home/viet/esp/esp-idf/components/esp_event", "/home/viet/esp/esp-idf/components/esp_http_server", "/home/viet/esp/esp-idf/components/esp_hw_support", "/home/viet/esp/esp-idf/components/esp_mm", "/home/viet/esp/esp-idf/components/esp_netif", "/home/viet/esp/esp-idf/components/esp_netif_stack", "/home/viet/esp/esp-idf/components/esp_partition", "/home/viet/esp/esp-idf/components/esp_phy", "/home/viet/esp/esp-idf/components/esp_pm", "/home/viet/esp/esp-idf/components/esp_ringbuf", "/home/viet/esp/esp-idf/components/esp_rom", "/home/viet/esp/esp-idf/components/esp_security", "/home/viet/esp/esp-idf/components/esp_system", "/home/viet/esp/esp-idf/components/esp_timer", "/home/viet/esp/esp-idf/components/esp_vfs_console", "/home/viet/esp/esp-idf/components/esp_wifi", "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode", "/home/viet/esp/esp-idf/components/esptool_py", "/home/viet/esp/esp-idf/components/freertos", "/home/viet/esp/esp-idf/components/hal", "/home/viet/esp/esp-idf/components/heap", "/home/viet/esp/esp-idf/components/http_parser", "/home/viet/esp/esp-idf/components/json", "/home/viet/esp/esp-idf/components/log", "/home/viet/esp/esp-idf/components/lwip", "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/main", "/home/viet/esp/esp-idf/components/mbedtls", "/home/viet/esp/esp-idf/components/mqtt", "/home/viet/esp/esp-idf/components/newlib", "/home/viet/esp/esp-idf/components/nvs_flash", "/home/viet/esp/esp-idf/components/partition_table", "/home/viet/esp/esp-idf/components/pthread", "/home/viet/esp/esp-idf/components/sdmmc", "/home/viet/esp/esp-idf/components/soc", "/home/viet/esp/esp-idf/components/spi_flash", "/home/viet/esp/esp-idf/components/tcp_transport", "/home/viet/esp/esp-idf/components/vfs", "/home/viet/esp/esp-idf/components/wpa_supplicant", "/home/viet/esp/esp-idf/components/xtensa", "" ],
+    "build_component_paths" : [ "/home/viet/esp/esp-idf/components/app_update", "/home/viet/esp/esp-idf/components/bootloader", "/home/viet/esp/esp-idf/components/bootloader_support", "/home/viet/esp/esp-idf/components/cxx", "/home/viet/esp/esp-idf/components/driver", "/home/viet/esp/esp-idf/components/efuse", "/home/viet/esp/esp-idf/components/esp-tls", "/home/viet/esp/esp-idf/components/esp_app_format", "/home/viet/esp/esp-idf/components/esp_bootloader_format", "/home/viet/esp/esp-idf/components/esp_coex", "/home/viet/esp/esp-idf/components/esp_common", "/home/viet/esp/esp-idf/components/esp_driver_ana_cmpr", "/home/viet/esp/esp-idf/components/esp_driver_bitscrambler", "/home/viet/esp/esp-idf/components/esp_driver_dac", "/home/viet/esp/esp-idf/components/esp_driver_gpio", "/home/viet/esp/esp-idf/components/esp_driver_gptimer", "/home/viet/esp/esp-idf/components/esp_driver_i2c", "/home/viet/esp/esp-idf/components/esp_driver_i2s", "/home/viet/esp/esp-idf/components/esp_driver_ledc", "/home/viet/esp/esp-idf/components/esp_driver_mcpwm", "/home/viet/esp/esp-idf/components/esp_driver_parlio", "/home/viet/esp/esp-idf/components/esp_driver_pcnt", "/home/viet/esp/esp-idf/components/esp_driver_rmt", "/home/viet/esp/esp-idf/components/esp_driver_sdio", "/home/viet/esp/esp-idf/components/esp_driver_sdm", "/home/viet/esp/esp-idf/components/esp_driver_sdmmc", "/home/viet/esp/esp-idf/components/esp_driver_sdspi", "/home/viet/esp/esp-idf/components/esp_driver_spi", "/home/viet/esp/esp-idf/components/esp_driver_tsens", "/home/viet/esp/esp-idf/components/esp_driver_twai", "/home/viet/esp/esp-idf/components/esp_driver_uart", "/home/viet/esp/esp-idf/components/esp_driver_usb_serial_jtag", "/home/viet/esp/esp-idf/components/esp_event", "/home/viet/esp/esp-idf/components/esp_http_server", "/home/viet/esp/esp-idf/components/esp_hw_support", "/home/viet/esp/esp-idf/components/esp_mm", "/home/viet/esp/esp-idf/components/esp_netif", "/home/viet/esp/esp-idf/components/esp_netif_stack", "/home/viet/esp/esp-idf/components/esp_partition", "/home/viet/esp/esp-idf/components/esp_phy", "/home/viet/esp/esp-idf/components/esp_pm", "/home/viet/esp/esp-idf/components/esp_ringbuf", "/home/viet/esp/esp-idf/components/esp_rom", "/home/viet/esp/esp-idf/components/esp_security", "/home/viet/esp/esp-idf/components/esp_system", "/home/viet/esp/esp-idf/components/esp_timer", "/home/viet/esp/esp-idf/components/esp_vfs_console", "/home/viet/esp/esp-idf/components/esp_wifi", "/home/viet/Downloads/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode", "/home/viet/esp/esp-idf/components/esptool_py", "/home/viet/esp/esp-idf/components/freertos", "/home/viet/esp/esp-idf/components/hal", "/home/viet/esp/esp-idf/components/heap", "/home/viet/esp/esp-idf/components/http_parser", "/home/viet/esp/esp-idf/components/json", "/home/viet/esp/esp-idf/components/log", "/home/viet/esp/esp-idf/components/lwip", "/home/viet/Downloads/DoAnIoT/Lamp_relay/main", "/home/viet/esp/esp-idf/components/mbedtls", "/home/viet/esp/esp-idf/components/mqtt", "/home/viet/esp/esp-idf/components/newlib", "/home/viet/esp/esp-idf/components/nvs_flash", "/home/viet/esp/esp-idf/components/partition_table", "/home/viet/esp/esp-idf/components/pthread", "/home/viet/esp/esp-idf/components/sdmmc", "/home/viet/esp/esp-idf/components/soc", "/home/viet/esp/esp-idf/components/spi_flash", "/home/viet/esp/esp-idf/components/tcp_transport", "/home/viet/esp/esp-idf/components/vfs", "/home/viet/esp/esp-idf/components/wpa_supplicant", "/home/viet/esp/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "app_update": {
             "alias": "idf::app_update",
@@ -39,7 +39,7 @@
             "priv_reqs": [ "esptool_py", "efuse", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/app_update/libapp_update.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/app_update/libapp_update.a",
             "sources": [ "/home/viet/esp/esp-idf/components/app_update/esp_ota_ops.c", "/home/viet/esp/esp-idf/components/app_update/esp_ota_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -69,7 +69,7 @@
             "priv_reqs": [ "spi_flash", "mbedtls", "efuse", "heap", "esp_bootloader_format", "esp_app_format" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/bootloader_support/libbootloader_support.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/bootloader_support/libbootloader_support.a",
             "sources": [ "/home/viet/esp/esp-idf/components/bootloader_support/src/bootloader_common.c", "/home/viet/esp/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "/home/viet/esp/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "/home/viet/esp/esp-idf/components/bootloader_support/src/bootloader_mem.c", "/home/viet/esp/esp-idf/components/bootloader_support/src/bootloader_random.c", "/home/viet/esp/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "/home/viet/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c", "/home/viet/esp/esp-idf/components/bootloader_support/src/secure_boot.c", "/home/viet/esp/esp-idf/components/bootloader_support/src/bootloader_random_esp32s3.c", "/home/viet/esp/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "/home/viet/esp/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "/home/viet/esp/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32s3.c", "/home/viet/esp/esp-idf/components/bootloader_support/src/bootloader_utility.c", "/home/viet/esp/esp-idf/components/bootloader_support/src/flash_partitions.c", "/home/viet/esp/esp-idf/components/bootloader_support/src/esp_image_format.c", "/home/viet/esp/esp-idf/components/bootloader_support/src/bootloader_sha.c", "/home/viet/esp/esp-idf/components/bootloader_support/src/esp32s3/secure_boot_secure_features.c" ],
             "include_dirs": [ "include", "bootloader_flash/include" ]
         },
@@ -84,7 +84,7 @@
             "priv_reqs": [ "esp_system", "pthread" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/cxx/libcxx.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/cxx/libcxx.a",
             "sources": [ "/home/viet/esp/esp-idf/components/cxx/cxx_exception_stubs.cpp", "/home/viet/esp/esp-idf/components/cxx/cxx_guards.cpp", "/home/viet/esp/esp-idf/components/cxx/cxx_init.cpp" ],
             "include_dirs": []
         },
@@ -99,7 +99,7 @@
             "priv_reqs": [ "efuse", "esp_timer", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/driver/libdriver.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/driver/libdriver.a",
             "sources": [ "/home/viet/esp/esp-idf/components/driver/deprecated/adc_legacy.c", "/home/viet/esp/esp-idf/components/driver/deprecated/adc_dma_legacy.c", "/home/viet/esp/esp-idf/components/driver/deprecated/timer_legacy.c", "/home/viet/esp/esp-idf/components/driver/i2c/i2c.c", "/home/viet/esp/esp-idf/components/driver/deprecated/i2s_legacy.c", "/home/viet/esp/esp-idf/components/driver/deprecated/mcpwm_legacy.c", "/home/viet/esp/esp-idf/components/driver/deprecated/pcnt_legacy.c", "/home/viet/esp/esp-idf/components/driver/deprecated/rmt_legacy.c", "/home/viet/esp/esp-idf/components/driver/deprecated/sigma_delta_legacy.c", "/home/viet/esp/esp-idf/components/driver/deprecated/rtc_temperature_legacy.c", "/home/viet/esp/esp-idf/components/driver/touch_sensor/touch_sensor_common.c", "/home/viet/esp/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c", "/home/viet/esp/esp-idf/components/driver/twai/twai.c" ],
             "include_dirs": [ "deprecated", "i2c/include", "touch_sensor/include", "twai/include", "touch_sensor/esp32s3/include" ]
         },
@@ -114,7 +114,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash", "esp_system", "esp_partition", "esp_app_format" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/efuse/libefuse.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/efuse/libefuse.a",
             "sources": [ "/home/viet/esp/esp-idf/components/efuse/esp32s3/esp_efuse_table.c", "/home/viet/esp/esp-idf/components/efuse/esp32s3/esp_efuse_fields.c", "/home/viet/esp/esp-idf/components/efuse/esp32s3/esp_efuse_rtc_calib.c", "/home/viet/esp/esp-idf/components/efuse/esp32s3/esp_efuse_utility.c", "/home/viet/esp/esp-idf/components/efuse/src/esp_efuse_api.c", "/home/viet/esp/esp-idf/components/efuse/src/esp_efuse_fields.c", "/home/viet/esp/esp-idf/components/efuse/src/esp_efuse_utility.c", "/home/viet/esp/esp-idf/components/efuse/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c", "/home/viet/esp/esp-idf/components/efuse/src/esp_efuse_startup.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
@@ -129,7 +129,7 @@
             "priv_reqs": [ "http_parser", "esp_timer", "lwip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp-tls/libesp-tls.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp-tls/libesp-tls.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp-tls/esp_tls.c", "/home/viet/esp/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.c", "/home/viet/esp/esp-idf/components/esp-tls/esp_tls_error_capture.c", "/home/viet/esp/esp-idf/components/esp-tls/esp_tls_platform_port.c", "/home/viet/esp/esp-idf/components/esp-tls/esp_tls_mbedtls.c" ],
             "include_dirs": [ "/home/viet/esp/esp-idf/components/esp-tls", "esp-tls-crypto" ]
         },
@@ -144,7 +144,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_app_format/libesp_app_format.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_app_format/libesp_app_format.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_app_format/esp_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -159,7 +159,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -174,7 +174,7 @@
             "priv_reqs": [ "esp_timer", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex/libesp_coex.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_coex/libesp_coex.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_coex/esp32s3/esp_coex_adapter.c", "/home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c", "/home/viet/esp/esp-idf/components/esp_coex/src/coexist_debug.c" ],
             "include_dirs": [ "include" ]
         },
@@ -189,7 +189,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_common/libesp_common.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_common/libesp_common.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_common/src/esp_err_to_name.c" ],
             "include_dirs": [ "include" ]
         },
@@ -249,7 +249,7 @@
             "priv_reqs": [ "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_gpio/src/gpio.c", "/home/viet/esp/esp-idf/components/esp_driver_gpio/src/gpio_glitch_filter_ops.c", "/home/viet/esp/esp-idf/components/esp_driver_gpio/src/rtc_io.c", "/home/viet/esp/esp-idf/components/esp_driver_gpio/src/dedic_gpio.c", "/home/viet/esp/esp-idf/components/esp_driver_gpio/src/gpio_pin_glitch_filter.c" ],
             "include_dirs": [ "include" ]
         },
@@ -264,7 +264,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_gptimer/src/gptimer.c", "/home/viet/esp/esp-idf/components/esp_driver_gptimer/src/gptimer_common.c" ],
             "include_dirs": [ "include" ]
         },
@@ -279,7 +279,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_pm", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_i2c/i2c_master.c", "/home/viet/esp/esp-idf/components/esp_driver_i2c/i2c_common.c", "/home/viet/esp/esp-idf/components/esp_driver_i2c/i2c_slave.c" ],
             "include_dirs": [ "include" ]
         },
@@ -294,7 +294,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_pm", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_i2s/libesp_driver_i2s.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_i2s/libesp_driver_i2s.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_i2s/i2s_common.c", "/home/viet/esp/esp-idf/components/esp_driver_i2s/i2s_std.c", "/home/viet/esp/esp-idf/components/esp_driver_i2s/i2s_pdm.c", "/home/viet/esp/esp-idf/components/esp_driver_i2s/i2s_tdm.c", "/home/viet/esp/esp-idf/components/esp_driver_i2s/i2s_platform.c" ],
             "include_dirs": [ "include" ]
         },
@@ -309,7 +309,7 @@
             "priv_reqs": [ "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_ledc/src/ledc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -324,7 +324,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_cap.c", "/home/viet/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_cmpr.c", "/home/viet/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_com.c", "/home/viet/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_fault.c", "/home/viet/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_gen.c", "/home/viet/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_oper.c", "/home/viet/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_sync.c", "/home/viet/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_timer.c" ],
             "include_dirs": [ "include" ]
         },
@@ -354,7 +354,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c" ],
             "include_dirs": [ "include" ]
         },
@@ -369,7 +369,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_driver_bitscrambler", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_rmt/src/rmt_common.c", "/home/viet/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c", "/home/viet/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_bytes.c", "/home/viet/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_copy.c", "/home/viet/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder_simple.c", "/home/viet/esp/esp-idf/components/esp_driver_rmt/src/rmt_rx.c", "/home/viet/esp/esp-idf/components/esp_driver_rmt/src/rmt_tx.c" ],
             "include_dirs": [ "include" ]
         },
@@ -399,7 +399,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_sdm/src/sdm.c" ],
             "include_dirs": [ "include" ]
         },
@@ -414,7 +414,7 @@
             "priv_reqs": [ "esp_timer", "esp_pm", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_sdmmc/src/sdmmc_transaction.c", "/home/viet/esp/esp-idf/components/esp_driver_sdmmc/src/sdmmc_host.c" ],
             "include_dirs": [ "include" ]
         },
@@ -429,7 +429,7 @@
             "priv_reqs": [ "esp_timer", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_sdspi/src/sdspi_crc.c", "/home/viet/esp/esp-idf/components/esp_driver_sdspi/src/sdspi_host.c", "/home/viet/esp/esp-idf/components/esp_driver_sdspi/src/sdspi_transaction.c" ],
             "include_dirs": [ "include" ]
         },
@@ -444,7 +444,7 @@
             "priv_reqs": [ "esp_timer", "esp_mm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_common.c", "/home/viet/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c", "/home/viet/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave.c", "/home/viet/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave_hd.c" ],
             "include_dirs": [ "include" ]
         },
@@ -459,7 +459,7 @@
             "priv_reqs": [ "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_tsens/libesp_driver_tsens.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_tsens/libesp_driver_tsens.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_tsens/src/temperature_sensor.c" ],
             "include_dirs": [ "include" ]
         },
@@ -474,7 +474,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_twai/libesp_driver_twai.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_twai/libesp_driver_twai.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_twai/esp_twai.c", "/home/viet/esp/esp-idf/components/esp_driver_twai/esp_twai_onchip.c" ],
             "include_dirs": [ "include" ]
         },
@@ -489,7 +489,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_ringbuf", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_uart/src/uart.c", "/home/viet/esp/esp-idf/components/esp_driver_uart/src/uart_wakeup.c", "/home/viet/esp/esp-idf/components/esp_driver_uart/src/uhci.c", "/home/viet/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -504,7 +504,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_ringbuf", "esp_pm", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag.c", "/home/viet/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c", "/home/viet/esp/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -519,7 +519,7 @@
             "priv_reqs": [ "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_event/libesp_event.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_event/libesp_event.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_event/default_event_loop.c", "/home/viet/esp/esp-idf/components/esp_event/esp_event.c", "/home/viet/esp/esp-idf/components/esp_event/esp_event_private.c" ],
             "include_dirs": [ "include" ]
         },
@@ -534,7 +534,7 @@
             "priv_reqs": [ "mbedtls", "lwip", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_http_server/libesp_http_server.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_http_server/libesp_http_server.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_http_server/src/httpd_main.c", "/home/viet/esp/esp-idf/components/esp_http_server/src/httpd_parse.c", "/home/viet/esp/esp-idf/components/esp_http_server/src/httpd_sess.c", "/home/viet/esp/esp-idf/components/esp_http_server/src/httpd_txrx.c", "/home/viet/esp/esp-idf/components/esp_http_server/src/httpd_uri.c", "/home/viet/esp/esp-idf/components/esp_http_server/src/httpd_ws.c", "/home/viet/esp/esp-idf/components/esp_http_server/src/util/ctrl_sock.c" ],
             "include_dirs": [ "include" ]
         },
@@ -549,7 +549,7 @@
             "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_security", "esp_driver_gpio", "esp_timer", "esp_pm", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_hw_support/libesp_hw_support.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_hw_support/libesp_hw_support.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_hw_support/cpu.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp32s3/esp_cpu_intr.c", "/home/viet/esp/esp-idf/components/esp_hw_support/esp_memory_utils.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp32s3/cpu_region_protect.c", "/home/viet/esp/esp-idf/components/esp_hw_support/esp_clk.c", "/home/viet/esp/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "/home/viet/esp/esp-idf/components/esp_hw_support/hw_random.c", "/home/viet/esp/esp-idf/components/esp_hw_support/intr_alloc.c", "/home/viet/esp/esp-idf/components/esp_hw_support/mac_addr.c", "/home/viet/esp/esp-idf/components/esp_hw_support/periph_ctrl.c", "/home/viet/esp/esp-idf/components/esp_hw_support/revision.c", "/home/viet/esp/esp-idf/components/esp_hw_support/rtc_module.c", "/home/viet/esp/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "/home/viet/esp/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "/home/viet/esp/esp-idf/components/esp_hw_support/sar_periph_ctrl_common.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp32s3/io_mux.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp32s3/esp_clk_tree.c", "/home/viet/esp/esp-idf/components/esp_hw_support/dma/esp_dma_utils.c", "/home/viet/esp/esp-idf/components/esp_hw_support/dma/gdma_link.c", "/home/viet/esp/esp-idf/components/esp_hw_support/spi_bus_lock.c", "/home/viet/esp/esp-idf/components/esp_hw_support/clk_utils.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "/home/viet/esp/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c", "/home/viet/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "/home/viet/esp/esp-idf/components/esp_hw_support/sleep_modem.c", "/home/viet/esp/esp-idf/components/esp_hw_support/sleep_modes.c", "/home/viet/esp/esp-idf/components/esp_hw_support/sleep_console.c", "/home/viet/esp/esp-idf/components/esp_hw_support/sleep_mspi.c", "/home/viet/esp/esp-idf/components/esp_hw_support/sleep_usb.c", "/home/viet/esp/esp-idf/components/esp_hw_support/sleep_gpio.c", "/home/viet/esp/esp-idf/components/esp_hw_support/sleep_event.c", "/home/viet/esp/esp-idf/components/esp_hw_support/dma/gdma.c", "/home/viet/esp/esp-idf/components/esp_hw_support/deprecated/gdma_legacy.c", "/home/viet/esp/esp-idf/components/esp_hw_support/dma/esp_async_memcpy.c", "/home/viet/esp/esp-idf/components/esp_hw_support/dma/async_memcpy_gdma.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp32s3/systimer.c", "/home/viet/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/mspi_timing_tuning.c", "/home/viet/esp/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "/home/viet/esp/esp-idf/components/esp_hw_support/esp_clock_output.c", "/home/viet/esp/esp-idf/components/esp_hw_support/power_supply/brownout.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp32s3/rtc_clk.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp32s3/rtc_clk_init.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp32s3/rtc_init.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp32s3/rtc_sleep.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp32s3/rtc_time.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp32s3/chip_info.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp32s3/sar_periph_ctrl.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp32s3/esp_memprot.c", "/home/viet/esp/esp-idf/components/esp_hw_support/port/esp_memprot_conv.c", "/home/viet/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/port/esp32s3/mspi_timing_config.c", "/home/viet/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c", "/home/viet/esp/esp-idf/components/esp_hw_support/lowpower/port/esp32s3/sleep_cpu.c" ],
             "include_dirs": [ "include", "include/soc", "include/soc/esp32s3", "dma/include", "ldo/include", "debug_probe/include", "mspi_timing_tuning/include", "mspi_timing_tuning/tuning_scheme_impl/include", "power_supply/include" ]
         },
@@ -564,7 +564,7 @@
             "priv_reqs": [ "heap", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_mm/libesp_mm.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_mm/libesp_mm.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_mm/esp_mmu_map.c", "/home/viet/esp/esp-idf/components/esp_mm/port/esp32s3/ext_mem_layout.c", "/home/viet/esp/esp-idf/components/esp_mm/esp_cache_msync.c", "/home/viet/esp/esp-idf/components/esp_mm/esp_cache_utils.c", "/home/viet/esp/esp-idf/components/esp_mm/heap_align_hw.c" ],
             "include_dirs": [ "include" ]
         },
@@ -579,7 +579,7 @@
             "priv_reqs": [ "esp_netif_stack" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_netif/libesp_netif.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_netif/libesp_netif.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_netif/esp_netif_handlers.c", "/home/viet/esp/esp-idf/components/esp_netif/esp_netif_objects.c", "/home/viet/esp/esp-idf/components/esp_netif/esp_netif_defaults.c", "/home/viet/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c", "/home/viet/esp/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c", "/home/viet/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip_defaults.c", "/home/viet/esp/esp-idf/components/esp_netif/lwip/netif/wlanif.c", "/home/viet/esp/esp-idf/components/esp_netif/lwip/netif/ethernetif.c", "/home/viet/esp/esp-idf/components/esp_netif/lwip/netif/esp_pbuf_ref.c" ],
             "include_dirs": [ "include" ]
         },
@@ -609,7 +609,7 @@
             "priv_reqs": [ "esp_system", "spi_flash", "partition_table", "bootloader_support", "app_update" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_partition/libesp_partition.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_partition/libesp_partition.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_partition/partition.c", "/home/viet/esp/esp-idf/components/esp_partition/partition_target.c" ],
             "include_dirs": [ "include" ]
         },
@@ -624,7 +624,7 @@
             "priv_reqs": [ "nvs_flash", "esp_driver_gpio", "efuse", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_phy/libesp_phy.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_phy/libesp_phy.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_phy/src/phy_override.c", "/home/viet/esp/esp-idf/components/esp_phy/src/lib_printf.c", "/home/viet/esp/esp-idf/components/esp_phy/src/phy_common.c", "/home/viet/esp/esp-idf/components/esp_phy/src/phy_init.c", "/home/viet/esp/esp-idf/components/esp_phy/esp32s3/phy_init_data.c", "/home/viet/esp/esp-idf/components/esp_phy/src/btbb_init.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
@@ -639,7 +639,7 @@
             "priv_reqs": [ "esp_system", "esp_driver_gpio", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_pm/libesp_pm.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_pm/libesp_pm.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_pm/pm_locks.c", "/home/viet/esp/esp-idf/components/esp_pm/pm_trace.c", "/home/viet/esp/esp-idf/components/esp_pm/pm_impl.c" ],
             "include_dirs": [ "include" ]
         },
@@ -654,7 +654,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_ringbuf/ringbuf.c" ],
             "include_dirs": [ "include" ]
         },
@@ -669,7 +669,7 @@
             "priv_reqs": [ "soc", "hal" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_rom/libesp_rom.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_rom/libesp_rom.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "/home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_print.c", "/home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "/home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_uart.c", "/home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "/home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "/home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_gpio.c", "/home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S", "/home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_systimer.c", "/home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_wdt.c", "/home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_cache_esp32s2_esp32s3.c", "/home/viet/esp/esp-idf/components/esp_rom/patches/esp_rom_cache_writeback_esp32s3.S" ],
             "include_dirs": [ "include", "esp32s3/include", "esp32s3/include/esp32s3", "esp32s3" ]
         },
@@ -684,7 +684,7 @@
             "priv_reqs": [ "efuse", "esp_hw_support", "esp_system", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_security/libesp_security.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_security/libesp_security.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_security/src/init.c", "/home/viet/esp/esp-idf/components/esp_security/src/esp_hmac.c", "/home/viet/esp/esp-idf/components/esp_security/src/esp_ds.c", "/home/viet/esp/esp-idf/components/esp_security/src/esp_crypto_lock.c", "/home/viet/esp/esp-idf/components/esp_security/src/esp_crypto_periph_clk.c" ],
             "include_dirs": [ "include" ]
         },
@@ -699,7 +699,7 @@
             "priv_reqs": [ "spi_flash", "esp_timer", "esp_mm", "bootloader_support", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_system/libesp_system.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_system/libesp_system.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_system/esp_err.c", "/home/viet/esp/esp-idf/components/esp_system/crosscore_int.c", "/home/viet/esp/esp-idf/components/esp_system/esp_ipc.c", "/home/viet/esp/esp-idf/components/esp_system/esp_system_console.c", "/home/viet/esp/esp-idf/components/esp_system/freertos_hooks.c", "/home/viet/esp/esp-idf/components/esp_system/int_wdt.c", "/home/viet/esp/esp-idf/components/esp_system/panic.c", "/home/viet/esp/esp-idf/components/esp_system/esp_system.c", "/home/viet/esp/esp-idf/components/esp_system/startup.c", "/home/viet/esp/esp-idf/components/esp_system/startup_funcs.c", "/home/viet/esp/esp-idf/components/esp_system/system_time.c", "/home/viet/esp/esp-idf/components/esp_system/stack_check.c", "/home/viet/esp/esp-idf/components/esp_system/ubsan.c", "/home/viet/esp/esp-idf/components/esp_system/xt_wdt.c", "/home/viet/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c", "/home/viet/esp/esp-idf/components/esp_system/task_wdt/task_wdt_impl_timergroup.c", "/home/viet/esp/esp-idf/components/esp_system/port/cpu_start.c", "/home/viet/esp/esp-idf/components/esp_system/port/panic_handler.c", "/home/viet/esp/esp-idf/components/esp_system/port/esp_system_chip.c", "/home/viet/esp/esp-idf/components/esp_system/port/image_process.c", "/home/viet/esp/esp-idf/components/esp_system/port/esp_ipc_isr.c", "/home/viet/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_port.c", "/home/viet/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S", "/home/viet/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S", "/home/viet/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_arch.c", "/home/viet/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S", "/home/viet/esp/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack.c", "/home/viet/esp/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S", "/home/viet/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers.c", "/home/viet/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S", "/home/viet/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_stubs.c", "/home/viet/esp/esp-idf/components/esp_system/port/arch/xtensa/trax.c", "/home/viet/esp/esp-idf/components/esp_system/port/soc/esp32s3/highint_hdl.S", "/home/viet/esp/esp-idf/components/esp_system/port/soc/esp32s3/clk.c", "/home/viet/esp/esp-idf/components/esp_system/port/soc/esp32s3/reset_reason.c", "/home/viet/esp/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c", "/home/viet/esp/esp-idf/components/esp_system/port/soc/esp32s3/cache_err_int.c", "/home/viet/esp/esp-idf/components/esp_system/port/soc/esp32s3/apb_backup_dma.c" ],
             "include_dirs": [ "include" ]
         },
@@ -714,7 +714,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_timer/libesp_timer.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_timer/libesp_timer.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_timer/src/esp_timer.c", "/home/viet/esp/esp-idf/components/esp_timer/src/esp_timer_init.c", "/home/viet/esp/esp-idf/components/esp_timer/src/ets_timer_legacy.c", "/home/viet/esp/esp-idf/components/esp_timer/src/system_time.c", "/home/viet/esp/esp-idf/components/esp_timer/src/esp_timer_impl_common.c", "/home/viet/esp/esp-idf/components/esp_timer/src/esp_timer_impl_systimer.c" ],
             "include_dirs": [ "include" ]
         },
@@ -729,7 +729,7 @@
             "priv_reqs": [ "vfs", "esp_driver_uart", "esp_driver_usb_serial_jtag" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_vfs_console/libesp_vfs_console.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_vfs_console/libesp_vfs_console.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_vfs_console/vfs_console.c" ],
             "include_dirs": [ "include" ]
         },
@@ -744,7 +744,7 @@
             "priv_reqs": [ "esptool_py", "esp_pm", "esp_timer", "nvs_flash", "wpa_supplicant", "hal", "lwip", "esp_coex" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/esp_wifi/libesp_wifi.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/esp_wifi/libesp_wifi.a",
             "sources": [ "/home/viet/esp/esp-idf/components/esp_wifi/src/lib_printf.c", "/home/viet/esp/esp-idf/components/esp_wifi/src/mesh_event.c", "/home/viet/esp/esp-idf/components/esp_wifi/src/smartconfig.c", "/home/viet/esp/esp-idf/components/esp_wifi/src/wifi_init.c", "/home/viet/esp/esp-idf/components/esp_wifi/src/wifi_default.c", "/home/viet/esp/esp-idf/components/esp_wifi/src/wifi_netif.c", "/home/viet/esp/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "/home/viet/esp/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c", "/home/viet/esp/esp-idf/components/esp_wifi/regulatory/esp_wifi_regulatory.c", "/home/viet/esp/esp-idf/components/esp_wifi/src/smartconfig_ack.c" ],
             "include_dirs": [ "include", "include/local", "wifi_apps/include", "wifi_apps/nan_app/include" ]
         },
@@ -752,15 +752,15 @@
             "alias": "idf::espressif__qrcode",
             "target": "___idf_espressif__qrcode",
             "prefix": "idf",
-            "dir": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode",
+            "dir": "/home/viet/Downloads/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode",
             "type": "LIBRARY",
             "lib": "__idf_espressif__qrcode",
             "reqs": [],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/espressif__qrcode/libespressif__qrcode.a",
-            "sources": [ "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode/esp_qrcode_main.c", "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode/esp_qrcode_wrapper.c", "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode/qrcodegen.c" ],
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/espressif__qrcode/libespressif__qrcode.a",
+            "sources": [ "/home/viet/Downloads/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode/esp_qrcode_main.c", "/home/viet/Downloads/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode/esp_qrcode_wrapper.c", "/home/viet/Downloads/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode/qrcodegen.c" ],
             "include_dirs": [ "include" ]
         },
         "esptool_py": {
@@ -789,7 +789,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/freertos/libfreertos.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/freertos/libfreertos.a",
             "sources": [ "/home/viet/esp/esp-idf/components/freertos/heap_idf.c", "/home/viet/esp/esp-idf/components/freertos/app_startup.c", "/home/viet/esp/esp-idf/components/freertos/port_common.c", "/home/viet/esp/esp-idf/components/freertos/port_systick.c", "/home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c", "/home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c", "/home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c", "/home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/timers.c", "/home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c", "/home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/stream_buffer.c", "/home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c", "/home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S", "/home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c", "/home/viet/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c", "/home/viet/esp/esp-idf/components/freertos/esp_additions/freertos_compatibility.c", "/home/viet/esp/esp-idf/components/freertos/esp_additions/idf_additions_event_groups.c", "/home/viet/esp/esp-idf/components/freertos/esp_additions/idf_additions.c" ],
             "include_dirs": [ "config/include", "config/include/freertos", "config/xtensa/include", "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/xtensa/include", "FreeRTOS-Kernel/portable/xtensa/include/freertos", "esp_additions/include" ]
         },
@@ -804,7 +804,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/hal/libhal.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/hal/libhal.a",
             "sources": [ "/home/viet/esp/esp-idf/components/hal/hal_utils.c", "/home/viet/esp/esp-idf/components/hal/mpu_hal.c", "/home/viet/esp/esp-idf/components/hal/efuse_hal.c", "/home/viet/esp/esp-idf/components/hal/esp32s3/efuse_hal.c", "/home/viet/esp/esp-idf/components/hal/mmu_hal.c", "/home/viet/esp/esp-idf/components/hal/cache_hal.c", "/home/viet/esp/esp-idf/components/hal/color_hal.c", "/home/viet/esp/esp-idf/components/hal/spi_flash_hal.c", "/home/viet/esp/esp-idf/components/hal/spi_flash_hal_iram.c", "/home/viet/esp/esp-idf/components/hal/spi_flash_encrypt_hal_iram.c", "/home/viet/esp/esp-idf/components/hal/esp32s3/clk_tree_hal.c", "/home/viet/esp/esp-idf/components/hal/systimer_hal.c", "/home/viet/esp/esp-idf/components/hal/uart_hal.c", "/home/viet/esp/esp-idf/components/hal/uart_hal_iram.c", "/home/viet/esp/esp-idf/components/hal/gpio_hal.c", "/home/viet/esp/esp-idf/components/hal/rtc_io_hal.c", "/home/viet/esp/esp-idf/components/hal/timer_hal.c", "/home/viet/esp/esp-idf/components/hal/ledc_hal.c", "/home/viet/esp/esp-idf/components/hal/ledc_hal_iram.c", "/home/viet/esp/esp-idf/components/hal/i2c_hal.c", "/home/viet/esp/esp-idf/components/hal/i2c_hal_iram.c", "/home/viet/esp/esp-idf/components/hal/rmt_hal.c", "/home/viet/esp/esp-idf/components/hal/pcnt_hal.c", "/home/viet/esp/esp-idf/components/hal/mcpwm_hal.c", "/home/viet/esp/esp-idf/components/hal/uhci_hal.c", "/home/viet/esp/esp-idf/components/hal/twai_hal_v1.c", "/home/viet/esp/esp-idf/components/hal/gdma_hal_top.c", "/home/viet/esp/esp-idf/components/hal/gdma_hal_ahb_v1.c", "/home/viet/esp/esp-idf/components/hal/i2s_hal.c", "/home/viet/esp/esp-idf/components/hal/sdm_hal.c", "/home/viet/esp/esp-idf/components/hal/sdmmc_hal.c", "/home/viet/esp/esp-idf/components/hal/adc_hal_common.c", "/home/viet/esp/esp-idf/components/hal/adc_oneshot_hal.c", "/home/viet/esp/esp-idf/components/hal/adc_hal.c", "/home/viet/esp/esp-idf/components/hal/lcd_hal.c", "/home/viet/esp/esp-idf/components/hal/mpi_hal.c", "/home/viet/esp/esp-idf/components/hal/sha_hal.c", "/home/viet/esp/esp-idf/components/hal/aes_hal.c", "/home/viet/esp/esp-idf/components/hal/brownout_hal.c", "/home/viet/esp/esp-idf/components/hal/spi_hal.c", "/home/viet/esp/esp-idf/components/hal/spi_hal_iram.c", "/home/viet/esp/esp-idf/components/hal/spi_slave_hal.c", "/home/viet/esp/esp-idf/components/hal/spi_slave_hal_iram.c", "/home/viet/esp/esp-idf/components/hal/spi_slave_hd_hal.c", "/home/viet/esp/esp-idf/components/hal/spi_flash_hal_gpspi.c", "/home/viet/esp/esp-idf/components/hal/hmac_hal.c", "/home/viet/esp/esp-idf/components/hal/ds_hal.c", "/home/viet/esp/esp-idf/components/hal/cam_hal.c", "/home/viet/esp/esp-idf/components/hal/usb_serial_jtag_hal.c", "/home/viet/esp/esp-idf/components/hal/usb_dwc_hal.c", "/home/viet/esp/esp-idf/components/hal/usb_wrap_hal.c", "/home/viet/esp/esp-idf/components/hal/esp32s3/touch_sensor_hal.c", "/home/viet/esp/esp-idf/components/hal/touch_sensor_hal.c", "/home/viet/esp/esp-idf/components/hal/touch_sens_hal.c", "/home/viet/esp/esp-idf/components/hal/xt_wdt_hal.c", "/home/viet/esp/esp-idf/components/hal/esp32s3/rtc_cntl_hal.c" ],
             "include_dirs": [ "platform_port/include", "esp32s3/include", "include" ]
         },
@@ -819,7 +819,7 @@
             "priv_reqs": [ "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/heap/libheap.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/heap/libheap.a",
             "sources": [ "/home/viet/esp/esp-idf/components/heap/heap_caps_base.c", "/home/viet/esp/esp-idf/components/heap/heap_caps.c", "/home/viet/esp/esp-idf/components/heap/heap_caps_init.c", "/home/viet/esp/esp-idf/components/heap/multi_heap.c", "/home/viet/esp/esp-idf/components/heap/tlsf/tlsf.c", "/home/viet/esp/esp-idf/components/heap/port/memory_layout_utils.c", "/home/viet/esp/esp-idf/components/heap/port/esp32s3/memory_layout.c" ],
             "include_dirs": [ "include", "tlsf" ]
         },
@@ -834,7 +834,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/http_parser/libhttp_parser.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/http_parser/libhttp_parser.a",
             "sources": [ "/home/viet/esp/esp-idf/components/http_parser/http_parser.c" ],
             "include_dirs": [ "." ]
         },
@@ -849,7 +849,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/json/libjson.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/json/libjson.a",
             "sources": [ "/home/viet/esp/esp-idf/components/json/cJSON/cJSON.c", "/home/viet/esp/esp-idf/components/json/cJSON/cJSON_Utils.c" ],
             "include_dirs": [ "cJSON" ]
         },
@@ -864,7 +864,7 @@
             "priv_reqs": [ "hal", "soc", "esp_hw_support" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/log/liblog.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/log/liblog.a",
             "sources": [ "/home/viet/esp/esp-idf/components/log/src/os/log_timestamp.c", "/home/viet/esp/esp-idf/components/log/src/log_timestamp_common.c", "/home/viet/esp/esp-idf/components/log/src/os/log_lock.c", "/home/viet/esp/esp-idf/components/log/src/buffer/log_buffers.c", "/home/viet/esp/esp-idf/components/log/src/os/util.c", "/home/viet/esp/esp-idf/components/log/src/util.c", "/home/viet/esp/esp-idf/components/log/src/log_format_text.c", "/home/viet/esp/esp-idf/components/log/src/log_print.c", "/home/viet/esp/esp-idf/components/log/src/log.c", "/home/viet/esp/esp-idf/components/log/src/os/log_write.c", "/home/viet/esp/esp-idf/components/log/src/log_level/log_level.c", "/home/viet/esp/esp-idf/components/log/src/log_level/tag_log_level/tag_log_level.c", "/home/viet/esp/esp-idf/components/log/src/log_level/tag_log_level/linked_list/log_linked_list.c", "/home/viet/esp/esp-idf/components/log/src/log_level/tag_log_level/cache/log_binary_heap.c" ],
             "include_dirs": [ "include" ]
         },
@@ -879,7 +879,7 @@
             "priv_reqs": [ "vfs" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/lwip/liblwip.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/lwip/liblwip.a",
             "sources": [ "/home/viet/esp/esp-idf/components/lwip/apps/sntp/sntp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/api/api_msg.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/api/err.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/api/if_api.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/api/netbuf.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/api/netdb.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/api/netifapi.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/api/sockets.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/apps/sntp/sntp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/apps/netbiosns/netbiosns.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/def.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/dns.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/inet_chksum.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/init.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ip.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/mem.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/memp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/netif.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/pbuf.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/raw.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/stats.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/sys.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/tcp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/tcp_in.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/tcp_out.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/timeouts.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/udp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv4/autoip.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv4/dhcp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv4/etharp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv4/icmp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv4/igmp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv4/ip4.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_napt.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_addr.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_frag.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv6/dhcp6.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv6/ethip6.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv6/icmp6.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv6/inet6.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv6/ip6.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_addr.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_frag.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv6/mld6.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/core/ipv6/nd6.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ethernet.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/bridgeif.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/bridgeif_fdb.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/slipif.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/auth.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ccp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/chap-md5.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/chap-new.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/chap_ms.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/demand.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/eap.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ecp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/eui64.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/fsm.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ipcp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ipv6cp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/lcp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/magic.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/mppe.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/multilink.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ppp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppapi.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppcrypt.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppoe.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppol2tp.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppos.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/upap.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/utils.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/vj.c", "/home/viet/esp/esp-idf/components/lwip/port/hooks/tcp_isn_default.c", "/home/viet/esp/esp-idf/components/lwip/port/hooks/lwip_default_hooks.c", "/home/viet/esp/esp-idf/components/lwip/port/debug/lwip_debug.c", "/home/viet/esp/esp-idf/components/lwip/port/sockets_ext.c", "/home/viet/esp/esp-idf/components/lwip/port/freertos/sys_arch.c", "/home/viet/esp/esp-idf/components/lwip/port/if_index.c", "/home/viet/esp/esp-idf/components/lwip/port/acd_dhcp_check.c", "/home/viet/esp/esp-idf/components/lwip/port/esp32xx/vfs_lwip.c", "/home/viet/esp/esp-idf/components/lwip/apps/ping/esp_ping.c", "/home/viet/esp/esp-idf/components/lwip/apps/ping/ping.c", "/home/viet/esp/esp-idf/components/lwip/apps/ping/ping_sock.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/arc4.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/des.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md4.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md5.c", "/home/viet/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/sha1.c", "/home/viet/esp/esp-idf/components/lwip/apps/dhcpserver/dhcpserver.c" ],
             "include_dirs": [ "include", "include/apps", "include/apps/sntp", "lwip/src/include", "port/include", "port/freertos/include/", "port/esp32xx/include", "port/esp32xx/include/arch", "port/esp32xx/include/sys" ]
         },
@@ -887,15 +887,15 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/main",
+            "dir": "/home/viet/Downloads/DoAnIoT/Lamp_relay/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [],
             "priv_reqs": [ "mqtt", "nvs_flash", "esp_netif", "esp_wifi", "esp_event", "esp_http_server", "driver", "espressif__qrcode", "json" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__qrcode" ],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/main/app_main.c" ],
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/main/libmain.a",
+            "sources": [ "/home/viet/Downloads/DoAnIoT/Lamp_relay/main/app_main.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
@@ -909,8 +909,8 @@
             "priv_reqs": [ "soc", "esp_hw_support", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/mbedtls/libmbedtls.a",
-            "sources": [ "/home/viet/esp/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/x509_crt_bundle.S" ],
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/mbedtls/libmbedtls.a",
+            "sources": [ "/home/viet/esp/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/x509_crt_bundle.S" ],
             "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "esp_crt_bundle/include" ]
         },
         "mqtt": {
@@ -924,7 +924,7 @@
             "priv_reqs": [ "esp_timer", "http_parser", "esp_hw_support", "heap" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/mqtt/libmqtt.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/mqtt/libmqtt.a",
             "sources": [ "/home/viet/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c", "/home/viet/esp/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_msg.c", "/home/viet/esp/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_outbox.c", "/home/viet/esp/esp-idf/components/mqtt/esp-mqtt/lib/platform_esp32_idf.c", "/home/viet/esp/esp-idf/components/mqtt/esp-mqtt/lib/mqtt5_msg.c", "/home/viet/esp/esp-idf/components/mqtt/esp-mqtt/mqtt5_client.c" ],
             "include_dirs": [ "/home/viet/esp/esp-idf/components/mqtt/esp-mqtt/include" ]
         },
@@ -939,7 +939,7 @@
             "priv_reqs": [ "soc", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/newlib/libnewlib.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/newlib/libnewlib.a",
             "sources": [ "/home/viet/esp/esp-idf/components/newlib/src/init.c", "/home/viet/esp/esp-idf/components/newlib/src/abort.c", "/home/viet/esp/esp-idf/components/newlib/src/assert.c", "/home/viet/esp/esp-idf/components/newlib/src/heap.c", "/home/viet/esp/esp-idf/components/newlib/src/locks.c", "/home/viet/esp/esp-idf/components/newlib/src/poll.c", "/home/viet/esp/esp-idf/components/newlib/src/pthread.c", "/home/viet/esp/esp-idf/components/newlib/src/random.c", "/home/viet/esp/esp-idf/components/newlib/src/getentropy.c", "/home/viet/esp/esp-idf/components/newlib/src/termios.c", "/home/viet/esp/esp-idf/components/newlib/src/stdatomic.c", "/home/viet/esp/esp-idf/components/newlib/src/time.c", "/home/viet/esp/esp-idf/components/newlib/src/sysconf.c", "/home/viet/esp/esp-idf/components/newlib/src/realpath.c", "/home/viet/esp/esp-idf/components/newlib/src/scandir.c", "/home/viet/esp/esp-idf/components/newlib/src/syscalls.c", "/home/viet/esp/esp-idf/components/newlib/src/reent_syscalls.c", "/home/viet/esp/esp-idf/components/newlib/src/port/esp_time_impl.c", "/home/viet/esp/esp-idf/components/newlib/src/flockfile.c", "/home/viet/esp/esp-idf/components/newlib/src/reent_init.c", "/home/viet/esp/esp-idf/components/newlib/src/newlib_init.c", "/home/viet/esp/esp-idf/components/newlib/src/port/esp_time_impl.c" ],
             "include_dirs": [ "platform_include" ]
         },
@@ -954,7 +954,7 @@
             "priv_reqs": [ "spi_flash", "newlib" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/nvs_flash/libnvs_flash.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/nvs_flash/libnvs_flash.a",
             "sources": [ "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_cxx_api.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_storage.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_handle_simple.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_handle_locked.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_partition.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_partition_lookup.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_types.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_platform.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_bootloader.c", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_encrypted_partition.cpp", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_bootloader_aes.c", "/home/viet/esp/esp-idf/components/nvs_flash/src/nvs_bootloader_xts_aes.c" ],
             "include_dirs": [ "include" ]
         },
@@ -984,7 +984,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/pthread/libpthread.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/pthread/libpthread.a",
             "sources": [ "/home/viet/esp/esp-idf/components/pthread/pthread.c", "/home/viet/esp/esp-idf/components/pthread/pthread_cond_var.c", "/home/viet/esp/esp-idf/components/pthread/pthread_local_storage.c", "/home/viet/esp/esp-idf/components/pthread/pthread_rwlock.c", "/home/viet/esp/esp-idf/components/pthread/pthread_semaphore.c" ],
             "include_dirs": [ "include" ]
         },
@@ -999,7 +999,7 @@
             "priv_reqs": [ "soc", "esp_timer", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/sdmmc/libsdmmc.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/sdmmc/libsdmmc.a",
             "sources": [ "/home/viet/esp/esp-idf/components/sdmmc/sdmmc_cmd.c", "/home/viet/esp/esp-idf/components/sdmmc/sdmmc_common.c", "/home/viet/esp/esp-idf/components/sdmmc/sdmmc_init.c", "/home/viet/esp/esp-idf/components/sdmmc/sdmmc_io.c", "/home/viet/esp/esp-idf/components/sdmmc/sdmmc_mmc.c", "/home/viet/esp/esp-idf/components/sdmmc/sdmmc_sd.c", "/home/viet/esp/esp-idf/components/sdmmc/sd_pwr_ctrl/sd_pwr_ctrl.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1014,7 +1014,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/soc/libsoc.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/soc/libsoc.a",
             "sources": [ "/home/viet/esp/esp-idf/components/soc/lldesc.c", "/home/viet/esp/esp-idf/components/soc/dport_access_common.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/interrupts.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/gpio_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/uart_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/adc_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/dedic_gpio_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/gdma_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/spi_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/ledc_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/pcnt_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/rmt_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/sdm_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/i2s_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/i2c_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/temperature_sensor_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/timer_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/lcd_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/mcpwm_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/mpi_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/sdmmc_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/touch_sensor_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/twai_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/wdt_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/usb_dwc_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/rtc_io_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/cam_periph.c", "/home/viet/esp/esp-idf/components/soc/esp32s3/power_supply_periph.c" ],
             "include_dirs": [ "include", "esp32s3", "esp32s3/include", "esp32s3/register" ]
         },
@@ -1029,7 +1029,7 @@
             "priv_reqs": [ "bootloader_support", "app_update", "soc", "esp_mm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/spi_flash/libspi_flash.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/spi_flash/libspi_flash.a",
             "sources": [ "/home/viet/esp/esp-idf/components/spi_flash/flash_brownout_hook.c", "/home/viet/esp/esp-idf/components/spi_flash/esp32s3/spi_flash_oct_flash_init.c", "/home/viet/esp/esp-idf/components/spi_flash/spi_flash_hpm_enable.c", "/home/viet/esp/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "/home/viet/esp/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "/home/viet/esp/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "/home/viet/esp/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "/home/viet/esp/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "/home/viet/esp/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "/home/viet/esp/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "/home/viet/esp/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "/home/viet/esp/esp-idf/components/spi_flash/spi_flash_chip_th.c", "/home/viet/esp/esp-idf/components/spi_flash/memspi_host_driver.c", "/home/viet/esp/esp-idf/components/spi_flash/cache_utils.c", "/home/viet/esp/esp-idf/components/spi_flash/flash_mmap.c", "/home/viet/esp/esp-idf/components/spi_flash/flash_ops.c", "/home/viet/esp/esp-idf/components/spi_flash/spi_flash_wrap.c", "/home/viet/esp/esp-idf/components/spi_flash/esp_flash_api.c", "/home/viet/esp/esp-idf/components/spi_flash/esp_flash_spi_init.c", "/home/viet/esp/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "/home/viet/esp/esp-idf/components/spi_flash/spi_flash_os_func_noos.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1044,7 +1044,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/tcp_transport/libtcp_transport.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/tcp_transport/libtcp_transport.a",
             "sources": [ "/home/viet/esp/esp-idf/components/tcp_transport/transport.c", "/home/viet/esp/esp-idf/components/tcp_transport/transport_ssl.c", "/home/viet/esp/esp-idf/components/tcp_transport/transport_internal.c", "/home/viet/esp/esp-idf/components/tcp_transport/transport_socks_proxy.c", "/home/viet/esp/esp-idf/components/tcp_transport/transport_ws.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1059,7 +1059,7 @@
             "priv_reqs": [ "esp_timer", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_vfs_console" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/vfs/libvfs.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/vfs/libvfs.a",
             "sources": [ "/home/viet/esp/esp-idf/components/vfs/vfs.c", "/home/viet/esp/esp-idf/components/vfs/vfs_eventfd.c", "/home/viet/esp/esp-idf/components/vfs/vfs_semihost.c", "/home/viet/esp/esp-idf/components/vfs/nullfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1074,7 +1074,7 @@
             "priv_reqs": [ "mbedtls", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
             "sources": [ "/home/viet/esp/esp-idf/components/wpa_supplicant/port/os_xtensa.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/port/eloop.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/ap_config.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/sta_info.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/common/sae.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/common/dragonfly.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/common/wpa_common.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/bitfield.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/base64.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/common.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/ext_password.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/uuid.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/json.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps_common.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/common/sae_pk.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpsk.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/rc4.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c", "/home/viet/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c" ],
             "include_dirs": [ "include", "port/include", "esp_supplicant/include" ]
         },
@@ -1089,7 +1089,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/xtensa/libxtensa.a",
+            "file": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/xtensa/libxtensa.a",
             "sources": [ "/home/viet/esp/esp-idf/components/xtensa/eri.c", "/home/viet/esp/esp-idf/components/xtensa/xt_trax.c", "/home/viet/esp/esp-idf/components/xtensa/xtensa_context.S", "/home/viet/esp/esp-idf/components/xtensa/xtensa_intr_asm.S", "/home/viet/esp/esp-idf/components/xtensa/xtensa_intr.c", "/home/viet/esp/esp-idf/components/xtensa/xtensa_vectors.S" ],
             "include_dirs": [ "esp32s3/include", "include", "deprecated_include" ]
         }
@@ -1177,7 +1177,7 @@
             "priv_reqs": [ "esp_driver_uart", "esp_driver_usb_serial_jtag" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "include_dirs": [ "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build" ]
+            "include_dirs": [ "/home/viet/Downloads/DoAnIoT/Lamp_relay/build" ]
         },
         "cxx": {
             "alias": "idf::cxx",
@@ -2395,7 +2395,7 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/main",
+            "dir": "/home/viet/Downloads/DoAnIoT/Lamp_relay/main",
             "lib": "__idf_main",
             "reqs": [],
             "priv_reqs": [ "mqtt", "nvs_flash", "esp_netif", "esp_wifi", "esp_event", "esp_http_server", "driver", "espressif__qrcode", "json" ],
@@ -2407,7 +2407,7 @@
             "alias": "idf::espressif__qrcode",
             "target": "___idf_espressif__qrcode",
             "prefix": "idf",
-            "dir": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode",
+            "dir": "/home/viet/Downloads/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode",
             "lib": "__idf_espressif__qrcode",
             "reqs": [],
             "priv_reqs": [],
@@ -2418,10 +2418,10 @@
     },
     "debug_prefix_map_gdbinit": "",
     "gdbinit_files": {
-        "01_symbols": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/gdbinit/symbols",
-        "02_prefix_map": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/gdbinit/prefix_map",
-        "03_py_extensions": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/gdbinit/py_extensions",
-        "04_connect": "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/gdbinit/connect"
+        "01_symbols": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/gdbinit/symbols",
+        "02_prefix_map": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/gdbinit/prefix_map",
+        "03_py_extensions": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/gdbinit/py_extensions",
+        "04_connect": "/home/viet/Downloads/DoAnIoT/Lamp_relay/build/gdbinit/connect"
     },
     "debug_arguments_openocd": "-f board/esp32s3-builtin.cfg"
 }

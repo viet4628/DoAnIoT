@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/viet/esp/esp-idf")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/viet/Downloads/DoAnIoT/Lamp_relay/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

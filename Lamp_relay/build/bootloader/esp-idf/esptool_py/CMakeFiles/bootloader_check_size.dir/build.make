@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/viet/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader
 
 # Utility rule file for bootloader_check_size.
 
@@ -67,7 +67,7 @@ include esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/compiler_depend.
 include esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/progress.make
 
 esp-idf/esptool_py/CMakeFiles/bootloader_check_size:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/esp-idf/esptool_py && /home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/bootloader.bin
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/esp-idf/esptool_py && /home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/bootloader.bin
 
 bootloader_check_size: esp-idf/esptool_py/CMakeFiles/bootloader_check_size
 bootloader_check_size: esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/build.make
@@ -78,10 +78,10 @@ esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/build: bootloader_check_
 .PHONY : esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/build
 
 esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/esp-idf/esptool_py && $(CMAKE_COMMAND) -P CMakeFiles/bootloader_check_size.dir/cmake_clean.cmake
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/esp-idf/esptool_py && $(CMAKE_COMMAND) -P CMakeFiles/bootloader_check_size.dir/cmake_clean.cmake
 .PHONY : esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/clean
 
 esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/esptool_py /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/esp-idf/esptool_py /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/esptool_py /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/esp-idf/esptool_py /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : esp-idf/esptool_py/CMakeFiles/bootloader_check_size.dir/depend
 

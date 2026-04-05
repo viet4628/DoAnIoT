@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/driver//CMakeFiles/progress.marks
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/driver/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles 0
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/driver//CMakeFiles/progress.marks
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/driver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/driver/clean
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/driver/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/driver/preinstall
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/driver/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/driver/preinstall
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/driver/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/driver/CMakeFiles/__idf_driver.dir/rule:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/driver/CMakeFiles/__idf_driver.dir/rule
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/driver/CMakeFiles/__idf_driver.dir/rule
 .PHONY : esp-idf/driver/CMakeFiles/__idf_driver.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_driver: esp-idf/driver/CMakeFiles/__idf_driver.dir/rule
 
 # fast build rule for target.
 __idf_driver/fast:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/build
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/build
 .PHONY : __idf_driver/fast
 
 deprecated/adc_dma_legacy.obj: deprecated/adc_dma_legacy.c.obj
@@ -180,7 +180,7 @@ deprecated/adc_dma_legacy.obj: deprecated/adc_dma_legacy.c.obj
 
 # target to build an object file
 deprecated/adc_dma_legacy.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_dma_legacy.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_dma_legacy.c.obj
 .PHONY : deprecated/adc_dma_legacy.c.obj
 
 deprecated/adc_dma_legacy.i: deprecated/adc_dma_legacy.c.i
@@ -188,7 +188,7 @@ deprecated/adc_dma_legacy.i: deprecated/adc_dma_legacy.c.i
 
 # target to preprocess a source file
 deprecated/adc_dma_legacy.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_dma_legacy.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_dma_legacy.c.i
 .PHONY : deprecated/adc_dma_legacy.c.i
 
 deprecated/adc_dma_legacy.s: deprecated/adc_dma_legacy.c.s
@@ -196,7 +196,7 @@ deprecated/adc_dma_legacy.s: deprecated/adc_dma_legacy.c.s
 
 # target to generate assembly for a file
 deprecated/adc_dma_legacy.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_dma_legacy.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_dma_legacy.c.s
 .PHONY : deprecated/adc_dma_legacy.c.s
 
 deprecated/adc_legacy.obj: deprecated/adc_legacy.c.obj
@@ -204,7 +204,7 @@ deprecated/adc_legacy.obj: deprecated/adc_legacy.c.obj
 
 # target to build an object file
 deprecated/adc_legacy.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_legacy.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_legacy.c.obj
 .PHONY : deprecated/adc_legacy.c.obj
 
 deprecated/adc_legacy.i: deprecated/adc_legacy.c.i
@@ -212,7 +212,7 @@ deprecated/adc_legacy.i: deprecated/adc_legacy.c.i
 
 # target to preprocess a source file
 deprecated/adc_legacy.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_legacy.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_legacy.c.i
 .PHONY : deprecated/adc_legacy.c.i
 
 deprecated/adc_legacy.s: deprecated/adc_legacy.c.s
@@ -220,7 +220,7 @@ deprecated/adc_legacy.s: deprecated/adc_legacy.c.s
 
 # target to generate assembly for a file
 deprecated/adc_legacy.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_legacy.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/adc_legacy.c.s
 .PHONY : deprecated/adc_legacy.c.s
 
 deprecated/i2s_legacy.obj: deprecated/i2s_legacy.c.obj
@@ -228,7 +228,7 @@ deprecated/i2s_legacy.obj: deprecated/i2s_legacy.c.obj
 
 # target to build an object file
 deprecated/i2s_legacy.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/i2s_legacy.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/i2s_legacy.c.obj
 .PHONY : deprecated/i2s_legacy.c.obj
 
 deprecated/i2s_legacy.i: deprecated/i2s_legacy.c.i
@@ -236,7 +236,7 @@ deprecated/i2s_legacy.i: deprecated/i2s_legacy.c.i
 
 # target to preprocess a source file
 deprecated/i2s_legacy.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/i2s_legacy.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/i2s_legacy.c.i
 .PHONY : deprecated/i2s_legacy.c.i
 
 deprecated/i2s_legacy.s: deprecated/i2s_legacy.c.s
@@ -244,7 +244,7 @@ deprecated/i2s_legacy.s: deprecated/i2s_legacy.c.s
 
 # target to generate assembly for a file
 deprecated/i2s_legacy.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/i2s_legacy.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/i2s_legacy.c.s
 .PHONY : deprecated/i2s_legacy.c.s
 
 deprecated/mcpwm_legacy.obj: deprecated/mcpwm_legacy.c.obj
@@ -252,7 +252,7 @@ deprecated/mcpwm_legacy.obj: deprecated/mcpwm_legacy.c.obj
 
 # target to build an object file
 deprecated/mcpwm_legacy.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.obj
 .PHONY : deprecated/mcpwm_legacy.c.obj
 
 deprecated/mcpwm_legacy.i: deprecated/mcpwm_legacy.c.i
@@ -260,7 +260,7 @@ deprecated/mcpwm_legacy.i: deprecated/mcpwm_legacy.c.i
 
 # target to preprocess a source file
 deprecated/mcpwm_legacy.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.i
 .PHONY : deprecated/mcpwm_legacy.c.i
 
 deprecated/mcpwm_legacy.s: deprecated/mcpwm_legacy.c.s
@@ -268,7 +268,7 @@ deprecated/mcpwm_legacy.s: deprecated/mcpwm_legacy.c.s
 
 # target to generate assembly for a file
 deprecated/mcpwm_legacy.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.s
 .PHONY : deprecated/mcpwm_legacy.c.s
 
 deprecated/pcnt_legacy.obj: deprecated/pcnt_legacy.c.obj
@@ -276,7 +276,7 @@ deprecated/pcnt_legacy.obj: deprecated/pcnt_legacy.c.obj
 
 # target to build an object file
 deprecated/pcnt_legacy.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/pcnt_legacy.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/pcnt_legacy.c.obj
 .PHONY : deprecated/pcnt_legacy.c.obj
 
 deprecated/pcnt_legacy.i: deprecated/pcnt_legacy.c.i
@@ -284,7 +284,7 @@ deprecated/pcnt_legacy.i: deprecated/pcnt_legacy.c.i
 
 # target to preprocess a source file
 deprecated/pcnt_legacy.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/pcnt_legacy.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/pcnt_legacy.c.i
 .PHONY : deprecated/pcnt_legacy.c.i
 
 deprecated/pcnt_legacy.s: deprecated/pcnt_legacy.c.s
@@ -292,7 +292,7 @@ deprecated/pcnt_legacy.s: deprecated/pcnt_legacy.c.s
 
 # target to generate assembly for a file
 deprecated/pcnt_legacy.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/pcnt_legacy.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/pcnt_legacy.c.s
 .PHONY : deprecated/pcnt_legacy.c.s
 
 deprecated/rmt_legacy.obj: deprecated/rmt_legacy.c.obj
@@ -300,7 +300,7 @@ deprecated/rmt_legacy.obj: deprecated/rmt_legacy.c.obj
 
 # target to build an object file
 deprecated/rmt_legacy.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rmt_legacy.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rmt_legacy.c.obj
 .PHONY : deprecated/rmt_legacy.c.obj
 
 deprecated/rmt_legacy.i: deprecated/rmt_legacy.c.i
@@ -308,7 +308,7 @@ deprecated/rmt_legacy.i: deprecated/rmt_legacy.c.i
 
 # target to preprocess a source file
 deprecated/rmt_legacy.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rmt_legacy.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rmt_legacy.c.i
 .PHONY : deprecated/rmt_legacy.c.i
 
 deprecated/rmt_legacy.s: deprecated/rmt_legacy.c.s
@@ -316,7 +316,7 @@ deprecated/rmt_legacy.s: deprecated/rmt_legacy.c.s
 
 # target to generate assembly for a file
 deprecated/rmt_legacy.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rmt_legacy.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rmt_legacy.c.s
 .PHONY : deprecated/rmt_legacy.c.s
 
 deprecated/rtc_temperature_legacy.obj: deprecated/rtc_temperature_legacy.c.obj
@@ -324,7 +324,7 @@ deprecated/rtc_temperature_legacy.obj: deprecated/rtc_temperature_legacy.c.obj
 
 # target to build an object file
 deprecated/rtc_temperature_legacy.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rtc_temperature_legacy.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rtc_temperature_legacy.c.obj
 .PHONY : deprecated/rtc_temperature_legacy.c.obj
 
 deprecated/rtc_temperature_legacy.i: deprecated/rtc_temperature_legacy.c.i
@@ -332,7 +332,7 @@ deprecated/rtc_temperature_legacy.i: deprecated/rtc_temperature_legacy.c.i
 
 # target to preprocess a source file
 deprecated/rtc_temperature_legacy.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rtc_temperature_legacy.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rtc_temperature_legacy.c.i
 .PHONY : deprecated/rtc_temperature_legacy.c.i
 
 deprecated/rtc_temperature_legacy.s: deprecated/rtc_temperature_legacy.c.s
@@ -340,7 +340,7 @@ deprecated/rtc_temperature_legacy.s: deprecated/rtc_temperature_legacy.c.s
 
 # target to generate assembly for a file
 deprecated/rtc_temperature_legacy.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rtc_temperature_legacy.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rtc_temperature_legacy.c.s
 .PHONY : deprecated/rtc_temperature_legacy.c.s
 
 deprecated/sigma_delta_legacy.obj: deprecated/sigma_delta_legacy.c.obj
@@ -348,7 +348,7 @@ deprecated/sigma_delta_legacy.obj: deprecated/sigma_delta_legacy.c.obj
 
 # target to build an object file
 deprecated/sigma_delta_legacy.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/sigma_delta_legacy.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/sigma_delta_legacy.c.obj
 .PHONY : deprecated/sigma_delta_legacy.c.obj
 
 deprecated/sigma_delta_legacy.i: deprecated/sigma_delta_legacy.c.i
@@ -356,7 +356,7 @@ deprecated/sigma_delta_legacy.i: deprecated/sigma_delta_legacy.c.i
 
 # target to preprocess a source file
 deprecated/sigma_delta_legacy.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/sigma_delta_legacy.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/sigma_delta_legacy.c.i
 .PHONY : deprecated/sigma_delta_legacy.c.i
 
 deprecated/sigma_delta_legacy.s: deprecated/sigma_delta_legacy.c.s
@@ -364,7 +364,7 @@ deprecated/sigma_delta_legacy.s: deprecated/sigma_delta_legacy.c.s
 
 # target to generate assembly for a file
 deprecated/sigma_delta_legacy.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/sigma_delta_legacy.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/sigma_delta_legacy.c.s
 .PHONY : deprecated/sigma_delta_legacy.c.s
 
 deprecated/timer_legacy.obj: deprecated/timer_legacy.c.obj
@@ -372,7 +372,7 @@ deprecated/timer_legacy.obj: deprecated/timer_legacy.c.obj
 
 # target to build an object file
 deprecated/timer_legacy.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/timer_legacy.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/timer_legacy.c.obj
 .PHONY : deprecated/timer_legacy.c.obj
 
 deprecated/timer_legacy.i: deprecated/timer_legacy.c.i
@@ -380,7 +380,7 @@ deprecated/timer_legacy.i: deprecated/timer_legacy.c.i
 
 # target to preprocess a source file
 deprecated/timer_legacy.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/timer_legacy.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/timer_legacy.c.i
 .PHONY : deprecated/timer_legacy.c.i
 
 deprecated/timer_legacy.s: deprecated/timer_legacy.c.s
@@ -388,7 +388,7 @@ deprecated/timer_legacy.s: deprecated/timer_legacy.c.s
 
 # target to generate assembly for a file
 deprecated/timer_legacy.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/timer_legacy.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/timer_legacy.c.s
 .PHONY : deprecated/timer_legacy.c.s
 
 i2c/i2c.obj: i2c/i2c.c.obj
@@ -396,7 +396,7 @@ i2c/i2c.obj: i2c/i2c.c.obj
 
 # target to build an object file
 i2c/i2c.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj
 .PHONY : i2c/i2c.c.obj
 
 i2c/i2c.i: i2c/i2c.c.i
@@ -404,7 +404,7 @@ i2c/i2c.i: i2c/i2c.c.i
 
 # target to preprocess a source file
 i2c/i2c.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.i
 .PHONY : i2c/i2c.c.i
 
 i2c/i2c.s: i2c/i2c.c.s
@@ -412,7 +412,7 @@ i2c/i2c.s: i2c/i2c.c.s
 
 # target to generate assembly for a file
 i2c/i2c.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.s
 .PHONY : i2c/i2c.c.s
 
 touch_sensor/esp32s3/touch_sensor.obj: touch_sensor/esp32s3/touch_sensor.c.obj
@@ -420,7 +420,7 @@ touch_sensor/esp32s3/touch_sensor.obj: touch_sensor/esp32s3/touch_sensor.c.obj
 
 # target to build an object file
 touch_sensor/esp32s3/touch_sensor.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.obj
 .PHONY : touch_sensor/esp32s3/touch_sensor.c.obj
 
 touch_sensor/esp32s3/touch_sensor.i: touch_sensor/esp32s3/touch_sensor.c.i
@@ -428,7 +428,7 @@ touch_sensor/esp32s3/touch_sensor.i: touch_sensor/esp32s3/touch_sensor.c.i
 
 # target to preprocess a source file
 touch_sensor/esp32s3/touch_sensor.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.i
 .PHONY : touch_sensor/esp32s3/touch_sensor.c.i
 
 touch_sensor/esp32s3/touch_sensor.s: touch_sensor/esp32s3/touch_sensor.c.s
@@ -436,7 +436,7 @@ touch_sensor/esp32s3/touch_sensor.s: touch_sensor/esp32s3/touch_sensor.c.s
 
 # target to generate assembly for a file
 touch_sensor/esp32s3/touch_sensor.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32s3/touch_sensor.c.s
 .PHONY : touch_sensor/esp32s3/touch_sensor.c.s
 
 touch_sensor/touch_sensor_common.obj: touch_sensor/touch_sensor_common.c.obj
@@ -444,7 +444,7 @@ touch_sensor/touch_sensor_common.obj: touch_sensor/touch_sensor_common.c.obj
 
 # target to build an object file
 touch_sensor/touch_sensor_common.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj
 .PHONY : touch_sensor/touch_sensor_common.c.obj
 
 touch_sensor/touch_sensor_common.i: touch_sensor/touch_sensor_common.c.i
@@ -452,7 +452,7 @@ touch_sensor/touch_sensor_common.i: touch_sensor/touch_sensor_common.c.i
 
 # target to preprocess a source file
 touch_sensor/touch_sensor_common.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.i
 .PHONY : touch_sensor/touch_sensor_common.c.i
 
 touch_sensor/touch_sensor_common.s: touch_sensor/touch_sensor_common.c.s
@@ -460,7 +460,7 @@ touch_sensor/touch_sensor_common.s: touch_sensor/touch_sensor_common.c.s
 
 # target to generate assembly for a file
 touch_sensor/touch_sensor_common.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.s
 .PHONY : touch_sensor/touch_sensor_common.c.s
 
 twai/twai.obj: twai/twai.c.obj
@@ -468,7 +468,7 @@ twai/twai.obj: twai/twai.c.obj
 
 # target to build an object file
 twai/twai.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj
 .PHONY : twai/twai.c.obj
 
 twai/twai.i: twai/twai.c.i
@@ -476,7 +476,7 @@ twai/twai.i: twai/twai.c.i
 
 # target to preprocess a source file
 twai/twai.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.i
 .PHONY : twai/twai.c.i
 
 twai/twai.s: twai/twai.c.s
@@ -484,7 +484,7 @@ twai/twai.s: twai/twai.c.s
 
 # target to generate assembly for a file
 twai/twai.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.s
 .PHONY : twai/twai.c.s
 
 # Help Target
@@ -550,6 +550,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

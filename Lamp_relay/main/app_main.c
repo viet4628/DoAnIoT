@@ -59,13 +59,20 @@ static relay_device_t s_devices[] = {
 #define PROV_AP_PASS ""
 #define PROV_AP_MAX_CONN 4
 #define PROV_ENDPOINT "http://192.168.4.1/provision"
-#define PROV_POP_PIN "K7COL6S2NX"
+#define PROV_SCAN_ENDPOINT "http://192.168.4.1/scan"
+#define PROV_POP_PIN "HUTECHIOT123"
 
 static EventGroupHandle_t s_wifi_event_group;
 static esp_mqtt_client_handle_t s_mqtt_client = NULL;
 static uint32_t s_mqtt_connected = 0;
 static httpd_handle_t s_httpd = NULL;
 static char s_prov_ap_ssid[32] = {0};
+
+// --- WiFi Scan cache (dùng task riêng để tránh block httpd) ---
+#define SCAN_MAX_APS 20
+static wifi_ap_record_t s_scan_results[SCAN_MAX_APS];
+static uint16_t         s_scan_ap_count = 0;
+static SemaphoreHandle_t s_scan_done_sem = NULL;
 
 static bool is_mqtt_uri(const char *value)
 {
@@ -200,10 +207,13 @@ static void print_provisioning_qr(void)
              PROV_ENDPOINT,
              PROV_POP_PIN);
 
-    ESP_LOGI(TAG, "Scan this QR from Smart Home Flutter app (Add Device):");
+    ESP_LOGI(TAG, "================================================");
+    ESP_LOGI(TAG, "SCANNABLE QR CODE FOR PROVISIONING:");
     esp_qrcode_config_t qr_cfg = ESP_QRCODE_CONFIG_DEFAULT();
     esp_qrcode_generate(&qr_cfg, payload);
-    ESP_LOGI(TAG, "QR payload: %s", payload);
+    ESP_LOGI(TAG, "QR Payload: %s", payload);
+    ESP_LOGI(TAG, "PROVISIONING PIN: %s", PROV_POP_PIN);
+    ESP_LOGI(TAG, "================================================");
 }
 
 static void mqtt_event_handler(void *handler_args,
@@ -381,6 +391,13 @@ static esp_err_t handler_provision(httpd_req_t *req)
     cJSON *ssid = cJSON_GetObjectItemCaseSensitive(root, "ssid");
     cJSON *pass = cJSON_GetObjectItemCaseSensitive(root, "password");
     cJSON *broker = cJSON_GetObjectItemCaseSensitive(root, "broker");
+    cJSON *pop = cJSON_GetObjectItemCaseSensitive(root, "pop");
+
+    if (!cJSON_IsString(pop) || !pop->valuestring || strcmp(pop->valuestring, PROV_POP_PIN) != 0) {
+        cJSON_Delete(root);
+        httpd_resp_set_status(req, "403 Forbidden");
+        return httpd_resp_send(req, "Invalid POP PIN", HTTPD_RESP_USE_STRLEN);
+    }
 
     if (!cJSON_IsString(ssid) || !ssid->valuestring || strlen(ssid->valuestring) == 0) {
         cJSON_Delete(root);
@@ -412,10 +429,90 @@ static esp_err_t handler_provision(httpd_req_t *req)
     return ESP_OK;
 }
 
+// Task riêng để thực hiện WiFi scan blocking (tránh overflow task httpd)
+static void wifi_scan_task(void *arg)
+{
+    ESP_LOGI(TAG, "[SCAN] Task started");
+
+    s_scan_ap_count = 0;
+    memset(s_scan_results, 0, sizeof(s_scan_results));
+
+    // Dùng NULL (default config) để tương thích tối đa
+    esp_err_t ret = esp_wifi_scan_start(NULL, true);
+    ESP_LOGI(TAG, "[SCAN] scan_start ret=0x%x (%s)", ret, esp_err_to_name(ret));
+
+    if (ret == ESP_OK) {
+        // ⚠️ QUAN TRỌNG: get_ap_num TRƯỚC, get_ap_records SAU
+        // (get_ap_records sẽ xóa danh sách nội bộ sau khi gọi)
+        uint16_t total_found = 0;
+        esp_wifi_scan_get_ap_num(&total_found);
+        ESP_LOGI(TAG, "[SCAN] Total APs found by driver: %d", total_found);
+
+        uint16_t number = SCAN_MAX_APS;
+        esp_wifi_scan_get_ap_records(&number, s_scan_results);
+        ESP_LOGI(TAG, "[SCAN] Records written to buffer: %d", number);
+
+        s_scan_ap_count = number; // dùng 'number' vì nó chứa count thực tế
+    } else {
+        ESP_LOGE(TAG, "[SCAN] scan_start failed");
+    }
+
+    ESP_LOGI(TAG, "[SCAN] Done. Cached %d APs", s_scan_ap_count);
+    for (int i = 0; i < s_scan_ap_count; i++) {
+        ESP_LOGI(TAG, "[SCAN]  [%d] SSID='%s' RSSI=%d",
+                 i, s_scan_results[i].ssid, s_scan_results[i].rssi);
+    }
+
+    if (s_scan_done_sem) xSemaphoreGive(s_scan_done_sem);
+    vTaskDelete(NULL);
+}
+
+static esp_err_t handler_scan(httpd_req_t *req)
+{
+    set_cors_headers(req);
+    ESP_LOGI(TAG, "WiFi scan requested... serving %d cached APs", s_scan_ap_count);
+
+    // Nếu chưa có cache (phường hợp hiếm), thử scan lại một lần
+    if (s_scan_ap_count == 0) {
+        ESP_LOGW(TAG, "Cache empty, triggering rescan...");
+        if (!s_scan_done_sem) {
+            s_scan_done_sem = xSemaphoreCreateBinary();
+        }
+        xTaskCreate(wifi_scan_task, "wifi_scan", 4096, NULL, 5, NULL);
+        xSemaphoreTake(s_scan_done_sem, pdMS_TO_TICKS(12000));
+    }
+
+    // Xây dựng JSON từ kết quả cache
+    cJSON *root = cJSON_CreateObject();
+    cJSON *list = cJSON_CreateArray();
+    for (int i = 0; i < s_scan_ap_count; i++) {
+        if (strlen((char *)s_scan_results[i].ssid) == 0) continue;
+        cJSON *item = cJSON_CreateObject();
+        cJSON_AddStringToObject(item, "ssid",   (char *)s_scan_results[i].ssid);
+        cJSON_AddNumberToObject(item, "rssi",   s_scan_results[i].rssi);
+        cJSON_AddBoolToObject  (item, "secure", s_scan_results[i].authmode != WIFI_AUTH_OPEN);
+        cJSON_AddItemToArray(list, item);
+    }
+    cJSON_AddItemToObject(root, "wifi_list", list);
+
+    char *json = cJSON_PrintUnformatted(root);
+    cJSON_Delete(root);
+
+    httpd_resp_set_type(req, "application/json");
+    if (json) {
+        httpd_resp_sendstr(req, json);
+        free(json);
+    } else {
+        httpd_resp_sendstr(req, "{\"wifi_list\":[]}");
+    }
+    return ESP_OK;
+}
+
 static void start_provisioning_server(void)
 {
     httpd_config_t cfg = HTTPD_DEFAULT_CONFIG();
     cfg.max_uri_handlers = 8;
+    cfg.stack_size = 8192; // Tăng stack để tránh overflow khi scan WiFi blocking
     if (httpd_start(&s_httpd, &cfg) != ESP_OK) {
         ESP_LOGE(TAG, "Failed to start HTTP server");
         return;
@@ -424,10 +521,12 @@ static void start_provisioning_server(void)
     httpd_uri_t uri_info = { .uri = "/info", .method = HTTP_GET, .handler = handler_info };
     httpd_uri_t uri_provision = { .uri = "/provision", .method = HTTP_POST, .handler = handler_provision };
     httpd_uri_t uri_provision_opts = { .uri = "/provision", .method = HTTP_OPTIONS, .handler = handler_options };
+    httpd_uri_t uri_scan = { .uri = "/scan", .method = HTTP_GET, .handler = handler_scan };
 
     httpd_register_uri_handler(s_httpd, &uri_info);
     httpd_register_uri_handler(s_httpd, &uri_provision);
     httpd_register_uri_handler(s_httpd, &uri_provision_opts);
+    httpd_register_uri_handler(s_httpd, &uri_scan);
 }
 
 static void start_ap_provisioning(void)
@@ -445,9 +544,20 @@ static void start_ap_provisioning(void)
     strlcpy((char *)ap_cfg.ap.ssid, s_prov_ap_ssid, sizeof(ap_cfg.ap.ssid));
     strlcpy((char *)ap_cfg.ap.password, PROV_AP_PASS, sizeof(ap_cfg.ap.password));
 
-    ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_AP));
+    ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_APSTA));
     ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_AP, &ap_cfg));
     ESP_ERROR_CHECK(esp_wifi_start());
+
+    // Pre-scan WiFi TRƯỜC khi phone kết nối vào AP
+    // Radio đang rảnh → scan hiệu quả nhất
+    ESP_LOGI(TAG, "Pre-scanning WiFi before AP clients join...");
+    if (!s_scan_done_sem) {
+        s_scan_done_sem = xSemaphoreCreateBinary();
+    }
+    xTaskCreate(wifi_scan_task, "wifi_prescan", 4096, NULL, 5, NULL);
+    // Chờ scan xong (tối đa 12 giây) mới in QR và khởi động server
+    xSemaphoreTake(s_scan_done_sem, pdMS_TO_TICKS(12000));
+    ESP_LOGI(TAG, "Pre-scan complete: %d networks cached", s_scan_ap_count);
 
     ESP_LOGI(TAG, "Provisioning AP started. SSID='%s'", s_prov_ap_ssid);
     start_provisioning_server();

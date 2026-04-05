@@ -1,4 +1,4 @@
-# Install script for directory: /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode
+# Install script for directory: /home/viet/Downloads/DoAnIoT/Lamp_relay/managed_components/espressif__qrcode
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

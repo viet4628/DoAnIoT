@@ -1,7 +1,7 @@
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_mschapv2.c.obj: \
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c \
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/wpa_supplicant/src/utils/common.h \
  /home/viet/esp/esp-idf/components/wpa_supplicant/port/include/os.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/sys/types.h \

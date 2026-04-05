@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mqtt5.elf.dir/depend.make
@@ -70,22 +70,22 @@ include CMakeFiles/mqtt5.elf.dir/progress.make
 include CMakeFiles/mqtt5.elf.dir/flags.make
 
 project_elf_src_esp32s3.c:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32s3.c"
-	/usr/bin/cmake -E touch /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/project_elf_src_esp32s3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating project_elf_src_esp32s3.c"
+	/usr/bin/cmake -E touch /home/viet/Downloads/DoAnIoT/Lamp_relay/build/project_elf_src_esp32s3.c
 
 CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/mqtt5.elf.dir/flags.make
 CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.obj: project_elf_src_esp32s3.c
 CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.obj: CMakeFiles/mqtt5.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.obj"
-	/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.obj -MF CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.obj.d -o CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.obj -c /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/project_elf_src_esp32s3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.obj"
+	/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.obj -MF CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.obj.d -o CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.obj -c /home/viet/Downloads/DoAnIoT/Lamp_relay/build/project_elf_src_esp32s3.c
 
 CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.i"
-	/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/project_elf_src_esp32s3.c > CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.i
+	/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/viet/Downloads/DoAnIoT/Lamp_relay/build/project_elf_src_esp32s3.c > CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.i
 
 CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.s"
-	/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/project_elf_src_esp32s3.c -o CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.s
+	/home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/viet/Downloads/DoAnIoT/Lamp_relay/build/project_elf_src_esp32s3.c -o CMakeFiles/mqtt5.elf.dir/project_elf_src_esp32s3.c.s
 
 # Object files for target mqtt5.elf
 mqtt5_elf_OBJECTS = \
@@ -471,7 +471,7 @@ mqtt5.elf: /home/viet/esp/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newl
 mqtt5.elf: /home/viet/esp/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
 mqtt5.elf: esp-idf/esp_system/ld/sections.ld
 mqtt5.elf: CMakeFiles/mqtt5.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable mqtt5.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable mqtt5.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mqtt5.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -483,6 +483,6 @@ CMakeFiles/mqtt5.elf.dir/clean:
 .PHONY : CMakeFiles/mqtt5.elf.dir/clean
 
 CMakeFiles/mqtt5.elf.dir/depend: project_elf_src_esp32s3.c
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles/mqtt5.elf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/Downloads/DoAnIoT/Lamp_relay /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles/mqtt5.elf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mqtt5.elf.dir/depend
 

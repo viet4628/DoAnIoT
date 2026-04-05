@@ -1,7 +1,7 @@
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/components/mbedtls/port/esp_mem.c.obj: \
  /home/viet/esp/esp-idf/components/mbedtls/port/esp_mem.c \
  /home/viet/esp/esp-idf/components/esp_common/include/esp_attr.h \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/heap/include/esp_heap_caps.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \

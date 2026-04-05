@@ -1,6 +1,6 @@
 esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/esp32s3/phy_init_data.c.obj: \
  /home/viet/esp/esp-idf/components/esp_phy/esp32s3/phy_init_data.c \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/esp_phy/esp32s3/include/phy_init_data.h \
  /home/viet/esp/esp-idf/components/esp_phy/include/esp_phy_init.h \
  /home/viet/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \

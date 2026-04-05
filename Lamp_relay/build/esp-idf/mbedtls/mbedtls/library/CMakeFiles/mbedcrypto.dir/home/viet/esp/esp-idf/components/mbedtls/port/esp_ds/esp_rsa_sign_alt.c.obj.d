@@ -1,6 +1,6 @@
 esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/viet/esp/esp-idf/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c.obj: \
  /home/viet/esp/esp-idf/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c \
- /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
+ /home/viet/Downloads/DoAnIoT/Lamp_relay/build/config/sdkconfig.h \
  /home/viet/esp/esp-idf/components/mbedtls/port/include/rsa_sign_alt.h \
  /home/viet/esp/esp-idf/components/mbedtls/port/include/esp_ds/esp_ds_rsa.h \
  /home/viet/esp/esp-idf/components/esp_hw_support/include/esp_ds.h \

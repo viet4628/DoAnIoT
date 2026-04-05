@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay
+CMAKE_SOURCE_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/esp-idf/hal//CMakeFiles/progress.marks
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/CMakeFiles 0
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles /home/viet/Downloads/DoAnIoT/Lamp_relay/build/esp-idf/hal//CMakeFiles/progress.marks
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/viet/Downloads/DoAnIoT/Lamp_relay/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/clean
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/preinstall
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/preinstall
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 esp-idf/hal/CMakeFiles/__idf_hal.dir/rule:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/CMakeFiles/__idf_hal.dir/rule
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/hal/CMakeFiles/__idf_hal.dir/rule
 .PHONY : esp-idf/hal/CMakeFiles/__idf_hal.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ __idf_hal: esp-idf/hal/CMakeFiles/__idf_hal.dir/rule
 
 # fast build rule for target.
 __idf_hal/fast:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/build
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/build
 .PHONY : __idf_hal/fast
 
 adc_hal.obj: adc_hal.c.obj
@@ -180,7 +180,7 @@ adc_hal.obj: adc_hal.c.obj
 
 # target to build an object file
 adc_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal.c.obj
 .PHONY : adc_hal.c.obj
 
 adc_hal.i: adc_hal.c.i
@@ -188,7 +188,7 @@ adc_hal.i: adc_hal.c.i
 
 # target to preprocess a source file
 adc_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal.c.i
 .PHONY : adc_hal.c.i
 
 adc_hal.s: adc_hal.c.s
@@ -196,7 +196,7 @@ adc_hal.s: adc_hal.c.s
 
 # target to generate assembly for a file
 adc_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal.c.s
 .PHONY : adc_hal.c.s
 
 adc_hal_common.obj: adc_hal_common.c.obj
@@ -204,7 +204,7 @@ adc_hal_common.obj: adc_hal_common.c.obj
 
 # target to build an object file
 adc_hal_common.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal_common.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal_common.c.obj
 .PHONY : adc_hal_common.c.obj
 
 adc_hal_common.i: adc_hal_common.c.i
@@ -212,7 +212,7 @@ adc_hal_common.i: adc_hal_common.c.i
 
 # target to preprocess a source file
 adc_hal_common.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal_common.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal_common.c.i
 .PHONY : adc_hal_common.c.i
 
 adc_hal_common.s: adc_hal_common.c.s
@@ -220,7 +220,7 @@ adc_hal_common.s: adc_hal_common.c.s
 
 # target to generate assembly for a file
 adc_hal_common.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal_common.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal_common.c.s
 .PHONY : adc_hal_common.c.s
 
 adc_oneshot_hal.obj: adc_oneshot_hal.c.obj
@@ -228,7 +228,7 @@ adc_oneshot_hal.obj: adc_oneshot_hal.c.obj
 
 # target to build an object file
 adc_oneshot_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_oneshot_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_oneshot_hal.c.obj
 .PHONY : adc_oneshot_hal.c.obj
 
 adc_oneshot_hal.i: adc_oneshot_hal.c.i
@@ -236,7 +236,7 @@ adc_oneshot_hal.i: adc_oneshot_hal.c.i
 
 # target to preprocess a source file
 adc_oneshot_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_oneshot_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_oneshot_hal.c.i
 .PHONY : adc_oneshot_hal.c.i
 
 adc_oneshot_hal.s: adc_oneshot_hal.c.s
@@ -244,7 +244,7 @@ adc_oneshot_hal.s: adc_oneshot_hal.c.s
 
 # target to generate assembly for a file
 adc_oneshot_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_oneshot_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_oneshot_hal.c.s
 .PHONY : adc_oneshot_hal.c.s
 
 aes_hal.obj: aes_hal.c.obj
@@ -252,7 +252,7 @@ aes_hal.obj: aes_hal.c.obj
 
 # target to build an object file
 aes_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/aes_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/aes_hal.c.obj
 .PHONY : aes_hal.c.obj
 
 aes_hal.i: aes_hal.c.i
@@ -260,7 +260,7 @@ aes_hal.i: aes_hal.c.i
 
 # target to preprocess a source file
 aes_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/aes_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/aes_hal.c.i
 .PHONY : aes_hal.c.i
 
 aes_hal.s: aes_hal.c.s
@@ -268,7 +268,7 @@ aes_hal.s: aes_hal.c.s
 
 # target to generate assembly for a file
 aes_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/aes_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/aes_hal.c.s
 .PHONY : aes_hal.c.s
 
 brownout_hal.obj: brownout_hal.c.obj
@@ -276,7 +276,7 @@ brownout_hal.obj: brownout_hal.c.obj
 
 # target to build an object file
 brownout_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.obj
 .PHONY : brownout_hal.c.obj
 
 brownout_hal.i: brownout_hal.c.i
@@ -284,7 +284,7 @@ brownout_hal.i: brownout_hal.c.i
 
 # target to preprocess a source file
 brownout_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.i
 .PHONY : brownout_hal.c.i
 
 brownout_hal.s: brownout_hal.c.s
@@ -292,7 +292,7 @@ brownout_hal.s: brownout_hal.c.s
 
 # target to generate assembly for a file
 brownout_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.s
 .PHONY : brownout_hal.c.s
 
 cache_hal.obj: cache_hal.c.obj
@@ -300,7 +300,7 @@ cache_hal.obj: cache_hal.c.obj
 
 # target to build an object file
 cache_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.obj
 .PHONY : cache_hal.c.obj
 
 cache_hal.i: cache_hal.c.i
@@ -308,7 +308,7 @@ cache_hal.i: cache_hal.c.i
 
 # target to preprocess a source file
 cache_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.i
 .PHONY : cache_hal.c.i
 
 cache_hal.s: cache_hal.c.s
@@ -316,7 +316,7 @@ cache_hal.s: cache_hal.c.s
 
 # target to generate assembly for a file
 cache_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cache_hal.c.s
 .PHONY : cache_hal.c.s
 
 cam_hal.obj: cam_hal.c.obj
@@ -324,7 +324,7 @@ cam_hal.obj: cam_hal.c.obj
 
 # target to build an object file
 cam_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cam_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cam_hal.c.obj
 .PHONY : cam_hal.c.obj
 
 cam_hal.i: cam_hal.c.i
@@ -332,7 +332,7 @@ cam_hal.i: cam_hal.c.i
 
 # target to preprocess a source file
 cam_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cam_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cam_hal.c.i
 .PHONY : cam_hal.c.i
 
 cam_hal.s: cam_hal.c.s
@@ -340,7 +340,7 @@ cam_hal.s: cam_hal.c.s
 
 # target to generate assembly for a file
 cam_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cam_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/cam_hal.c.s
 .PHONY : cam_hal.c.s
 
 color_hal.obj: color_hal.c.obj
@@ -348,7 +348,7 @@ color_hal.obj: color_hal.c.obj
 
 # target to build an object file
 color_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.obj
 .PHONY : color_hal.c.obj
 
 color_hal.i: color_hal.c.i
@@ -356,7 +356,7 @@ color_hal.i: color_hal.c.i
 
 # target to preprocess a source file
 color_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.i
 .PHONY : color_hal.c.i
 
 color_hal.s: color_hal.c.s
@@ -364,7 +364,7 @@ color_hal.s: color_hal.c.s
 
 # target to generate assembly for a file
 color_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.s
 .PHONY : color_hal.c.s
 
 ds_hal.obj: ds_hal.c.obj
@@ -372,7 +372,7 @@ ds_hal.obj: ds_hal.c.obj
 
 # target to build an object file
 ds_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ds_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ds_hal.c.obj
 .PHONY : ds_hal.c.obj
 
 ds_hal.i: ds_hal.c.i
@@ -380,7 +380,7 @@ ds_hal.i: ds_hal.c.i
 
 # target to preprocess a source file
 ds_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ds_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ds_hal.c.i
 .PHONY : ds_hal.c.i
 
 ds_hal.s: ds_hal.c.s
@@ -388,7 +388,7 @@ ds_hal.s: ds_hal.c.s
 
 # target to generate assembly for a file
 ds_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ds_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ds_hal.c.s
 .PHONY : ds_hal.c.s
 
 efuse_hal.obj: efuse_hal.c.obj
@@ -396,7 +396,7 @@ efuse_hal.obj: efuse_hal.c.obj
 
 # target to build an object file
 efuse_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
 .PHONY : efuse_hal.c.obj
 
 efuse_hal.i: efuse_hal.c.i
@@ -404,7 +404,7 @@ efuse_hal.i: efuse_hal.c.i
 
 # target to preprocess a source file
 efuse_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.i
 .PHONY : efuse_hal.c.i
 
 efuse_hal.s: efuse_hal.c.s
@@ -412,7 +412,7 @@ efuse_hal.s: efuse_hal.c.s
 
 # target to generate assembly for a file
 efuse_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.s
 .PHONY : efuse_hal.c.s
 
 esp32s3/clk_tree_hal.obj: esp32s3/clk_tree_hal.c.obj
@@ -420,7 +420,7 @@ esp32s3/clk_tree_hal.obj: esp32s3/clk_tree_hal.c.obj
 
 # target to build an object file
 esp32s3/clk_tree_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/clk_tree_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/clk_tree_hal.c.obj
 .PHONY : esp32s3/clk_tree_hal.c.obj
 
 esp32s3/clk_tree_hal.i: esp32s3/clk_tree_hal.c.i
@@ -428,7 +428,7 @@ esp32s3/clk_tree_hal.i: esp32s3/clk_tree_hal.c.i
 
 # target to preprocess a source file
 esp32s3/clk_tree_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/clk_tree_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/clk_tree_hal.c.i
 .PHONY : esp32s3/clk_tree_hal.c.i
 
 esp32s3/clk_tree_hal.s: esp32s3/clk_tree_hal.c.s
@@ -436,7 +436,7 @@ esp32s3/clk_tree_hal.s: esp32s3/clk_tree_hal.c.s
 
 # target to generate assembly for a file
 esp32s3/clk_tree_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/clk_tree_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/clk_tree_hal.c.s
 .PHONY : esp32s3/clk_tree_hal.c.s
 
 esp32s3/efuse_hal.obj: esp32s3/efuse_hal.c.obj
@@ -444,7 +444,7 @@ esp32s3/efuse_hal.obj: esp32s3/efuse_hal.c.obj
 
 # target to build an object file
 esp32s3/efuse_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.obj
 .PHONY : esp32s3/efuse_hal.c.obj
 
 esp32s3/efuse_hal.i: esp32s3/efuse_hal.c.i
@@ -452,7 +452,7 @@ esp32s3/efuse_hal.i: esp32s3/efuse_hal.c.i
 
 # target to preprocess a source file
 esp32s3/efuse_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.i
 .PHONY : esp32s3/efuse_hal.c.i
 
 esp32s3/efuse_hal.s: esp32s3/efuse_hal.c.s
@@ -460,7 +460,7 @@ esp32s3/efuse_hal.s: esp32s3/efuse_hal.c.s
 
 # target to generate assembly for a file
 esp32s3/efuse_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/efuse_hal.c.s
 .PHONY : esp32s3/efuse_hal.c.s
 
 esp32s3/rtc_cntl_hal.obj: esp32s3/rtc_cntl_hal.c.obj
@@ -468,7 +468,7 @@ esp32s3/rtc_cntl_hal.obj: esp32s3/rtc_cntl_hal.c.obj
 
 # target to build an object file
 esp32s3/rtc_cntl_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/rtc_cntl_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/rtc_cntl_hal.c.obj
 .PHONY : esp32s3/rtc_cntl_hal.c.obj
 
 esp32s3/rtc_cntl_hal.i: esp32s3/rtc_cntl_hal.c.i
@@ -476,7 +476,7 @@ esp32s3/rtc_cntl_hal.i: esp32s3/rtc_cntl_hal.c.i
 
 # target to preprocess a source file
 esp32s3/rtc_cntl_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/rtc_cntl_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/rtc_cntl_hal.c.i
 .PHONY : esp32s3/rtc_cntl_hal.c.i
 
 esp32s3/rtc_cntl_hal.s: esp32s3/rtc_cntl_hal.c.s
@@ -484,7 +484,7 @@ esp32s3/rtc_cntl_hal.s: esp32s3/rtc_cntl_hal.c.s
 
 # target to generate assembly for a file
 esp32s3/rtc_cntl_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/rtc_cntl_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/rtc_cntl_hal.c.s
 .PHONY : esp32s3/rtc_cntl_hal.c.s
 
 esp32s3/touch_sensor_hal.obj: esp32s3/touch_sensor_hal.c.obj
@@ -492,7 +492,7 @@ esp32s3/touch_sensor_hal.obj: esp32s3/touch_sensor_hal.c.obj
 
 # target to build an object file
 esp32s3/touch_sensor_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/touch_sensor_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/touch_sensor_hal.c.obj
 .PHONY : esp32s3/touch_sensor_hal.c.obj
 
 esp32s3/touch_sensor_hal.i: esp32s3/touch_sensor_hal.c.i
@@ -500,7 +500,7 @@ esp32s3/touch_sensor_hal.i: esp32s3/touch_sensor_hal.c.i
 
 # target to preprocess a source file
 esp32s3/touch_sensor_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/touch_sensor_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/touch_sensor_hal.c.i
 .PHONY : esp32s3/touch_sensor_hal.c.i
 
 esp32s3/touch_sensor_hal.s: esp32s3/touch_sensor_hal.c.s
@@ -508,7 +508,7 @@ esp32s3/touch_sensor_hal.s: esp32s3/touch_sensor_hal.c.s
 
 # target to generate assembly for a file
 esp32s3/touch_sensor_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/touch_sensor_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32s3/touch_sensor_hal.c.s
 .PHONY : esp32s3/touch_sensor_hal.c.s
 
 gdma_hal_ahb_v1.obj: gdma_hal_ahb_v1.c.obj
@@ -516,7 +516,7 @@ gdma_hal_ahb_v1.obj: gdma_hal_ahb_v1.c.obj
 
 # target to build an object file
 gdma_hal_ahb_v1.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_ahb_v1.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_ahb_v1.c.obj
 .PHONY : gdma_hal_ahb_v1.c.obj
 
 gdma_hal_ahb_v1.i: gdma_hal_ahb_v1.c.i
@@ -524,7 +524,7 @@ gdma_hal_ahb_v1.i: gdma_hal_ahb_v1.c.i
 
 # target to preprocess a source file
 gdma_hal_ahb_v1.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_ahb_v1.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_ahb_v1.c.i
 .PHONY : gdma_hal_ahb_v1.c.i
 
 gdma_hal_ahb_v1.s: gdma_hal_ahb_v1.c.s
@@ -532,7 +532,7 @@ gdma_hal_ahb_v1.s: gdma_hal_ahb_v1.c.s
 
 # target to generate assembly for a file
 gdma_hal_ahb_v1.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_ahb_v1.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_ahb_v1.c.s
 .PHONY : gdma_hal_ahb_v1.c.s
 
 gdma_hal_top.obj: gdma_hal_top.c.obj
@@ -540,7 +540,7 @@ gdma_hal_top.obj: gdma_hal_top.c.obj
 
 # target to build an object file
 gdma_hal_top.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_top.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_top.c.obj
 .PHONY : gdma_hal_top.c.obj
 
 gdma_hal_top.i: gdma_hal_top.c.i
@@ -548,7 +548,7 @@ gdma_hal_top.i: gdma_hal_top.c.i
 
 # target to preprocess a source file
 gdma_hal_top.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_top.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_top.c.i
 .PHONY : gdma_hal_top.c.i
 
 gdma_hal_top.s: gdma_hal_top.c.s
@@ -556,7 +556,7 @@ gdma_hal_top.s: gdma_hal_top.c.s
 
 # target to generate assembly for a file
 gdma_hal_top.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_top.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gdma_hal_top.c.s
 .PHONY : gdma_hal_top.c.s
 
 gpio_hal.obj: gpio_hal.c.obj
@@ -564,7 +564,7 @@ gpio_hal.obj: gpio_hal.c.obj
 
 # target to build an object file
 gpio_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.obj
 .PHONY : gpio_hal.c.obj
 
 gpio_hal.i: gpio_hal.c.i
@@ -572,7 +572,7 @@ gpio_hal.i: gpio_hal.c.i
 
 # target to preprocess a source file
 gpio_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.i
 .PHONY : gpio_hal.c.i
 
 gpio_hal.s: gpio_hal.c.s
@@ -580,7 +580,7 @@ gpio_hal.s: gpio_hal.c.s
 
 # target to generate assembly for a file
 gpio_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.s
 .PHONY : gpio_hal.c.s
 
 hal_utils.obj: hal_utils.c.obj
@@ -588,7 +588,7 @@ hal_utils.obj: hal_utils.c.obj
 
 # target to build an object file
 hal_utils.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj
 .PHONY : hal_utils.c.obj
 
 hal_utils.i: hal_utils.c.i
@@ -596,7 +596,7 @@ hal_utils.i: hal_utils.c.i
 
 # target to preprocess a source file
 hal_utils.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.i
 .PHONY : hal_utils.c.i
 
 hal_utils.s: hal_utils.c.s
@@ -604,7 +604,7 @@ hal_utils.s: hal_utils.c.s
 
 # target to generate assembly for a file
 hal_utils.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.s
 .PHONY : hal_utils.c.s
 
 hmac_hal.obj: hmac_hal.c.obj
@@ -612,7 +612,7 @@ hmac_hal.obj: hmac_hal.c.obj
 
 # target to build an object file
 hmac_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hmac_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hmac_hal.c.obj
 .PHONY : hmac_hal.c.obj
 
 hmac_hal.i: hmac_hal.c.i
@@ -620,7 +620,7 @@ hmac_hal.i: hmac_hal.c.i
 
 # target to preprocess a source file
 hmac_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hmac_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hmac_hal.c.i
 .PHONY : hmac_hal.c.i
 
 hmac_hal.s: hmac_hal.c.s
@@ -628,7 +628,7 @@ hmac_hal.s: hmac_hal.c.s
 
 # target to generate assembly for a file
 hmac_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hmac_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/hmac_hal.c.s
 .PHONY : hmac_hal.c.s
 
 i2c_hal.obj: i2c_hal.c.obj
@@ -636,7 +636,7 @@ i2c_hal.obj: i2c_hal.c.obj
 
 # target to build an object file
 i2c_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.obj
 .PHONY : i2c_hal.c.obj
 
 i2c_hal.i: i2c_hal.c.i
@@ -644,7 +644,7 @@ i2c_hal.i: i2c_hal.c.i
 
 # target to preprocess a source file
 i2c_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.i
 .PHONY : i2c_hal.c.i
 
 i2c_hal.s: i2c_hal.c.s
@@ -652,7 +652,7 @@ i2c_hal.s: i2c_hal.c.s
 
 # target to generate assembly for a file
 i2c_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.s
 .PHONY : i2c_hal.c.s
 
 i2c_hal_iram.obj: i2c_hal_iram.c.obj
@@ -660,7 +660,7 @@ i2c_hal_iram.obj: i2c_hal_iram.c.obj
 
 # target to build an object file
 i2c_hal_iram.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.obj
 .PHONY : i2c_hal_iram.c.obj
 
 i2c_hal_iram.i: i2c_hal_iram.c.i
@@ -668,7 +668,7 @@ i2c_hal_iram.i: i2c_hal_iram.c.i
 
 # target to preprocess a source file
 i2c_hal_iram.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.i
 .PHONY : i2c_hal_iram.c.i
 
 i2c_hal_iram.s: i2c_hal_iram.c.s
@@ -676,7 +676,7 @@ i2c_hal_iram.s: i2c_hal_iram.c.s
 
 # target to generate assembly for a file
 i2c_hal_iram.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.s
 .PHONY : i2c_hal_iram.c.s
 
 i2s_hal.obj: i2s_hal.c.obj
@@ -684,7 +684,7 @@ i2s_hal.obj: i2s_hal.c.obj
 
 # target to build an object file
 i2s_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.obj
 .PHONY : i2s_hal.c.obj
 
 i2s_hal.i: i2s_hal.c.i
@@ -692,7 +692,7 @@ i2s_hal.i: i2s_hal.c.i
 
 # target to preprocess a source file
 i2s_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.i
 .PHONY : i2s_hal.c.i
 
 i2s_hal.s: i2s_hal.c.s
@@ -700,7 +700,7 @@ i2s_hal.s: i2s_hal.c.s
 
 # target to generate assembly for a file
 i2s_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.s
 .PHONY : i2s_hal.c.s
 
 lcd_hal.obj: lcd_hal.c.obj
@@ -708,7 +708,7 @@ lcd_hal.obj: lcd_hal.c.obj
 
 # target to build an object file
 lcd_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/lcd_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/lcd_hal.c.obj
 .PHONY : lcd_hal.c.obj
 
 lcd_hal.i: lcd_hal.c.i
@@ -716,7 +716,7 @@ lcd_hal.i: lcd_hal.c.i
 
 # target to preprocess a source file
 lcd_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/lcd_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/lcd_hal.c.i
 .PHONY : lcd_hal.c.i
 
 lcd_hal.s: lcd_hal.c.s
@@ -724,7 +724,7 @@ lcd_hal.s: lcd_hal.c.s
 
 # target to generate assembly for a file
 lcd_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/lcd_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/lcd_hal.c.s
 .PHONY : lcd_hal.c.s
 
 ledc_hal.obj: ledc_hal.c.obj
@@ -732,7 +732,7 @@ ledc_hal.obj: ledc_hal.c.obj
 
 # target to build an object file
 ledc_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal.c.obj
 .PHONY : ledc_hal.c.obj
 
 ledc_hal.i: ledc_hal.c.i
@@ -740,7 +740,7 @@ ledc_hal.i: ledc_hal.c.i
 
 # target to preprocess a source file
 ledc_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal.c.i
 .PHONY : ledc_hal.c.i
 
 ledc_hal.s: ledc_hal.c.s
@@ -748,7 +748,7 @@ ledc_hal.s: ledc_hal.c.s
 
 # target to generate assembly for a file
 ledc_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal.c.s
 .PHONY : ledc_hal.c.s
 
 ledc_hal_iram.obj: ledc_hal_iram.c.obj
@@ -756,7 +756,7 @@ ledc_hal_iram.obj: ledc_hal_iram.c.obj
 
 # target to build an object file
 ledc_hal_iram.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal_iram.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal_iram.c.obj
 .PHONY : ledc_hal_iram.c.obj
 
 ledc_hal_iram.i: ledc_hal_iram.c.i
@@ -764,7 +764,7 @@ ledc_hal_iram.i: ledc_hal_iram.c.i
 
 # target to preprocess a source file
 ledc_hal_iram.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal_iram.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal_iram.c.i
 .PHONY : ledc_hal_iram.c.i
 
 ledc_hal_iram.s: ledc_hal_iram.c.s
@@ -772,7 +772,7 @@ ledc_hal_iram.s: ledc_hal_iram.c.s
 
 # target to generate assembly for a file
 ledc_hal_iram.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal_iram.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal_iram.c.s
 .PHONY : ledc_hal_iram.c.s
 
 mcpwm_hal.obj: mcpwm_hal.c.obj
@@ -780,7 +780,7 @@ mcpwm_hal.obj: mcpwm_hal.c.obj
 
 # target to build an object file
 mcpwm_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mcpwm_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mcpwm_hal.c.obj
 .PHONY : mcpwm_hal.c.obj
 
 mcpwm_hal.i: mcpwm_hal.c.i
@@ -788,7 +788,7 @@ mcpwm_hal.i: mcpwm_hal.c.i
 
 # target to preprocess a source file
 mcpwm_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mcpwm_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mcpwm_hal.c.i
 .PHONY : mcpwm_hal.c.i
 
 mcpwm_hal.s: mcpwm_hal.c.s
@@ -796,7 +796,7 @@ mcpwm_hal.s: mcpwm_hal.c.s
 
 # target to generate assembly for a file
 mcpwm_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mcpwm_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mcpwm_hal.c.s
 .PHONY : mcpwm_hal.c.s
 
 mmu_hal.obj: mmu_hal.c.obj
@@ -804,7 +804,7 @@ mmu_hal.obj: mmu_hal.c.obj
 
 # target to build an object file
 mmu_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
 .PHONY : mmu_hal.c.obj
 
 mmu_hal.i: mmu_hal.c.i
@@ -812,7 +812,7 @@ mmu_hal.i: mmu_hal.c.i
 
 # target to preprocess a source file
 mmu_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.i
 .PHONY : mmu_hal.c.i
 
 mmu_hal.s: mmu_hal.c.s
@@ -820,7 +820,7 @@ mmu_hal.s: mmu_hal.c.s
 
 # target to generate assembly for a file
 mmu_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.s
 .PHONY : mmu_hal.c.s
 
 mpi_hal.obj: mpi_hal.c.obj
@@ -828,7 +828,7 @@ mpi_hal.obj: mpi_hal.c.obj
 
 # target to build an object file
 mpi_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpi_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpi_hal.c.obj
 .PHONY : mpi_hal.c.obj
 
 mpi_hal.i: mpi_hal.c.i
@@ -836,7 +836,7 @@ mpi_hal.i: mpi_hal.c.i
 
 # target to preprocess a source file
 mpi_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpi_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpi_hal.c.i
 .PHONY : mpi_hal.c.i
 
 mpi_hal.s: mpi_hal.c.s
@@ -844,7 +844,7 @@ mpi_hal.s: mpi_hal.c.s
 
 # target to generate assembly for a file
 mpi_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpi_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpi_hal.c.s
 .PHONY : mpi_hal.c.s
 
 mpu_hal.obj: mpu_hal.c.obj
@@ -852,7 +852,7 @@ mpu_hal.obj: mpu_hal.c.obj
 
 # target to build an object file
 mpu_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj
 .PHONY : mpu_hal.c.obj
 
 mpu_hal.i: mpu_hal.c.i
@@ -860,7 +860,7 @@ mpu_hal.i: mpu_hal.c.i
 
 # target to preprocess a source file
 mpu_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.i
 .PHONY : mpu_hal.c.i
 
 mpu_hal.s: mpu_hal.c.s
@@ -868,7 +868,7 @@ mpu_hal.s: mpu_hal.c.s
 
 # target to generate assembly for a file
 mpu_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.s
 .PHONY : mpu_hal.c.s
 
 pcnt_hal.obj: pcnt_hal.c.obj
@@ -876,7 +876,7 @@ pcnt_hal.obj: pcnt_hal.c.obj
 
 # target to build an object file
 pcnt_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.obj
 .PHONY : pcnt_hal.c.obj
 
 pcnt_hal.i: pcnt_hal.c.i
@@ -884,7 +884,7 @@ pcnt_hal.i: pcnt_hal.c.i
 
 # target to preprocess a source file
 pcnt_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.i
 .PHONY : pcnt_hal.c.i
 
 pcnt_hal.s: pcnt_hal.c.s
@@ -892,7 +892,7 @@ pcnt_hal.s: pcnt_hal.c.s
 
 # target to generate assembly for a file
 pcnt_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.s
 .PHONY : pcnt_hal.c.s
 
 rmt_hal.obj: rmt_hal.c.obj
@@ -900,7 +900,7 @@ rmt_hal.obj: rmt_hal.c.obj
 
 # target to build an object file
 rmt_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/rmt_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/rmt_hal.c.obj
 .PHONY : rmt_hal.c.obj
 
 rmt_hal.i: rmt_hal.c.i
@@ -908,7 +908,7 @@ rmt_hal.i: rmt_hal.c.i
 
 # target to preprocess a source file
 rmt_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/rmt_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/rmt_hal.c.i
 .PHONY : rmt_hal.c.i
 
 rmt_hal.s: rmt_hal.c.s
@@ -916,7 +916,7 @@ rmt_hal.s: rmt_hal.c.s
 
 # target to generate assembly for a file
 rmt_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/rmt_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/rmt_hal.c.s
 .PHONY : rmt_hal.c.s
 
 rtc_io_hal.obj: rtc_io_hal.c.obj
@@ -924,7 +924,7 @@ rtc_io_hal.obj: rtc_io_hal.c.obj
 
 # target to build an object file
 rtc_io_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/rtc_io_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/rtc_io_hal.c.obj
 .PHONY : rtc_io_hal.c.obj
 
 rtc_io_hal.i: rtc_io_hal.c.i
@@ -932,7 +932,7 @@ rtc_io_hal.i: rtc_io_hal.c.i
 
 # target to preprocess a source file
 rtc_io_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/rtc_io_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/rtc_io_hal.c.i
 .PHONY : rtc_io_hal.c.i
 
 rtc_io_hal.s: rtc_io_hal.c.s
@@ -940,7 +940,7 @@ rtc_io_hal.s: rtc_io_hal.c.s
 
 # target to generate assembly for a file
 rtc_io_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/rtc_io_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/rtc_io_hal.c.s
 .PHONY : rtc_io_hal.c.s
 
 sdm_hal.obj: sdm_hal.c.obj
@@ -948,7 +948,7 @@ sdm_hal.obj: sdm_hal.c.obj
 
 # target to build an object file
 sdm_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.obj
 .PHONY : sdm_hal.c.obj
 
 sdm_hal.i: sdm_hal.c.i
@@ -956,7 +956,7 @@ sdm_hal.i: sdm_hal.c.i
 
 # target to preprocess a source file
 sdm_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.i
 .PHONY : sdm_hal.c.i
 
 sdm_hal.s: sdm_hal.c.s
@@ -964,7 +964,7 @@ sdm_hal.s: sdm_hal.c.s
 
 # target to generate assembly for a file
 sdm_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.s
 .PHONY : sdm_hal.c.s
 
 sdmmc_hal.obj: sdmmc_hal.c.obj
@@ -972,7 +972,7 @@ sdmmc_hal.obj: sdmmc_hal.c.obj
 
 # target to build an object file
 sdmmc_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdmmc_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdmmc_hal.c.obj
 .PHONY : sdmmc_hal.c.obj
 
 sdmmc_hal.i: sdmmc_hal.c.i
@@ -980,7 +980,7 @@ sdmmc_hal.i: sdmmc_hal.c.i
 
 # target to preprocess a source file
 sdmmc_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdmmc_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdmmc_hal.c.i
 .PHONY : sdmmc_hal.c.i
 
 sdmmc_hal.s: sdmmc_hal.c.s
@@ -988,7 +988,7 @@ sdmmc_hal.s: sdmmc_hal.c.s
 
 # target to generate assembly for a file
 sdmmc_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdmmc_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sdmmc_hal.c.s
 .PHONY : sdmmc_hal.c.s
 
 sha_hal.obj: sha_hal.c.obj
@@ -996,7 +996,7 @@ sha_hal.obj: sha_hal.c.obj
 
 # target to build an object file
 sha_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.obj
 .PHONY : sha_hal.c.obj
 
 sha_hal.i: sha_hal.c.i
@@ -1004,7 +1004,7 @@ sha_hal.i: sha_hal.c.i
 
 # target to preprocess a source file
 sha_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.i
 .PHONY : sha_hal.c.i
 
 sha_hal.s: sha_hal.c.s
@@ -1012,7 +1012,7 @@ sha_hal.s: sha_hal.c.s
 
 # target to generate assembly for a file
 sha_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.s
 .PHONY : sha_hal.c.s
 
 spi_flash_encrypt_hal_iram.obj: spi_flash_encrypt_hal_iram.c.obj
@@ -1020,7 +1020,7 @@ spi_flash_encrypt_hal_iram.obj: spi_flash_encrypt_hal_iram.c.obj
 
 # target to build an object file
 spi_flash_encrypt_hal_iram.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.obj
 .PHONY : spi_flash_encrypt_hal_iram.c.obj
 
 spi_flash_encrypt_hal_iram.i: spi_flash_encrypt_hal_iram.c.i
@@ -1028,7 +1028,7 @@ spi_flash_encrypt_hal_iram.i: spi_flash_encrypt_hal_iram.c.i
 
 # target to preprocess a source file
 spi_flash_encrypt_hal_iram.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.i
 .PHONY : spi_flash_encrypt_hal_iram.c.i
 
 spi_flash_encrypt_hal_iram.s: spi_flash_encrypt_hal_iram.c.s
@@ -1036,7 +1036,7 @@ spi_flash_encrypt_hal_iram.s: spi_flash_encrypt_hal_iram.c.s
 
 # target to generate assembly for a file
 spi_flash_encrypt_hal_iram.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.s
 .PHONY : spi_flash_encrypt_hal_iram.c.s
 
 spi_flash_hal.obj: spi_flash_hal.c.obj
@@ -1044,7 +1044,7 @@ spi_flash_hal.obj: spi_flash_hal.c.obj
 
 # target to build an object file
 spi_flash_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.obj
 .PHONY : spi_flash_hal.c.obj
 
 spi_flash_hal.i: spi_flash_hal.c.i
@@ -1052,7 +1052,7 @@ spi_flash_hal.i: spi_flash_hal.c.i
 
 # target to preprocess a source file
 spi_flash_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.i
 .PHONY : spi_flash_hal.c.i
 
 spi_flash_hal.s: spi_flash_hal.c.s
@@ -1060,7 +1060,7 @@ spi_flash_hal.s: spi_flash_hal.c.s
 
 # target to generate assembly for a file
 spi_flash_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.s
 .PHONY : spi_flash_hal.c.s
 
 spi_flash_hal_gpspi.obj: spi_flash_hal_gpspi.c.obj
@@ -1068,7 +1068,7 @@ spi_flash_hal_gpspi.obj: spi_flash_hal_gpspi.c.obj
 
 # target to build an object file
 spi_flash_hal_gpspi.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_gpspi.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_gpspi.c.obj
 .PHONY : spi_flash_hal_gpspi.c.obj
 
 spi_flash_hal_gpspi.i: spi_flash_hal_gpspi.c.i
@@ -1076,7 +1076,7 @@ spi_flash_hal_gpspi.i: spi_flash_hal_gpspi.c.i
 
 # target to preprocess a source file
 spi_flash_hal_gpspi.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_gpspi.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_gpspi.c.i
 .PHONY : spi_flash_hal_gpspi.c.i
 
 spi_flash_hal_gpspi.s: spi_flash_hal_gpspi.c.s
@@ -1084,7 +1084,7 @@ spi_flash_hal_gpspi.s: spi_flash_hal_gpspi.c.s
 
 # target to generate assembly for a file
 spi_flash_hal_gpspi.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_gpspi.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_gpspi.c.s
 .PHONY : spi_flash_hal_gpspi.c.s
 
 spi_flash_hal_iram.obj: spi_flash_hal_iram.c.obj
@@ -1092,7 +1092,7 @@ spi_flash_hal_iram.obj: spi_flash_hal_iram.c.obj
 
 # target to build an object file
 spi_flash_hal_iram.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.obj
 .PHONY : spi_flash_hal_iram.c.obj
 
 spi_flash_hal_iram.i: spi_flash_hal_iram.c.i
@@ -1100,7 +1100,7 @@ spi_flash_hal_iram.i: spi_flash_hal_iram.c.i
 
 # target to preprocess a source file
 spi_flash_hal_iram.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.i
 .PHONY : spi_flash_hal_iram.c.i
 
 spi_flash_hal_iram.s: spi_flash_hal_iram.c.s
@@ -1108,7 +1108,7 @@ spi_flash_hal_iram.s: spi_flash_hal_iram.c.s
 
 # target to generate assembly for a file
 spi_flash_hal_iram.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.s
 .PHONY : spi_flash_hal_iram.c.s
 
 spi_hal.obj: spi_hal.c.obj
@@ -1116,7 +1116,7 @@ spi_hal.obj: spi_hal.c.obj
 
 # target to build an object file
 spi_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal.c.obj
 .PHONY : spi_hal.c.obj
 
 spi_hal.i: spi_hal.c.i
@@ -1124,7 +1124,7 @@ spi_hal.i: spi_hal.c.i
 
 # target to preprocess a source file
 spi_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal.c.i
 .PHONY : spi_hal.c.i
 
 spi_hal.s: spi_hal.c.s
@@ -1132,7 +1132,7 @@ spi_hal.s: spi_hal.c.s
 
 # target to generate assembly for a file
 spi_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal.c.s
 .PHONY : spi_hal.c.s
 
 spi_hal_iram.obj: spi_hal_iram.c.obj
@@ -1140,7 +1140,7 @@ spi_hal_iram.obj: spi_hal_iram.c.obj
 
 # target to build an object file
 spi_hal_iram.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal_iram.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal_iram.c.obj
 .PHONY : spi_hal_iram.c.obj
 
 spi_hal_iram.i: spi_hal_iram.c.i
@@ -1148,7 +1148,7 @@ spi_hal_iram.i: spi_hal_iram.c.i
 
 # target to preprocess a source file
 spi_hal_iram.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal_iram.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal_iram.c.i
 .PHONY : spi_hal_iram.c.i
 
 spi_hal_iram.s: spi_hal_iram.c.s
@@ -1156,7 +1156,7 @@ spi_hal_iram.s: spi_hal_iram.c.s
 
 # target to generate assembly for a file
 spi_hal_iram.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal_iram.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal_iram.c.s
 .PHONY : spi_hal_iram.c.s
 
 spi_slave_hal.obj: spi_slave_hal.c.obj
@@ -1164,7 +1164,7 @@ spi_slave_hal.obj: spi_slave_hal.c.obj
 
 # target to build an object file
 spi_slave_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal.c.obj
 .PHONY : spi_slave_hal.c.obj
 
 spi_slave_hal.i: spi_slave_hal.c.i
@@ -1172,7 +1172,7 @@ spi_slave_hal.i: spi_slave_hal.c.i
 
 # target to preprocess a source file
 spi_slave_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal.c.i
 .PHONY : spi_slave_hal.c.i
 
 spi_slave_hal.s: spi_slave_hal.c.s
@@ -1180,7 +1180,7 @@ spi_slave_hal.s: spi_slave_hal.c.s
 
 # target to generate assembly for a file
 spi_slave_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal.c.s
 .PHONY : spi_slave_hal.c.s
 
 spi_slave_hal_iram.obj: spi_slave_hal_iram.c.obj
@@ -1188,7 +1188,7 @@ spi_slave_hal_iram.obj: spi_slave_hal_iram.c.obj
 
 # target to build an object file
 spi_slave_hal_iram.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal_iram.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal_iram.c.obj
 .PHONY : spi_slave_hal_iram.c.obj
 
 spi_slave_hal_iram.i: spi_slave_hal_iram.c.i
@@ -1196,7 +1196,7 @@ spi_slave_hal_iram.i: spi_slave_hal_iram.c.i
 
 # target to preprocess a source file
 spi_slave_hal_iram.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal_iram.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal_iram.c.i
 .PHONY : spi_slave_hal_iram.c.i
 
 spi_slave_hal_iram.s: spi_slave_hal_iram.c.s
@@ -1204,7 +1204,7 @@ spi_slave_hal_iram.s: spi_slave_hal_iram.c.s
 
 # target to generate assembly for a file
 spi_slave_hal_iram.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal_iram.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal_iram.c.s
 .PHONY : spi_slave_hal_iram.c.s
 
 spi_slave_hd_hal.obj: spi_slave_hd_hal.c.obj
@@ -1212,7 +1212,7 @@ spi_slave_hd_hal.obj: spi_slave_hd_hal.c.obj
 
 # target to build an object file
 spi_slave_hd_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hd_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hd_hal.c.obj
 .PHONY : spi_slave_hd_hal.c.obj
 
 spi_slave_hd_hal.i: spi_slave_hd_hal.c.i
@@ -1220,7 +1220,7 @@ spi_slave_hd_hal.i: spi_slave_hd_hal.c.i
 
 # target to preprocess a source file
 spi_slave_hd_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hd_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hd_hal.c.i
 .PHONY : spi_slave_hd_hal.c.i
 
 spi_slave_hd_hal.s: spi_slave_hd_hal.c.s
@@ -1228,7 +1228,7 @@ spi_slave_hd_hal.s: spi_slave_hd_hal.c.s
 
 # target to generate assembly for a file
 spi_slave_hd_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hd_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hd_hal.c.s
 .PHONY : spi_slave_hd_hal.c.s
 
 systimer_hal.obj: systimer_hal.c.obj
@@ -1236,7 +1236,7 @@ systimer_hal.obj: systimer_hal.c.obj
 
 # target to build an object file
 systimer_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/systimer_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/systimer_hal.c.obj
 .PHONY : systimer_hal.c.obj
 
 systimer_hal.i: systimer_hal.c.i
@@ -1244,7 +1244,7 @@ systimer_hal.i: systimer_hal.c.i
 
 # target to preprocess a source file
 systimer_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/systimer_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/systimer_hal.c.i
 .PHONY : systimer_hal.c.i
 
 systimer_hal.s: systimer_hal.c.s
@@ -1252,7 +1252,7 @@ systimer_hal.s: systimer_hal.c.s
 
 # target to generate assembly for a file
 systimer_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/systimer_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/systimer_hal.c.s
 .PHONY : systimer_hal.c.s
 
 timer_hal.obj: timer_hal.c.obj
@@ -1260,7 +1260,7 @@ timer_hal.obj: timer_hal.c.obj
 
 # target to build an object file
 timer_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.obj
 .PHONY : timer_hal.c.obj
 
 timer_hal.i: timer_hal.c.i
@@ -1268,7 +1268,7 @@ timer_hal.i: timer_hal.c.i
 
 # target to preprocess a source file
 timer_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.i
 .PHONY : timer_hal.c.i
 
 timer_hal.s: timer_hal.c.s
@@ -1276,7 +1276,7 @@ timer_hal.s: timer_hal.c.s
 
 # target to generate assembly for a file
 timer_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.s
 .PHONY : timer_hal.c.s
 
 touch_sens_hal.obj: touch_sens_hal.c.obj
@@ -1284,7 +1284,7 @@ touch_sens_hal.obj: touch_sens_hal.c.obj
 
 # target to build an object file
 touch_sens_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sens_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sens_hal.c.obj
 .PHONY : touch_sens_hal.c.obj
 
 touch_sens_hal.i: touch_sens_hal.c.i
@@ -1292,7 +1292,7 @@ touch_sens_hal.i: touch_sens_hal.c.i
 
 # target to preprocess a source file
 touch_sens_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sens_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sens_hal.c.i
 .PHONY : touch_sens_hal.c.i
 
 touch_sens_hal.s: touch_sens_hal.c.s
@@ -1300,7 +1300,7 @@ touch_sens_hal.s: touch_sens_hal.c.s
 
 # target to generate assembly for a file
 touch_sens_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sens_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sens_hal.c.s
 .PHONY : touch_sens_hal.c.s
 
 touch_sensor_hal.obj: touch_sensor_hal.c.obj
@@ -1308,7 +1308,7 @@ touch_sensor_hal.obj: touch_sensor_hal.c.obj
 
 # target to build an object file
 touch_sensor_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sensor_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sensor_hal.c.obj
 .PHONY : touch_sensor_hal.c.obj
 
 touch_sensor_hal.i: touch_sensor_hal.c.i
@@ -1316,7 +1316,7 @@ touch_sensor_hal.i: touch_sensor_hal.c.i
 
 # target to preprocess a source file
 touch_sensor_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sensor_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sensor_hal.c.i
 .PHONY : touch_sensor_hal.c.i
 
 touch_sensor_hal.s: touch_sensor_hal.c.s
@@ -1324,7 +1324,7 @@ touch_sensor_hal.s: touch_sensor_hal.c.s
 
 # target to generate assembly for a file
 touch_sensor_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sensor_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sensor_hal.c.s
 .PHONY : touch_sensor_hal.c.s
 
 twai_hal_v1.obj: twai_hal_v1.c.obj
@@ -1332,7 +1332,7 @@ twai_hal_v1.obj: twai_hal_v1.c.obj
 
 # target to build an object file
 twai_hal_v1.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_v1.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_v1.c.obj
 .PHONY : twai_hal_v1.c.obj
 
 twai_hal_v1.i: twai_hal_v1.c.i
@@ -1340,7 +1340,7 @@ twai_hal_v1.i: twai_hal_v1.c.i
 
 # target to preprocess a source file
 twai_hal_v1.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_v1.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_v1.c.i
 .PHONY : twai_hal_v1.c.i
 
 twai_hal_v1.s: twai_hal_v1.c.s
@@ -1348,7 +1348,7 @@ twai_hal_v1.s: twai_hal_v1.c.s
 
 # target to generate assembly for a file
 twai_hal_v1.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_v1.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_v1.c.s
 .PHONY : twai_hal_v1.c.s
 
 uart_hal.obj: uart_hal.c.obj
@@ -1356,7 +1356,7 @@ uart_hal.obj: uart_hal.c.obj
 
 # target to build an object file
 uart_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal.c.obj
 .PHONY : uart_hal.c.obj
 
 uart_hal.i: uart_hal.c.i
@@ -1364,7 +1364,7 @@ uart_hal.i: uart_hal.c.i
 
 # target to preprocess a source file
 uart_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal.c.i
 .PHONY : uart_hal.c.i
 
 uart_hal.s: uart_hal.c.s
@@ -1372,7 +1372,7 @@ uart_hal.s: uart_hal.c.s
 
 # target to generate assembly for a file
 uart_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal.c.s
 .PHONY : uart_hal.c.s
 
 uart_hal_iram.obj: uart_hal_iram.c.obj
@@ -1380,7 +1380,7 @@ uart_hal_iram.obj: uart_hal_iram.c.obj
 
 # target to build an object file
 uart_hal_iram.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal_iram.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal_iram.c.obj
 .PHONY : uart_hal_iram.c.obj
 
 uart_hal_iram.i: uart_hal_iram.c.i
@@ -1388,7 +1388,7 @@ uart_hal_iram.i: uart_hal_iram.c.i
 
 # target to preprocess a source file
 uart_hal_iram.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal_iram.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal_iram.c.i
 .PHONY : uart_hal_iram.c.i
 
 uart_hal_iram.s: uart_hal_iram.c.s
@@ -1396,7 +1396,7 @@ uart_hal_iram.s: uart_hal_iram.c.s
 
 # target to generate assembly for a file
 uart_hal_iram.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal_iram.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal_iram.c.s
 .PHONY : uart_hal_iram.c.s
 
 uhci_hal.obj: uhci_hal.c.obj
@@ -1404,7 +1404,7 @@ uhci_hal.obj: uhci_hal.c.obj
 
 # target to build an object file
 uhci_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uhci_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uhci_hal.c.obj
 .PHONY : uhci_hal.c.obj
 
 uhci_hal.i: uhci_hal.c.i
@@ -1412,7 +1412,7 @@ uhci_hal.i: uhci_hal.c.i
 
 # target to preprocess a source file
 uhci_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uhci_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uhci_hal.c.i
 .PHONY : uhci_hal.c.i
 
 uhci_hal.s: uhci_hal.c.s
@@ -1420,7 +1420,7 @@ uhci_hal.s: uhci_hal.c.s
 
 # target to generate assembly for a file
 uhci_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uhci_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/uhci_hal.c.s
 .PHONY : uhci_hal.c.s
 
 usb_dwc_hal.obj: usb_dwc_hal.c.obj
@@ -1428,7 +1428,7 @@ usb_dwc_hal.obj: usb_dwc_hal.c.obj
 
 # target to build an object file
 usb_dwc_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_dwc_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_dwc_hal.c.obj
 .PHONY : usb_dwc_hal.c.obj
 
 usb_dwc_hal.i: usb_dwc_hal.c.i
@@ -1436,7 +1436,7 @@ usb_dwc_hal.i: usb_dwc_hal.c.i
 
 # target to preprocess a source file
 usb_dwc_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_dwc_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_dwc_hal.c.i
 .PHONY : usb_dwc_hal.c.i
 
 usb_dwc_hal.s: usb_dwc_hal.c.s
@@ -1444,7 +1444,7 @@ usb_dwc_hal.s: usb_dwc_hal.c.s
 
 # target to generate assembly for a file
 usb_dwc_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_dwc_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_dwc_hal.c.s
 .PHONY : usb_dwc_hal.c.s
 
 usb_serial_jtag_hal.obj: usb_serial_jtag_hal.c.obj
@@ -1452,7 +1452,7 @@ usb_serial_jtag_hal.obj: usb_serial_jtag_hal.c.obj
 
 # target to build an object file
 usb_serial_jtag_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_serial_jtag_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_serial_jtag_hal.c.obj
 .PHONY : usb_serial_jtag_hal.c.obj
 
 usb_serial_jtag_hal.i: usb_serial_jtag_hal.c.i
@@ -1460,7 +1460,7 @@ usb_serial_jtag_hal.i: usb_serial_jtag_hal.c.i
 
 # target to preprocess a source file
 usb_serial_jtag_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_serial_jtag_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_serial_jtag_hal.c.i
 .PHONY : usb_serial_jtag_hal.c.i
 
 usb_serial_jtag_hal.s: usb_serial_jtag_hal.c.s
@@ -1468,7 +1468,7 @@ usb_serial_jtag_hal.s: usb_serial_jtag_hal.c.s
 
 # target to generate assembly for a file
 usb_serial_jtag_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_serial_jtag_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_serial_jtag_hal.c.s
 .PHONY : usb_serial_jtag_hal.c.s
 
 usb_wrap_hal.obj: usb_wrap_hal.c.obj
@@ -1476,7 +1476,7 @@ usb_wrap_hal.obj: usb_wrap_hal.c.obj
 
 # target to build an object file
 usb_wrap_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_wrap_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_wrap_hal.c.obj
 .PHONY : usb_wrap_hal.c.obj
 
 usb_wrap_hal.i: usb_wrap_hal.c.i
@@ -1484,7 +1484,7 @@ usb_wrap_hal.i: usb_wrap_hal.c.i
 
 # target to preprocess a source file
 usb_wrap_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_wrap_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_wrap_hal.c.i
 .PHONY : usb_wrap_hal.c.i
 
 usb_wrap_hal.s: usb_wrap_hal.c.s
@@ -1492,7 +1492,7 @@ usb_wrap_hal.s: usb_wrap_hal.c.s
 
 # target to generate assembly for a file
 usb_wrap_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_wrap_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/usb_wrap_hal.c.s
 .PHONY : usb_wrap_hal.c.s
 
 xt_wdt_hal.obj: xt_wdt_hal.c.obj
@@ -1500,7 +1500,7 @@ xt_wdt_hal.obj: xt_wdt_hal.c.obj
 
 # target to build an object file
 xt_wdt_hal.c.obj:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/xt_wdt_hal.c.obj
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/xt_wdt_hal.c.obj
 .PHONY : xt_wdt_hal.c.obj
 
 xt_wdt_hal.i: xt_wdt_hal.c.i
@@ -1508,7 +1508,7 @@ xt_wdt_hal.i: xt_wdt_hal.c.i
 
 # target to preprocess a source file
 xt_wdt_hal.c.i:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/xt_wdt_hal.c.i
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/xt_wdt_hal.c.i
 .PHONY : xt_wdt_hal.c.i
 
 xt_wdt_hal.s: xt_wdt_hal.c.s
@@ -1516,7 +1516,7 @@ xt_wdt_hal.s: xt_wdt_hal.c.s
 
 # target to generate assembly for a file
 xt_wdt_hal.c.s:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/xt_wdt_hal.c.s
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(MAKE) $(MAKESILENT) -f esp-idf/hal/CMakeFiles/__idf_hal.dir/build.make esp-idf/hal/CMakeFiles/__idf_hal.dir/xt_wdt_hal.c.s
 .PHONY : xt_wdt_hal.c.s
 
 # Help Target
@@ -1711,6 +1711,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

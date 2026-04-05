@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/viet/esp/esp-idf/components/bootloader/subproject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader
+CMAKE_BINARY_DIR = /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader
 
 # Utility rule file for dfu-flash.
 
@@ -67,7 +67,7 @@ include CMakeFiles/dfu-flash.dir/compiler_depend.make
 include CMakeFiles/dfu-flash.dir/progress.make
 
 CMakeFiles/dfu-flash:
-	/usr/bin/cmake -D ESP_DFU_BIN="/home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/dfu.bin" -D ESP_DFU_PID="9" -P /home/viet/esp/esp-idf/tools/cmake/run_dfu_util.cmake
+	/usr/bin/cmake -D ESP_DFU_BIN="/home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/dfu.bin" -D ESP_DFU_PID="9" -P /home/viet/esp/esp-idf/tools/cmake/run_dfu_util.cmake
 
 dfu-flash: CMakeFiles/dfu-flash
 dfu-flash: CMakeFiles/dfu-flash.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/dfu-flash.dir/clean:
 .PHONY : CMakeFiles/dfu-flash.dir/clean
 
 CMakeFiles/dfu-flash.dir/depend:
-	cd /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/IoT/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/dfu-flash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/esp/esp-idf/components/bootloader/subproject /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/CMakeFiles/dfu-flash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dfu-flash.dir/depend
 
