@@ -1,0 +1,2009 @@
+Command: /home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /home/viet/Downloads/DoAnIoT/Lamp_relay/build/mqtt5.elf /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/bootloader.elf -m '/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python' '/home/viet/esp/esp-idf/tools/idf.py'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x9 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (24) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (25) boot: chip revision: v0.2[0m
+[0;32mI (28) boot: efuse block revision: v1.3[0m
+[0;32mI (32) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (36) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (48) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (63) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (70) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (76) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (112) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (116) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (124) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (249) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (262) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (272) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (272) boot: Disabling RNG early entropy source...[0m
+[0;32mI (282) cpu_start: Multicore app[0m
+[0;32mI (290) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (291) cpu_start: Pro cpu start user code[0m
+[0;32mI (291) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (293) app_init: Application information:[0m
+[0;32mI (296) app_init: Project name:     mqtt5[0m
+[0;32mI (300) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (305) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (310) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (314) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (318) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (322) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (326) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (330) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (336) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (341) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (347) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (352) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (358) spi_flash: detected chip: boya[0m
+[0;32mI (361) spi_flash: flash io: dio[0m
+[0;33mW (363) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (376) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (382) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (389) main_task: Started on CPU0[0m
+[0;32mI (409) main_task: Calling app_main()[0m
+[0;32mI (439) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (439) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (449) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (459) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (469) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (479) pp: pp rom version: e7ae62f[0m
+[0;32mI (479) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (489) wifi:wifi driver task: 3fcee7c4, prio:23, stack:6656, core=0[0m
+[0;32mI (499) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (499) wifi:wifi certification version: v7.0[0m
+[0;32mI (499) wifi:config NVS flash: enabled[0m
+[0;32mI (499) wifi:config nano formatting: disabled[0m
+[0;32mI (509) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (509) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (519) wifi:Init management short buffer num: 32[0m
+[0;32mI (519) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (519) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (529) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (529) wifi:Init static rx buffer num: 10[0m
+[0;32mI (539) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (539) wifi_init: rx ba win: 6[0m
+[0;32mI (539) wifi_init: accept mbox: 6[0m
+[0;32mI (549) wifi_init: tcpip mbox: 32[0m
+[0;32mI (549) wifi_init: udp mbox: 6[0m
+[0;32mI (549) wifi_init: tcp mbox: 6[0m
+[0;32mI (549) wifi_init: tcp tx win: 5760[0m
+[0;32mI (559) wifi_init: tcp rx win: 5760[0m
+[0;32mI (559) wifi_init: tcp mss: 1440[0m
+[0;32mI (559) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (569) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (569) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://192.168.1.239:1883'[0m
+[0;32mI (579) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (619) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (619) wifi:enable tsf[0m
+[0;32mI (639) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (639) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (649) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (659) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (669) wifi:connected with Bamos Coffee 2G, aid = 2, channel 2, BW20, bssid = 80:8d:b7:72:15:43[0m
+[0;32mI (669) wifi:security: WPA2-PSK, phy: bgn, rssi: -60[0m
+[0;32mI (679) wifi:pm start, type: 1[0m
+
+[0;32mI (679) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (679) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (699) wifi:<ba-add>idx:0 (ifx:0, 80:8d:b7:72:15:43), tid:0, ssn:2, winSize:64[0m
+[0;32mI (739) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (3709) esp_netif_handlers: sta ip: 172.16.12.73, mask: 255.255.255.0, gw: 172.16.12.1[0m
+[0;32mI (3709) SMARTHOME: Got IP: 172.16.12.73[0m
+[0;32mI (3709) SMARTHOME: Starting MQTT: mqtt://192.168.1.239:1883[0m
+[0;33mW (7469) SMARTHOME: BOOT held - erasing config, restarting[0m
+[0;32mI (7979) wifi:state: run -> init (0x0)[0m
+[0;32mI (7989) wifi:pm stop, total sleep time: 5406658 us / 7309437 us[0m
+
+[0;32mI (7989) wifi:<ba-del>idx:0, tid:0[0m
+[0;32mI (7989) wifi:new:<2,0>, old:<2,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[1;31mE (7989) esp-tls: [sock=54] delayed connect error: Software caused connection abort[0m
+[1;31mE (7999) transport_base: Failed to open a new connection: 32772[0m
+[1;31mE (7999) mqtt_client: Error transport connect[0m
+[0;32mI (8009) SMARTHOME: MQTT disconnected[0m
+[0;32mI (8149) wifi:flush txq[0m
+[0;32mI (8149) wifi:stop sw txq[0m
+[0;32mI (8149) wifi:lmac stop hw txq[0m
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (473) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee7c4, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (513) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (513) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (533) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (543) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: No config found, entering app-driven QR provisioning mode[0m
+[0;32mI (593) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (633) wifi:mode : sta (ac:a7:04:2c:33:40) + softAP (ac:a7:04:2c:33:41)[0m
+[0;32mI (633) wifi:enable tsf[0m
+[0;32mI (633) wifi:Total power save buffer number: 16[0m
+[0;32mI (633) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (643) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (643) SMARTHOME: Pre-scanning WiFi before AP clients join...[0m
+[0;32mI (643) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (663) SMARTHOME: [SCAN] Task started[0m
+[0;32mI (3563) SMARTHOME: [SCAN] scan_start ret=0x0 (ESP_OK)[0m
+[0;32mI (3563) SMARTHOME: [SCAN] Total APs found by driver: 16[0m
+[0;32mI (3563) SMARTHOME: [SCAN] Records written to buffer: 16[0m
+[0;32mI (3563) SMARTHOME: [SCAN] Done. Cached 16 APs[0m
+[0;32mI (3563) SMARTHOME: [SCAN]  [0] SSID='lap09' RSSI=-39[0m
+[0;32mI (3573) SMARTHOME: [SCAN]  [1] SSID='Bamos Coffee' RSSI=-41[0m
+[0;32mI (3573) SMARTHOME: [SCAN]  [2] SSID='Bamos Coffee 2G' RSSI=-43[0m
+[0;32mI (3583) SMARTHOME: [SCAN]  [3] SSID='Bamos Coffee 2G' RSSI=-45[0m
+[0;32mI (3583) SMARTHOME: [SCAN]  [4] SSID='Bamos Coffee 2G' RSSI=-47[0m
+[0;32mI (3593) SMARTHOME: [SCAN]  [5] SSID='Bamos Coffee' RSSI=-48[0m
+[0;32mI (3603) SMARTHOME: [SCAN]  [6] SSID='Nguyen' RSSI=-55[0m
+[0;32mI (3603) SMARTHOME: [SCAN]  [7] SSID='Bamos Coffee' RSSI=-57[0m
+[0;32mI (3613) SMARTHOME: [SCAN]  [8] SSID='Bamos Coffee' RSSI=-62[0m
+[0;32mI (3613) SMARTHOME: [SCAN]  [9] SSID='Bamos Coffee 2G' RSSI=-63[0m
+[0;32mI (3623) SMARTHOME: [SCAN]  [10] SSID='Bamos Coffee 2G' RSSI=-66[0m
+[0;32mI (3623) SMARTHOME: [SCAN]  [11] SSID='Oanh Do' RSSI=-76[0m
+[0;32mI (3633) SMARTHOME: [SCAN]  [12] SSID='xiaomi-repeater-v2_miap3bf3' RSSI=-79[0m
+[0;32mI (3633) SMARTHOME: [SCAN]  [13] SSID='Co Nguyet' RSSI=-85[0m
+[0;32mI (3643) SMARTHOME: [SCAN]  [14] SSID='Oanh Do' RSSI=-89[0m
+[0;32mI (3643) SMARTHOME: [SCAN]  [15] SSID='Bamos Coffee 2G' RSSI=-91[0m
+[0;32mI (3653) SMARTHOME: Pre-scan complete: 16 networks cached[0m
+[0;32mI (3663) SMARTHOME: Provisioning AP started. SSID='SMARTHOME_2C3341'[0m
+[0;32mI (3663) SMARTHOME: ================================================[0m
+[0;32mI (3673) SMARTHOME: SCANNABLE QR CODE FOR PROVISIONING:[0m
+[0;32mI (3673) QRCODE: Encoding below text with ECC LVL 0 & QR Code Version 10[0m
+[0;32mI (3683) QRCODE: {"type":"smarthome-provision","apSsid":"SMARTHOME_2C3341","apPassword":"","endpoint":"http://192.168.4.1/provision","method":"POST","pop":"HUTECHIOT123"}[0m
+                                                  
+  █▀▀▀▀▀█ ▄▀   ▄   █ █▄█ ███ █▀ ▀ ▀▄ ▄▀ █▀▀▀▀▀█   
+  █ ███ █ ▄▄ ▀▀  ██ █▀█▄ ███▀▀▀ ▀█▀█ █▄ █ ███ █   
+  █ ▀▀▀ █ ▄▀█▀▀▄█▄▄ ▄ █▀▀▀█▀▄█▀▀▀  ▄▀▀▀ █ ▀▀▀ █   
+  ▀▀▀▀▀▀▀ ▀ █ ▀▄█▄▀ █ █ ▀ █ ▀▄█▄▀ █ █ █ ▀▀▀▀▀▀▀   
+  █▀▀▀▀▄▀█▀▄██▄█ ▀  ▀▀▀▀████▀█▄ █ ▄   ▄█ ▀ ▀ █▄   
+  ▄██ █ ▀█ █ ▄▄ ▄█▄ ▀▄▀▄▀▀▀▄ ██▄ ██ ███▄▀ ███▀    
+  ▄█▀▀█▄▀█▄▄█▄█▄▄ ▀▀▀   █ ██ █ █▄█▄█▀▀▄▄ ▄   ▀▄   
+  ▀▄█ ██▀  ▄▀ █▀  █ ▀ ▀ ▀████ █▀▄▀█▄▀▀▀▀▀▄▄███▄   
+  ▀▀▀▀▄█▀▀█▄▀▄█▄▄▀ ▄▀▀ ▄ ▀ █ █▄▄▄█▄▀ ▄▄█  ▄█ ██   
+  █▀▄█▄▄▀ ▀▀▀▄▀ █▄▀▄██▀▀▀ ▀▄ █▄▄▄▀█▄▀█▀▀▀▀▄▄▄▀▄   
+  ▄▄▄██▀▀▀█ ▄ █ ▄▀▀█▀▄█▀▀▀█▄ █▄▄▄▄ ▄ ██▀▀▀█▀▄ ▄   
+  ██  █ ▀ █▄ ▄▄▄  ▀   █ ▀ █ ▀█▄ ▄ ▄▄▀ █ ▀ █▄█▀    
+  ▄▀▄ █▀▀▀█ ▀▄▀▄▄▀  ▀█▀█▀▀▀█ █ ███ ▀▀▀█▀▀▀▀▄▄ ▄   
+  ███ ▄ ▀█ ▄█▄  ▄   █ ▄▀▄▄█▀▄▄▄▀ ▄█▀▀▄▀▄▄█▄ █▄▄   
+   █ ███▀██▄▄▄▄ ▄ ▀██▄   █ ▄ █▄██ ▄█▀▄  ▄ ▀▄▄▄█   
+    █▄ ▀▀▀ ▀▀██ ▄▄▀ ▀ ▄▀▄▀▄ ▀▄█▀▄▀█ ██▄█▄█▀▀█▀    
+  ▄▀▀▄▄█▀▀▀   █▄▄▀ ▀██▀▀▄ ▄▄▀  ▄██▄ ▀▄  █▀▀ ▄█▄   
+   ▄▄▄█ ▀   ▀█▀ ▄▀  █▄▀▄ ▄██▄██▀█ ▄▄██▀ ▄█▀ ▄█    
+  ▀  ▀▀ ▀ ▄██▄▄ ▄ ▀▀▀ █▀▀▀██▀ ▄█▄  █  █▀▀▀█▀▄ █   
+  █▀▀▀▀▀█ ▀   ▄▄▄▄▀ ▄▀█ ▀ █▄▀▄█ ▄█▄▀▀ █ ▀ █ ▄▀▄   
+  █ ███ █ ████▄ ▄  ██ ██▀▀█▄  ▄█▄█ ▀▀▀▀█▀██▀ █▀   
+  █ ▀▀▀ █ ██  ▄▀▀  ▄█▄▄█▀  ▄ █▄▀ ▄█▀█▄▀▄ █▄ ▄ ▀   
+  ▀▀▀▀▀▀▀ ▀▀▀     ▀▀▀   ▀ ▀    ▀▀  ▀▀▀  ▀▀▀  ▀    
+                                                  
+
+[0;32mI (4043) SMARTHOME: QR Payload: {"type":"smarthome-provision","apSsid":"SMARTHOME_2C3341","apPassword":"","endpoint":"http://192.168.4.1/provision","method":"POST","pop":"HUTECHIOT123"}[0m
+[0;32mI (4063) SMARTHOME: PROVISIONING PIN: HUTECHIOT123[0m
+[0;32mI (4063) SMARTHOME: ================================================[0m
+[0;32mI (15693) wifi:new:<1,0>, old:<1,1>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (15693) wifi:station: ae:d7:4f:b4:2b:4d join, AID=1, bgn, 20[0m
+[0;32mI (16093) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (17723) wifi:<ba-add>idx:2 (ifx:1, ae:d7:4f:b4:2b:4d), tid:0, ssn:16, winSize:64[0m
+[0;32mI (27493) SMARTHOME: WiFi scan requested... serving 16 cached APs[0m
+[0;32mI (38233) SMARTHOME: Provision saved. SSID='Bamos Coffee 2G' broker='mqtt://172.16.16.39:1883'[0m
+[0;32mI (39443) wifi:station: ae:d7:4f:b4:2b:4d leave, AID = 1, reason = 2, bss_flags is 33721459, bss:0x3fcb54cc[0m
+[0;32mI (39443) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (39443) wifi:<ba-del>idx:2, tid:0[0m
+[0;32mI (39453) wifi:new:<1,1>, old:<1,0>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (39523) wifi:flush txq[0m
+[0;32mI (39523) wifi:stop sw txq[0m
+[0;32mI (39523) wifi:lmac stop hw txq[0m
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (483) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee7c4, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (513) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (523) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (543) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (553) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://172.16.16.39:1883'[0m
+[0;32mI (593) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (633) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (643) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (643) wifi:enable tsf[0m
+[0;32mI (653) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (653) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (673) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (683) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (703) wifi:connected with Bamos Coffee 2G, aid = 2, channel 2, BW20, bssid = 80:8d:b7:72:15:43[0m
+[0;32mI (703) wifi:security: WPA2-PSK, phy: bgn, rssi: -55[0m
+[0;32mI (713) wifi:pm start, type: 1[0m
+
+[0;32mI (713) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (713) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (733) wifi:<ba-add>idx:0 (ifx:0, 80:8d:b7:72:15:43), tid:0, ssn:2, winSize:64[0m
+[0;32mI (783) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (2733) esp_netif_handlers: sta ip: 172.16.12.73, mask: 255.255.255.0, gw: 172.16.12.1[0m
+[0;32mI (2733) SMARTHOME: Got IP: 172.16.12.73[0m
+[0;32mI (2733) SMARTHOME: Starting MQTT: mqtt://172.16.16.39:1883[0m
+[1;31mE (12753) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (12753) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (12753) mqtt_client: Error transport connect[0m
+[0;32mI (12753) SMARTHOME: MQTT disconnected[0m
+[1;31mE (37763) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (37763) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (37763) mqtt_client: Error transport connect[0m
+[0;32mI (37763) SMARTHOME: MQTT disconnected[0m
+[1;31mE (62773) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (62773) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (62773) mqtt_client: Error transport connect[0m
+[0;32mI (62773) SMARTHOME: MQTT disconnected[0m
+[1;31mE (87783) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (87783) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (87783) mqtt_client: Error transport connect[0m
+[0;32mI (87783) SMARTHOME: MQTT disconnected[0m
+[1;31mE (112793) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (112793) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (112793) mqtt_client: Error transport connect[0m
+[0;32mI (112793) SMARTHOME: MQTT disconnected[0m
+[1;31mE (137803) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (137803) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (137803) mqtt_client: Error transport connect[0m
+[0;32mI (137803) SMARTHOME: MQTT disconnected[0m
+:0 (ifx:0, 80:8d:b7:72:15:43), tid:0, ssn:2, winSize:64
+[0;32mI (849) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1809) esp_netif_handlers: sta ip: 172.16.12.73, mask: 255.255.255.0, gw: 172.16.12.1[0m
+[0;32mI (1809) SMARTHOME: Got IP: 172.16.12.73[0m
+[0;32mI (1809) SMARTHOME: Starting MQTT: mqtt://172.16.16.39:1883[0m
+[1;31mE (11829) esp-tls: [sock=54] select() timeout[0m
+[1;31mE (11829) transport_base: Failed to open a new connection: 32774[0m
+[1;31mE (11829) mqtt_client: Error transport connect[0m
+[0;32mI (11829) SMARTHOME: MQTT disconnected[0m
+[0;33mW (11869) SMARTHOME: BOOT held - erasing config, restarting[0m
+[0;32mI (12379) wifi:state: run -> init (0x0)[0m
+[0;32mI (12389) wifi:pm stop, total sleep time: 8785435 us / 11614276 us[0m
+
+[0;32mI (12389) wifi:<ba-del>idx:0, tid:0[0m
+[0;32mI (12389) wifi:new:<2,0>, old:<2,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (12439) wifi:flush txq[0m
+[0;32mI (12439) wifi:stop sw txq[0m
+[0;32mI (12439) wifi:lmac stop hw txq[0m
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (473) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee740, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (513) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (513) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (533) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (543) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: No config found, entering app-driven QR provisioning mode[0m
+[0;32mI (593) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (643) wifi:mode : sta (ac:a7:04:2c:33:40) + softAP (ac:a7:04:2c:33:41)[0m
+[0;32mI (643) wifi:enable tsf[0m
+[0;32mI (643) wifi:Total power save buffer number: 16[0m
+[0;32mI (643) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (643) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (653) SMARTHOME: Pre-scanning WiFi before AP clients join...[0m
+[0;32mI (653) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (663) SMARTHOME: [SCAN] Task started[0m
+[0;32mI (3563) SMARTHOME: [SCAN] scan_start ret=0x0 (ESP_OK)[0m
+[0;32mI (3563) SMARTHOME: [SCAN] Total APs found by driver: 17[0m
+[0;32mI (3563) SMARTHOME: [SCAN] Records written to buffer: 17[0m
+[0;32mI (3563) SMARTHOME: [SCAN] Done. Cached 17 APs[0m
+[0;32mI (3563) SMARTHOME: [SCAN]  [0] SSID='lap09' RSSI=-35[0m
+[0;32mI (3573) SMARTHOME: [SCAN]  [1] SSID='Bamos Coffee' RSSI=-40[0m
+[0;32mI (3573) SMARTHOME: [SCAN]  [2] SSID='Bamos Coffee 2G' RSSI=-41[0m
+[0;32mI (3583) SMARTHOME: [SCAN]  [3] SSID='Bamos Coffee' RSSI=-47[0m
+[0;32mI (3583) SMARTHOME: [SCAN]  [4] SSID='Bamos Coffee 2G' RSSI=-47[0m
+[0;32mI (3593) SMARTHOME: [SCAN]  [5] SSID='Bamos Coffee 2G' RSSI=-49[0m
+[0;32mI (3603) SMARTHOME: [SCAN]  [6] SSID='Bamos Coffee 2G' RSSI=-50[0m
+[0;32mI (3603) SMARTHOME: [SCAN]  [7] SSID='Bamos Coffee' RSSI=-51[0m
+[0;32mI (3613) SMARTHOME: [SCAN]  [8] SSID='Bamos Coffee' RSSI=-52[0m
+[0;32mI (3613) SMARTHOME: [SCAN]  [9] SSID='Nguyen' RSSI=-57[0m
+[0;32mI (3623) SMARTHOME: [SCAN]  [10] SSID='Bamos Coffee' RSSI=-60[0m
+[0;32mI (3623) SMARTHOME: [SCAN]  [11] SSID='Bamos Coffee 2G' RSSI=-60[0m
+[0;32mI (3633) SMARTHOME: [SCAN]  [12] SSID='Oanh Do' RSSI=-63[0m
+[0;32mI (3633) SMARTHOME: [SCAN]  [13] SSID='Oanh Do' RSSI=-71[0m
+[0;32mI (3643) SMARTHOME: [SCAN]  [14] SSID='xiaomi-repeater-v2_miap3bf3' RSSI=-72[0m
+[0;32mI (3653) SMARTHOME: [SCAN]  [15] SSID='Sweet Home' RSSI=-85[0m
+[0;32mI (3653) SMARTHOME: [SCAN]  [16] SSID='Trai Cay' RSSI=-92[0m
+[0;32mI (3663) SMARTHOME: Pre-scan complete: 17 networks cached[0m
+[0;32mI (3663) SMARTHOME: Provisioning AP started. SSID='SMARTHOME_2C3341'[0m
+[0;32mI (3673) SMARTHOME: ================================================[0m
+[0;32mI (3673) SMARTHOME: SCANNABLE QR CODE FOR PROVISIONING:[0m
+[0;32mI (3683) QRCODE: Encoding below text with ECC LVL 0 & QR Code Version 10[0m
+[0;32mI (3683) QRCODE: {"type":"smarthome-provision","apSsid":"SMARTHOME_2C3341","apPassword":"","endpoint":"http://192.168.4.1/provision","method":"POST","pop":"HUTECHIOT123"}[0m
+                                                  
+  █▀▀▀▀▀█ ▄▀   ▄   █ █▄█ ███ █▀ ▀ ▀▄ ▄▀ █▀▀▀▀▀█   
+  █ ███ █ ▄▄ ▀▀  ██ █▀█▄ ███▀▀▀ ▀█▀█ █▄ █ ███ █   
+  █ ▀▀▀ █ ▄▀█▀▀▄█▄▄ ▄ █▀▀▀█▀▄█▀▀▀  ▄▀▀▀ █ ▀▀▀ █   
+  ▀▀▀▀▀▀▀ ▀ █ ▀▄█▄▀ █ █ ▀ █ ▀▄█▄▀ █ █ █ ▀▀▀▀▀▀▀   
+  █▀▀▀▀▄▀█▀▄██▄█ ▀  ▀▀▀▀████▀█▄ █ ▄   ▄█ ▀ ▀ █▄   
+  ▄██ █ ▀█ █ ▄▄ ▄█▄ ▀▄▀▄▀▀▀▄ ██▄ ██ ███▄▀ ███▀    
+  ▄█▀▀█▄▀█▄▄█▄█▄▄ ▀▀▀   █ ██ █ █▄█▄█▀▀▄▄ ▄   ▀▄   
+  ▀▄█ ██▀  ▄▀ █▀  █ ▀ ▀ ▀████ █▀▄▀█▄▀▀▀▀▀▄▄███▄   
+  ▀▀▀▀▄█▀▀█▄▀▄█▄▄▀ ▄▀▀ ▄ ▀ █ █▄▄▄█▄▀ ▄▄█  ▄█ ██   
+  █▀▄█▄▄▀ ▀▀▀▄▀ █▄▀▄██▀▀▀ ▀▄ █▄▄▄▀█▄▀█▀▀▀▀▄▄▄▀▄   
+  ▄▄▄██▀▀▀█ ▄ █ ▄▀▀█▀▄█▀▀▀█▄ █▄▄▄▄ ▄ ██▀▀▀█▀▄ ▄   
+  ██  █ ▀ █▄ ▄▄▄  ▀   █ ▀ █ ▀█▄ ▄ ▄▄▀ █ ▀ █▄█▀    
+  ▄▀▄ █▀▀▀█ ▀▄▀▄▄▀  ▀█▀█▀▀▀█ █ ███ ▀▀▀█▀▀▀▀▄▄ ▄   
+  ███ ▄ ▀█ ▄█▄  ▄   █ ▄▀▄▄█▀▄▄▄▀ ▄█▀▀▄▀▄▄█▄ █▄▄   
+   █ ███▀██▄▄▄▄ ▄ ▀██▄   █ ▄ █▄██ ▄█▀▄  ▄ ▀▄▄▄█   
+    █▄ ▀▀▀ ▀▀██ ▄▄▀ ▀ ▄▀▄▀▄ ▀▄█▀▄▀█ ██▄█▄█▀▀█▀    
+  ▄▀▀▄▄█▀▀▀   █▄▄▀ ▀██▀▀▄ ▄▄▀  ▄██▄ ▀▄  █▀▀ ▄█▄   
+   ▄▄▄█ ▀   ▀█▀ ▄▀  █▄▀▄ ▄██▄██▀█ ▄▄██▀ ▄█▀ ▄█    
+  ▀  ▀▀ ▀ ▄██▄▄ ▄ ▀▀▀ █▀▀▀██▀ ▄█▄  █  █▀▀▀█▀▄ █   
+  █▀▀▀▀▀█ ▀   ▄▄▄▄▀ ▄▀█ ▀ █▄▀▄█ ▄█▄▀▀ █ ▀ █ ▄▀▄   
+  █ ███ █ ████▄ ▄  ██ ██▀▀█▄  ▄█▄█ ▀▀▀▀█▀██▀ █▀   
+  █ ▀▀▀ █ ██  ▄▀▀  ▄█▄▄█▀  ▄ █▄▀ ▄█▀█▄▀▄ █▄ ▄ ▀   
+  ▀▀▀▀▀▀▀ ▀▀▀     ▀▀▀   ▀ ▀    ▀▀  ▀▀▀  ▀▀▀  ▀    
+                                                  
+
+[0;32mI (4053) SMARTHOME: QR Payload: {"type":"smarthome-provision","apSsid":"SMARTHOME_2C3341","apPassword":"","endpoint":"http://192.168.4.1/provision","method":"POST","pop":"HUTECHIOT123"}[0m
+[0;32mI (4063) SMARTHOME: PROVISIONING PIN: HUTECHIOT123[0m
+[0;32mI (4073) SMARTHOME: ================================================[0m
+[0;32mI (14313) wifi:new:<1,0>, old:<1,1>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (14313) wifi:station: ae:d7:4f:b4:2b:4d join, AID=1, bgn, 20[0m
+[0;32mI (14593) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (29683) wifi:<ba-add>idx:2 (ifx:1, ae:d7:4f:b4:2b:4d), tid:0, ssn:24, winSize:64[0m
+[0;32mI (29703) SMARTHOME: WiFi scan requested... serving 17 cached APs[0m
+[0;32mI (43093) SMARTHOME: Provision saved. SSID='Bamos Coffee 2G' broker='mqtt://172.16.12.102:1883'[0m
+[0;32mI (44293) wifi:station: ae:d7:4f:b4:2b:4d leave, AID = 1, reason = 2, bss_flags is 33721459, bss:0x3fcb544c[0m
+[0;32mI (44293) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (44293) wifi:<ba-del>idx:2, tid:0[0m
+[0;32mI (44303) wifi:new:<1,1>, old:<1,0>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (44363) wifi:flush txq[0m
+[0;32mI (44363) wifi:stop sw txq[0m
+[0;32mI (44363) wifi:lmac stop hw txq[0m
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (483) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee740, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (513) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (523) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (543) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (553) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://172.16.12.102:1883'[0m
+[0;32mI (593) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (633) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (633) wifi:enable tsf[0m
+[0;32mI (643) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (643) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (653) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (663) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (683) wifi:connected with Bamos Coffee 2G, aid = 2, channel 2, BW20, bssid = 80:8d:b7:72:15:43[0m
+[0;32mI (683) wifi:security: WPA2-PSK, phy: bgn, rssi: -55[0m
+[0;32mI (683) wifi:pm start, type: 1[0m
+
+[0;32mI (683) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (693) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (723) wifi:<ba-add>idx:0 (ifx:0, 80:8d:b7:72:15:43), tid:0, ssn:2, winSize:64[0m
+[0;32mI (763) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (5363) esp_netif_handlers: sta ip: 172.16.12.73, mask: 255.255.255.0, gw: 172.16.12.1[0m
+[0;32mI (5363) SMARTHOME: Got IP: 172.16.12.73[0m
+[0;32mI (5363) SMARTHOME: Starting MQTT: mqtt://172.16.12.102:1883[0m
+[0;32mI (6823) SMARTHOME: MQTT connected[0m
+[0;32mI (6823) SMARTHOME: Subscribed: /home/relay/1/control[0m
+[0;32mI (6823) SMARTHOME: Subscribed: /home/relay/2/control[0m
+[0;32mI (6823) SMARTHOME: Subscribed: /home/relay/3/control[0m
+[0;32mI (6833) SMARTHOME: Subscribed: /home/relay/4/control[0m
+[0;32mI (6833) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (6833) SMARTHOME: Published /home/relay/2/status -> 1[0m
+[0;32mI (6843) SMARTHOME: Published /home/relay/3/status -> 1[0m
+[0;32mI (6843) SMARTHOME: Published /home/relay/4/status -> 1[0m
+[0;32mI (24523) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (24533) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (25343) SMARTHOME: Relay[1] 'Den phong khach' -> OFF[0m
+[0;32mI (25353) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (26623) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (26623) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (27913) SMARTHOME: Relay[1] 'Den phong khach' -> OFF[0m
+[0;32mI (27913) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (30123) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+
+***ERROR*** A stack overflow in task phys_switch has been detected.
+
+
+Backtrace: 0x4037bead:0x3fceada0 0x4037be75:0x3fceadc0 0x4037cf26:0x3fceade0 0x4037e49f:0x3fceae60 0x4037cfec:0x3fceae80 0x4037cfe2:0xa5a5a5a5 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: dac6d8974
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (483) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee740, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (513) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (523) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (543) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (553) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://172.16.12.102:1883'[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (643) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (643) wifi:enable tsf[0m
+[0;32mI (673) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (673) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (683) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (693) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (703) wifi:connected with Bamos Coffee 2G, aid = 2, channel 2, BW20, bssid = 80:8d:b7:72:15:43[0m
+[0;32mI (713) wifi:security: WPA2-PSK, phy: bgn, rssi: -56[0m
+[0;32mI (713) wifi:pm start, type: 1[0m
+
+[0;32mI (713) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (723) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (733) wifi:<ba-add>idx:0 (ifx:0, 80:8d:b7:72:15:43), tid:0, ssn:2, winSize:64[0m
+[0;32mI (773) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1743) esp_netif_handlers: sta ip: 172.16.12.73, mask: 255.255.255.0, gw: 172.16.12.1[0m
+[0;32mI (1743) SMARTHOME: Got IP: 172.16.12.73[0m
+[0;32mI (1743) SMARTHOME: Starting MQTT: mqtt://172.16.12.102:1883[0m
+[0;32mI (2593) SMARTHOME: MQTT connected[0m
+[0;32mI (2603) SMARTHOME: Subscribed: /home/relay/1/control[0m
+[0;32mI (2603) SMARTHOME: Subscribed: /home/relay/2/control[0m
+[0;32mI (2603) SMARTHOME: Subscribed: /home/relay/3/control[0m
+[0;32mI (2603) SMARTHOME: Subscribed: /home/relay/4/control[0m
+[0;32mI (2613) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (2613) SMARTHOME: Published /home/relay/2/status -> 1[0m
+[0;32mI (2623) SMARTHOME: Published /home/relay/3/status -> 1[0m
+[0;32mI (2623) SMARTHOME: Published /home/relay/4/status -> 1[0m
+[0;32mI (3023) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+
+***ERROR*** A stack overflow in task phys_switch has been detected.
+
+
+Backtrace: 0x4037bead:0x3fceada0 0x4037be75:0x3fceadc0 0x4037cf26:0x3fceade0 0x4037e49f:0x3fceae60 0x4037cfec:0x3fceae80 0x4037cfe2:0xa5a5a5a5 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: dac6d8974
+
+Rebooting...
+���ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (483) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee740, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (513) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (523) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (543) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (553) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://172.16.12.102:1883'[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (653) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (653) wifi:enable tsf[0m
+[0;32mI (753) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (753) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (803) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (803) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (903) wifi:connected with Bamos Coffee 2G, aid = 2, channel 2, BW20, bssid = 80:8d:b7:72:15:43[0m
+[0;32mI (903) wifi:security: WPA2-PSK, phy: bgn, rssi: -52[0m
+[0;32mI (903) wifi:pm start, type: 1[0m
+
+[0;32mI (913) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (913) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (933) wifi:<ba-add>idx:0 (ifx:0, 80:8d:b7:72:15:43), tid:0, ssn:2, winSize:64[0m
+[0;32mI (953) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (2123) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (2123) SMARTHOME: Physical switch[1] toggled -> Relay ON[0m
+
+***ERROR*** A stack overflow in task phys_switch has been detected.
+
+
+Backtrace: 0x4037bead:0x3fceaff0 0x4037be75:0x3fceb010 0x4037cf26:0x3fceb030 0x4037e49f:0x3fceb0b0 0x4037cfec:0x3fceb0d0 0x4037cfe2:0x3c0cc1fe |<-CORRUPTED
+
+
+
+
+ELF file SHA256: dac6d8974
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (483) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee740, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (513) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (523) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (543) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (553) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://172.16.12.102:1883'[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (663) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (663) wifi:enable tsf[0m
+[0;32mI (713) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (713) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (723) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (733) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (783) wifi:connected with Bamos Coffee 2G, aid = 2, channel 2, BW20, bssid = 80:8d:b7:72:15:43[0m
+[0;32mI (783) wifi:security: WPA2-PSK, phy: bgn, rssi: -53[0m
+[0;32mI (793) wifi:pm start, type: 1[0m
+
+[0;32mI (793) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (793) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (813) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (823) wifi:<ba-add>idx:0 (ifx:0, 80:8d:b7:72:15:43), tid:0, ssn:2, winSize:64[0m
+[0;32mI (833) wifi:<ba-del>idx:0, tid:0[0m
+[0;32mI (833) wifi:<ba-add>idx:0 (ifx:0, 80:8d:b7:72:15:43), tid:0, ssn:3, winSize:64[0m
+[0;32mI (1833) esp_netif_handlers: sta ip: 172.16.12.73, mask: 255.255.255.0, gw: 172.16.12.1[0m
+[0;32mI (1833) SMARTHOME: Got IP: 172.16.12.73[0m
+[0;32mI (1833) SMARTHOME: Starting MQTT: mqtt://172.16.12.102:1883[0m
+[0;32mI (2453) SMARTHOME: MQTT connected[0m
+[0;32mI (2453) SMARTHOME: Subscribed: /home/relay/1/control[0m
+[0;32mI (2463) SMARTHOME: Subscribed: /home/relay/2/control[0m
+[0;32mI (2463) SMARTHOME: Subscribed: /home/relay/3/control[0m
+[0;32mI (2463) SMARTHOME: Subscribed: /home/relay/4/control[0m
+[0;32mI (2463) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (2473) SMARTHOME: Published /home/relay/2/status -> 1[0m
+[0;32mI (2473) SMARTHOME: Published /home/relay/3/status -> 1[0m
+[0;32mI (2483) SMARTHOME: Published /home/relay/4/status -> 1[0m
+[0;32mI (4723) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+
+***ERROR*** A stack overflow in task phys_switch has been detected.
+
+
+Backtrace: 0x4037bead:0x3fceada0 0x4037be75:0x3fceadc0 0x4037cf26:0x3fceade0 0x4037e49f:0x3fceae60 0x4037cfec:0x3fceae80 0x4037cfe2:0xa5a5a5a5 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: dac6d8974
+
+Rebooting...
+���ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (483) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee740, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (513) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (523) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (543) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (553) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://172.16.12.102:1883'[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (633) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (633) wifi:enable tsf[0m
+[0;32mI (643) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (653) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (653) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (663) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (683) wifi:connected with Bamos Coffee 2G, aid = 2, channel 2, BW20, bssid = 80:8d:b7:72:15:43[0m
+[0;32mI (683) wifi:security: WPA2-PSK, phy: bgn, rssi: -56[0m
+[0;32mI (683) wifi:pm start, type: 1[0m
+
+[0;32mI (683) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (693) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (703) wifi:<ba-add>idx:0 (ifx:0, 80:8d:b7:72:15:43), tid:0, ssn:2, winSize:64[0m
+[0;32mI (723) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1713) esp_netif_handlers: sta ip: 172.16.12.73, mask: 255.255.255.0, gw: 172.16.12.1[0m
+[0;32mI (1713) SMARTHOME: Got IP: 172.16.12.73[0m
+[0;32mI (1713) SMARTHOME: Starting MQTT: mqtt://172.16.12.102:1883[0m
+[0;32mI (1843) SMARTHOME: MQTT connected[0m
+[0;32mI (1843) SMARTHOME: Subscribed: /home/relay/1/control[0m
+[0;32mI (1853) SMARTHOME: Subscribed: /home/relay/2/control[0m
+[0;32mI (1853) SMARTHOME: Subscribed: /home/relay/3/control[0m
+[0;32mI (1853) SMARTHOME: Subscribed: /home/relay/4/control[0m
+[0;32mI (1853) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1863) SMARTHOME: Published /home/relay/2/status -> 1[0m
+[0;32mI (1863) SMARTHOME: Published /home/relay/3/status -> 1[0m
+[0;32mI (1873) SMARTHOME: Published /home/relay/4/status -> 1[0m
+[0;32mI (4273) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+
+***ERROR*** A stack overflow in task phys_switch has been detected.
+
+
+Backtrace: 0x4037bead:0x3fceada0 0x4037be75:0x3fceadc0 0x4037cf26:0x3fceade0 0x4037e49f:0x3fceae60 0x4037cfec:0x3fceae80 0x4037cfe2:0xa5a5a5a5 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: dac6d8974
+
+Rebooting...
+���ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (483) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee740, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (513) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (523) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (543) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (553) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://172.16.12.102:1883'[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (643) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (643) wifi:enable tsf[0m
+[0;32mI (683) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (683) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (693) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (703) wifi:state: assoc -> init (0x9c0)[0m
+[0;32mI (713) wifi:new:<2,0>, old:<2,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (713) SMARTHOME: Wi-Fi retry 1/10[0m
+[0;32mI (833) wifi:new:<1,0>, old:<2,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (843) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (853) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (853) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (873) wifi:connected with Bamos Coffee 2G, aid = 5, channel 1, BW20, bssid = 20:a6:cd:3a:15:23[0m
+[0;32mI (873) wifi:security: WPA2-PSK, phy: bgn, rssi: -51[0m
+[0;32mI (913) wifi:pm start, type: 1[0m
+
+[0;32mI (913) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (913) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (933) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (933) wifi:<ba-add>idx:0 (ifx:0, 20:a6:cd:3a:15:23), tid:0, ssn:2, winSize:64[0m
+[0;32mI (1943) esp_netif_handlers: sta ip: 172.16.12.73, mask: 255.255.255.0, gw: 172.16.12.1[0m
+[0;32mI (1943) SMARTHOME: Got IP: 172.16.12.73[0m
+[0;32mI (1943) SMARTHOME: Starting MQTT: mqtt://172.16.12.102:1883[0m
+[0;32mI (2093) SMARTHOME: MQTT connected[0m
+[0;32mI (2103) SMARTHOME: Subscribed: /home/relay/1/control[0m
+[0;32mI (2103) SMARTHOME: Subscribed: /home/relay/2/control[0m
+[0;32mI (2103) SMARTHOME: Subscribed: /home/relay/3/control[0m
+[0;32mI (2103) SMARTHOME: Subscribed: /home/relay/4/control[0m
+[0;32mI (2113) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (2113) SMARTHOME: Published /home/relay/2/status -> 1[0m
+[0;32mI (2123) SMARTHOME: Published /home/relay/3/status -> 1[0m
+[0;32mI (2123) SMARTHOME: Published /home/relay/4/status -> 1[0m
+[0;32mI (34323) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+
+***ERROR*** A stack overflow in task phys_switch has been detected.
+
+
+Backtrace: 0x4037bead:0x3fceada0 0x4037be75:0x3fceadc0 0x4037cf26:0x3fceade0 0x4037e49f:0x3fceae60 0x4037cfec:0x3fceae80 0x4037cfe2:0xa5a5a5a5 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: dac6d8974
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (473) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee740, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (503) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (513) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (533) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (543) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://172.16.12.102:1883'[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (643) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (643) wifi:enable tsf[0m
+[0;32mI (653) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (653) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (653) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (663) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (673) wifi:connected with Bamos Coffee 2G, aid = 5, channel 1, BW20, bssid = 20:a6:cd:3a:15:23[0m
+[0;32mI (673) wifi:security: WPA2-PSK, phy: bgn, rssi: -46[0m
+[0;32mI (683) wifi:pm start, type: 1[0m
+
+[0;32mI (683) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (693) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (713) wifi:<ba-add>idx:0 (ifx:0, 20:a6:cd:3a:15:23), tid:0, ssn:2, winSize:64[0m
+[0;32mI (733) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1723) esp_netif_handlers: sta ip: 172.16.12.73, mask: 255.255.255.0, gw: 172.16.12.1[0m
+[0;32mI (1723) SMARTHOME: Got IP: 172.16.12.73[0m
+[0;32mI (1723) SMARTHOME: Starting MQTT: mqtt://172.16.12.102:1883[0m
+[0;32mI (1893) SMARTHOME: MQTT connected[0m
+[0;32mI (1893) SMARTHOME: Subscribed: /home/relay/1/control[0m
+[0;32mI (1893) SMARTHOME: Subscribed: /home/relay/2/control[0m
+[0;32mI (1903) SMARTHOME: Subscribed: /home/relay/3/control[0m
+[0;32mI (1903) SMARTHOME: Subscribed: /home/relay/4/control[0m
+[0;32mI (1903) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1913) SMARTHOME: Published /home/relay/2/status -> 1[0m
+[0;32mI (1913) SMARTHOME: Published /home/relay/3/status -> 1[0m
+[0;32mI (1923) SMARTHOME: Published /home/relay/4/status -> 1[0m
+[0;32mI (4523) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+
+***ERROR*** A stack overflow in task phys_switch has been detected.
+
+
+Backtrace: 0x4037bead:0x3fceaac0 0x4037be75:0x3fceaae0 0x4037cf26:0x3fceab00 0x4037e49f:0x3fceab80 0x4037cfec:0x3fceaba0 0x4037cfe2:0xa5a5a5a5 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: dac6d8974
+
+Rebooting...
+���ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (473) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee740, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (503) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (513) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (533) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (543) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://172.16.12.102:1883'[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (633) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (633) wifi:enable tsf[0m
+[0;32mI (643) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (643) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (663) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (673) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (693) wifi:connected with Bamos Coffee 2G, aid = 5, channel 1, BW20, bssid = 20:a6:cd:3a:15:23[0m
+[0;32mI (693) wifi:security: WPA2-PSK, phy: bgn, rssi: -42[0m
+[0;32mI (693) wifi:pm start, type: 1[0m
+
+[0;32mI (693) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (703) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (723) wifi:<ba-add>idx:0 (ifx:0, 20:a6:cd:3a:15:23), tid:0, ssn:2, winSize:64[0m
+[0;32mI (753) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1723) esp_netif_handlers: sta ip: 172.16.12.73, mask: 255.255.255.0, gw: 172.16.12.1[0m
+[0;32mI (1723) SMARTHOME: Got IP: 172.16.12.73[0m
+[0;32mI (1723) SMARTHOME: Starting MQTT: mqtt://172.16.12.102:1883[0m
+[0;32mI (1923) SMARTHOME: MQTT connected[0m
+[0;32mI (1923) SMARTHOME: Subscribed: /home/relay/1/control[0m
+[0;32mI (1923) SMARTHOME: Subscribed: /home/relay/2/control[0m
+[0;32mI (1923) SMARTHOME: Subscribed: /home/relay/3/control[0m
+[0;32mI (1933) SMARTHOME: Subscribed: /home/relay/4/control[0m
+[0;32mI (1933) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1943) SMARTHOME: Published /home/relay/2/status -> 1[0m
+[0;32mI (1943) SMARTHOME: Published /home/relay/3/status -> 1[0m
+[0;32mI (1953) SMARTHOME: Published /home/relay/4/status -> 1[0m
+[0;32mI (2123) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+
+***ERROR*** A stack overflow in task phys_switch has been detected.
+
+
+Backtrace: 0x4037bead:0x3fceada0 0x4037be75:0x3fceadc0 0x4037cf26:0x3fceade0 0x4037e49f:0x3fceae60 0x4037cfec:0x3fceae80 0x4037cfe2:0xa5a5a5a5 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: dac6d8974
+
+Rebooting...
+���ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (473) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee740, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (503) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (513) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (533) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (543) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://172.16.12.102:1883'[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (623) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (623) wifi:enable tsf[0m
+[0;32mI (633) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (633) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (643) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (653) wifi:state: assoc -> init (0x9c0)[0m
+[0;32mI (663) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (663) SMARTHOME: Wi-Fi retry 1/10[0m
+[0;32mI (793) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (793) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (803) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (813) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (823) wifi:connected with Bamos Coffee 2G, aid = 2, channel 2, BW20, bssid = 80:8d:b7:72:15:43[0m
+[0;32mI (823) wifi:security: WPA2-PSK, phy: bgn, rssi: -48[0m
+[0;32mI (843) wifi:pm start, type: 1[0m
+
+[0;32mI (843) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (843) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (873) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (873) wifi:<ba-add>idx:0 (ifx:0, 80:8d:b7:72:15:43), tid:0, ssn:2, winSize:64[0m
+[0;32mI (1883) esp_netif_handlers: sta ip: 172.16.12.73, mask: 255.255.255.0, gw: 172.16.12.1[0m
+[0;32mI (1883) SMARTHOME: Got IP: 172.16.12.73[0m
+[0;32mI (1883) SMARTHOME: Starting MQTT: mqtt://172.16.12.102:1883[0m
+[0;32mI (2473) SMARTHOME: MQTT connected[0m
+[0;32mI (2483) SMARTHOME: Subscribed: /home/relay/1/control[0m
+[0;32mI (2483) SMARTHOME: Subscribed: /home/relay/2/control[0m
+[0;32mI (2483) SMARTHOME: Subscribed: /home/relay/3/control[0m
+[0;32mI (2483) SMARTHOME: Subscribed: /home/relay/4/control[0m
+[0;32mI (2493) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (2493) SMARTHOME: Published /home/relay/2/status -> 1[0m
+[0;32mI (2503) SMARTHOME: Published /home/relay/3/status -> 1[0m
+[0;32mI (2503) SMARTHOME: Published /home/relay/4/status -> 1[0m
+[0;32mI (89723) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+
+***ERROR*** A stack overflow in task phys_switch has been detected.
+
+
+Backtrace: 0x4037bead:0x3fceada0 0x4037be75:0x3fceadc0 0x4037cf26:0x3fceade0 0x4037e49f:0x3fceae60 0x4037cfec:0x3fceae80 0x4037cfe2:0xa5a5a5a5 |<-CORRUPTED
+
+
+
+
+ELF file SHA256: dac6d8974
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (473) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee740, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (503) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (513) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (533) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (543) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://172.16.12.102:1883'[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (623) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (623) wifi:enable tsf[0m
+[0;32mI (633) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (633) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (643) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (643) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (663) wifi:connected with Bamos Coffee 2G, aid = 2, channel 2, BW20, bssid = 80:8d:b7:72:15:43[0m
+[0;32mI (663) wifi:security: WPA2-PSK, phy: bgn, rssi: -52[0m
+[0;32mI (663) wifi:pm start, type: 1[0m
+
+[0;32mI (663) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (673) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (683) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (693) wifi:<ba-add>idx:0 (ifx:0, 80:8d:b7:72:15:43), tid:0, ssn:2, winSize:64[0m
+[0;32mI (1273) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (1273) SMARTHOME: Physical switch[1] toggled -> Relay ON[0m
+
+***ERROR*** A stack overflow in task phys_switch has been detected.
+
+
+Backtrace: 0x4037bead:0x3fceaff0 0x4037be75:0x3fceb010 0x4037cf26:0x3fceb030 0x4037e49f:0x3fceb0b0 0x4037cfec:0x3fceb0d0 0x4037cfe2:0x3c0cc1fe |<-CORRUPTED
+
+
+
+
+ELF file SHA256: dac6d8974
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22db4h (142772) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032ddc vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=000379b0 vaddr=40374000 size=08668h ( 34408) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e0h (709856) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed508 vaddr=4037c668 size=0e33ch ( 58172) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb84c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (305) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  8 2026 03:38:38[0m
+[0;32mI (314) app_init: ELF file SHA256:  dac6d8974...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (327) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (363) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (387) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (463) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (473) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (473) pp: pp rom version: e7ae62f[0m
+[0;32mI (483) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (493) wifi:wifi driver task: 3fcee740, prio:23, stack:6656, core=0[0m
+[0;32mI (503) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (503) wifi:wifi certification version: v7.0[0m
+[0;32mI (503) wifi:config NVS flash: enabled[0m
+[0;32mI (503) wifi:config nano formatting: disabled[0m
+[0;32mI (503) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (513) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (513) wifi:Init management short buffer num: 32[0m
+[0;32mI (523) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (523) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (533) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (533) wifi:Init static rx buffer num: 10[0m
+[0;32mI (533) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (543) wifi_init: rx ba win: 6[0m
+[0;32mI (543) wifi_init: accept mbox: 6[0m
+[0;32mI (543) wifi_init: tcpip mbox: 32[0m
+[0;32mI (553) wifi_init: udp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp mbox: 6[0m
+[0;32mI (553) wifi_init: tcp tx win: 5760[0m
+[0;32mI (563) wifi_init: tcp rx win: 5760[0m
+[0;32mI (563) wifi_init: tcp mss: 1440[0m
+[0;32mI (563) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (573) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (573) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://172.16.12.102:1883'[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (633) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (633) wifi:enable tsf[0m
+[0;32mI (643) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (643) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (673) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (683) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (713) wifi:connected with Bamos Coffee 2G, aid = 2, channel 2, BW20, bssid = 80:8d:b7:72:15:43[0m
+[0;32mI (713) wifi:security: WPA2-PSK, phy: bgn, rssi: -56[0m
+[0;32mI (723) wifi:pm start, type: 1[0m
+
+[0;32mI (723) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (733) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (743) wifi:<ba-add>idx:0 (ifx:0, 80:8d:b7:72:15:43), tid:0, ssn:2, winSize:64[0m
+[0;32mI (773) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1773) esp_netif_handlers: sta ip: 172.16.12.73, mask: 255.255.255.0, gw: 172.16.12.1[0m
+[0;32mI (1773) SMARTHOME: Got IP: 172.16.12.73[0m
+[0;32mI (1773) SMARTHOME: Starting MQTT: mqtt://172.16.12.102:1883[0m
+[0;32mI (2243) SMARTHOME: MQTT connected[0m
+[0;32mI (2243) SMARTHOME: Subscribed: /home/relay/1/control[0m
+[0;32mI (2253) SMARTHOME: Subscribed: /home/relay/2/control[0m
+[0;32mI (2253) SMARTHOME: Subscribed: /home/relay/3/control[0m
+[0;32mI (2253) SMARTHOME: Subscribed: /home/relay/4/control[0m
+[0;32mI (2263) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (2263) SMARTHOME: Published /home/relay/2/status -> 1[0m
+[0;32mI (2263) SMARTHOME: Published /home/relay/3/status -> 1[0m
+[0;32mI (2273) SMARTHOME: Published /home/relay/4/status -> 1[0m

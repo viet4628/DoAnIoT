@@ -1,0 +1,125 @@
+.telemetry-history {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.telemetry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.telemetry-header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0;
+}
+
+.refresh-btn-small {
+  background: #4159E6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.refresh-btn-small:hover {
+  background: #3448c5;
+  transform: scale(1.05);
+}
+
+.telemetry-loading,
+.telemetry-empty {
+  text-align: center;
+  color: #6b7280;
+  padding: 40px 20px;
+  font-size: 14px;
+}
+
+.telemetry-list {
+  overflow-y: auto;
+  flex: 1;
+  padding-right: 8px;
+}
+
+.telemetry-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.telemetry-list::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 3px;
+}
+
+.telemetry-list::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+
+.telemetry-list::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+.telemetry-item {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  background: #f9fafb;
+  transition: all 0.2s;
+}
+
+.telemetry-item:hover {
+  background: #f3f4f6;
+  transform: translateX(4px);
+}
+
+.status-indicator {
+  font-size: 24px;
+  margin-right: 12px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.status-indicator.on {
+  color: #10b981;
+  background: #d1fae5;
+}
+
+.status-indicator.off {
+  color: #ef4444;
+  background: #fee2e2;
+}
+
+.telemetry-content {
+  flex: 1;
+}
+
+.telemetry-state {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1f2937;
+  margin-bottom: 4px;
+}
+
+.telemetry-time {
+  font-size: 12px;
+  color: #6b7280;
+}

@@ -1,0 +1,103 @@
+.device-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s;
+  border-left: 4px solid transparent;
+  cursor: pointer;
+}
+
+.device-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+}
+
+.device-on {
+  border-left-color: #27ae60;
+}
+
+.device-off {
+  border-left-color: #95a5a6;
+}
+
+.device-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.device-header h3 {
+  font-size: 1.25rem;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-badge.on {
+  background: #d4edda;
+  color: #27ae60;
+}
+
+.status-badge.off {
+  background: #e2e3e5;
+  color: #6c757d;
+}
+
+.device-info {
+  margin-bottom: 1.5rem;
+}
+
+.device-info p {
+  margin: 0.5rem 0;
+  color: #7f8c8d;
+  font-size: 0.95rem;
+}
+
+.device-info strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.control-btn {
+  width: 100%;
+  padding: 0.875rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.btn-on {
+  background: #27ae60;
+  color: white;
+}
+
+.btn-on:hover:not(:disabled) {
+  background: #229954;
+}
+
+.btn-off {
+  background: #e74c3c;
+  color: white;
+}
+
+.btn-off:hover:not(:disabled) {
+  background: #c0392b;
+}
+
+.control-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

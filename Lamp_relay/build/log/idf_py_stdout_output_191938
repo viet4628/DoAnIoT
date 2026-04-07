@@ -1,0 +1,236 @@
+Command: /home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /home/viet/Downloads/DoAnIoT/Lamp_relay/build/mqtt5.elf /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/bootloader.elf -m '/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python' '/home/viet/esp/esp-idf/tools/idf.py' '-p' '/dev/ttyACM0'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x9 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (24) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (25) boot: chip revision: v0.2[0m
+[0;32mI (28) boot: efuse block revision: v1.3[0m
+[0;32mI (32) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (36) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (48) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (63) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (70) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (76) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22dc4h (142788) map[0m
+[0;32mI (112) esp_image: segment 1: paddr=00032dec vaddr=3fc9aa00 size=04bcch ( 19404) load[0m
+[0;32mI (116) esp_image: segment 2: paddr=000379c0 vaddr=40374000 size=08658h ( 34392) load[0m
+[0;32mI (124) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad4e4h (709860) map[0m
+[0;32mI (249) esp_image: segment 4: paddr=000ed50c vaddr=4037c658 size=0e34ch ( 58188) load[0m
+[0;32mI (262) esp_image: segment 5: paddr=000fb860 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (272) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (272) boot: Disabling RNG early entropy source...[0m
+[0;32mI (282) cpu_start: Multicore app[0m
+[0;32mI (290) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (291) cpu_start: Pro cpu start user code[0m
+[0;32mI (291) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (293) app_init: Application information:[0m
+[0;32mI (296) app_init: Project name:     mqtt5[0m
+[0;32mI (300) app_init: App version:      b2a7e86-dirty[0m
+[0;32mI (305) app_init: Compile time:     Apr  8 2026 03:57:59[0m
+[0;32mI (310) app_init: ELF file SHA256:  f728bc776...[0m
+[0;32mI (314) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (318) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (322) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (326) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (330) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (336) heap_init: At 3FCA4018 len 000456F8 (277 KiB): RAM[0m
+[0;32mI (341) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (347) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (352) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (358) spi_flash: detected chip: boya[0m
+[0;32mI (361) spi_flash: flash io: dio[0m
+[0;33mW (363) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (376) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (382) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (389) main_task: Started on CPU0[0m
+[0;32mI (409) main_task: Calling app_main()[0m
+[0;32mI (439) SMARTHOME: Device[1] 'Den phong khach' Relay=GPIO2 Switch=GPIO15 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (439) SMARTHOME: Device[2] 'Quat' Relay=GPIO4 Switch=GPIO16 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (449) SMARTHOME: Device[3] 'Den ngu' Relay=GPIO5 Switch=GPIO17 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (459) SMARTHOME: Device[4] 'Bom nuoc' Relay=GPIO18 Switch=GPIO19 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (469) SMARTHOME: Physical switch monitor started[0m
+[0;32mI (469) pp: pp rom version: e7ae62f[0m
+[0;32mI (479) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (489) wifi:wifi driver task: 3fcee900, prio:23, stack:6656, core=0[0m
+[0;32mI (499) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (499) wifi:wifi certification version: v7.0[0m
+[0;32mI (499) wifi:config NVS flash: enabled[0m
+[0;32mI (499) wifi:config nano formatting: disabled[0m
+[0;32mI (499) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (509) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (509) wifi:Init management short buffer num: 32[0m
+[0;32mI (519) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (519) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (529) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (529) wifi:Init static rx buffer num: 10[0m
+[0;32mI (529) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (539) wifi_init: rx ba win: 6[0m
+[0;32mI (539) wifi_init: accept mbox: 6[0m
+[0;32mI (539) wifi_init: tcpip mbox: 32[0m
+[0;32mI (549) wifi_init: udp mbox: 6[0m
+[0;32mI (549) wifi_init: tcp mbox: 6[0m
+[0;32mI (549) wifi_init: tcp tx win: 5760[0m
+[0;32mI (559) wifi_init: tcp rx win: 5760[0m
+[0;32mI (559) wifi_init: tcp mss: 1440[0m
+[0;32mI (559) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (569) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (569) SMARTHOME: Config found: ssid='Bamos Coffee 2G' broker='mqtt://172.16.12.102:1883'[0m
+[0;32mI (579) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (619) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (639) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (639) wifi:enable tsf[0m
+[0;32mI (779) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (779) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (779) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (789) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (799) wifi:connected with Bamos Coffee 2G, aid = 6, channel 1, BW20, bssid = 20:a6:cd:3a:15:23[0m
+[0;32mI (799) wifi:security: WPA2-PSK, phy: bgn, rssi: -44[0m
+[0;32mI (849) wifi:pm start, type: 1[0m
+
+[0;32mI (849) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (849) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000[0m
+[0;32mI (859) wifi:<ba-add>idx:0 (ifx:0, 20:a6:cd:3a:15:23), tid:0, ssn:2, winSize:64[0m
+[0;32mI (899) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (1879) esp_netif_handlers: sta ip: 172.16.12.73, mask: 255.255.255.0, gw: 172.16.12.1[0m
+[0;32mI (1879) SMARTHOME: Got IP: 172.16.12.73[0m
+[0;32mI (1879) SMARTHOME: Starting MQTT: mqtt://172.16.12.102:1883[0m
+[0;32mI (2049) SMARTHOME: MQTT connected[0m
+[0;32mI (2049) SMARTHOME: Subscribed: /home/relay/1/control[0m
+[0;32mI (2049) SMARTHOME: Subscribed: /home/relay/2/control[0m
+[0;32mI (2049) SMARTHOME: Subscribed: /home/relay/3/control[0m
+[0;32mI (2049) SMARTHOME: Subscribed: /home/relay/4/control[0m
+[0;32mI (2059) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (2069) SMARTHOME: Published /home/relay/2/status -> 1[0m
+[0;32mI (2069) SMARTHOME: Published /home/relay/3/status -> 1[0m
+[0;32mI (2069) SMARTHOME: Published /home/relay/4/status -> 1[0m
+[0;32mI (2149) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (2149) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (6629) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (6639) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (7559) SMARTHOME: Relay[1] 'Den phong khach' -> OFF[0m
+[0;32mI (7559) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (965669) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (965669) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (965669) SMARTHOME: Physical switch[1] changed (GPIO=0) -> Relay ON[0m
+[0;32mI (984419) SMARTHOME: Relay[1] 'Den phong khach' -> OFF[0m
+[0;32mI (984419) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (984419) SMARTHOME: Physical switch[1] changed (GPIO=1) -> Relay OFF[0m
+[0;32mI (991419) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (991419) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (991419) SMARTHOME: Physical switch[1] changed (GPIO=0) -> Relay ON[0m
+[0;32mI (997499) SMARTHOME: Relay[1] 'Den phong khach' -> OFF[0m
+[0;32mI (997499) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1000869) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (1000869) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (1000869) SMARTHOME: Physical switch[1] changed (GPIO=1) -> Relay ON[0m
+[0;32mI (1061269) SMARTHOME: Relay[1] 'Den phong khach' -> OFF[0m
+[0;32mI (1061269) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1061269) SMARTHOME: Physical switch[1] changed (GPIO=0) -> Relay OFF[0m
+[0;32mI (1296269) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (1296269) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (1296269) SMARTHOME: Physical switch[1] changed (GPIO=1) -> Relay ON[0m
+[0;32mI (1297919) SMARTHOME: Relay[1] 'Den phong khach' -> OFF[0m
+[0;32mI (1297919) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1297919) SMARTHOME: Physical switch[1] changed (GPIO=0) -> Relay OFF[0m
+[0;32mI (1326119) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (1326119) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (1326119) SMARTHOME: Physical switch[1] changed (GPIO=1) -> Relay ON[0m
+[0;32mI (1326519) SMARTHOME: Relay[1] 'Den phong khach' -> OFF[0m
+[0;32mI (1326519) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1326519) SMARTHOME: Physical switch[1] changed (GPIO=0) -> Relay OFF[0m
+[0;32mI (1328069) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (1328069) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (1328069) SMARTHOME: Physical switch[1] changed (GPIO=1) -> Relay ON[0m
+[0;32mI (1328969) SMARTHOME: Relay[1] 'Den phong khach' -> OFF[0m
+[0;32mI (1328969) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1328969) SMARTHOME: Physical switch[1] changed (GPIO=0) -> Relay OFF[0m
+[0;32mI (1332819) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (1332819) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (1332819) SMARTHOME: Physical switch[1] changed (GPIO=1) -> Relay ON[0m
+[0;32mI (1339929) SMARTHOME: Relay[1] 'Den phong khach' -> OFF[0m
+[0;32mI (1339939) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1449809) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1452679) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1453289) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1453419) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1453639) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1453809) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1466909) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1467119) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1467319) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1467399) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1467629) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1467889) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1468449) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1493949) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1494139) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1494359) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1494439) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1494639) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1494869) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1495079) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1495179) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1495379) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1495649) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1495789) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1495939) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1496169) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1496439) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1496819) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1497019) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1497159) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1500189) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1500319) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1500499) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1500669) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1500889) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1501119) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1501169) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1501399) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1501639) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1501829) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1514329) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1514639) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1870589) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (1870589) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (1876119) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (1876119) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (1877259) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (1877259) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (1877759) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (1877759) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (1878059) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (1878069) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (1878189) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (1878189) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (1998419) SMARTHOME: Relay[1] 'Den phong khach' -> OFF[0m
+[0;32mI (1998419) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (1998419) SMARTHOME: Physical switch[1] changed (GPIO=0) -> Relay OFF[0m
+[0;32mI (2001559) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (2001569) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (2003819) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (2003819) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (2007709) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (2007709) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (2008319) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (2008319) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (2054609) SMARTHOME: Relay[1] 'Den phong khach' -> OFF[0m
+[0;32mI (2054609) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (2120969) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+[0;32mI (2120969) SMARTHOME: Published /home/relay/1/status -> 0[0m
+[0;32mI (2122199) SMARTHOME: Relay[1] 'Den phong khach' -> OFF[0m
+[0;32mI (2122199) SMARTHOME: Published /home/relay/1/status -> 1[0m
+[0;32mI (2123729) SMARTHOME: Relay[1] 'Den phong khach' -> ON[0m
+

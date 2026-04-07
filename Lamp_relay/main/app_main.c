@@ -30,17 +30,20 @@ static const char *TAG = "SMARTHOME";
 typedef struct {
     uint8_t id;
     const char *name;
-    gpio_num_t gpio;
+    gpio_num_t gpio_relay;      // GPIO for relay output
+    gpio_num_t gpio_switch;     // GPIO for physical switch input
     uint8_t state;
+    uint8_t last_switch_state;  // Track physical switch state
     char topic_ctrl[40];
     char topic_status[40];
 } relay_device_t;
 
+// Physical switches connected to GPIO inputs (with pull-up, active LOW)
 static relay_device_t s_devices[] = {
-    { .id = 1, .name = "Den phong khach", .gpio = GPIO_NUM_2 },
-    { .id = 2, .name = "Quat", .gpio = GPIO_NUM_4 },
-    { .id = 3, .name = "Den ngu", .gpio = GPIO_NUM_5 },
-    { .id = 4, .name = "Bom nuoc", .gpio = GPIO_NUM_18 },
+    { .id = 1, .name = "Den phong khach", .gpio_relay = GPIO_NUM_2,  .gpio_switch = GPIO_NUM_15 },
+    { .id = 2, .name = "Quat",            .gpio_relay = GPIO_NUM_4,  .gpio_switch = GPIO_NUM_16 },
+    { .id = 3, .name = "Den ngu",         .gpio_relay = GPIO_NUM_5,  .gpio_switch = GPIO_NUM_17 },
+    { .id = 4, .name = "Bom nuoc",        .gpio_relay = GPIO_NUM_18, .gpio_switch = GPIO_NUM_19 },
 };
 
 #define NUM_DEVICES (sizeof(s_devices) / sizeof(s_devices[0]))
@@ -138,19 +141,26 @@ static void devices_init(void)
         snprintf(d->topic_ctrl, sizeof(d->topic_ctrl), "/home/relay/%d/control", d->id);
         snprintf(d->topic_status, sizeof(d->topic_status), "/home/relay/%d/status", d->id);
 
-        gpio_reset_pin(d->gpio);
-        gpio_set_direction(d->gpio, GPIO_MODE_OUTPUT);
-        gpio_set_level(d->gpio, d->state);
+        // Initialize relay GPIO (output)
+        gpio_reset_pin(d->gpio_relay);
+        gpio_set_direction(d->gpio_relay, GPIO_MODE_OUTPUT);
+        gpio_set_level(d->gpio_relay, d->state);
 
-        ESP_LOGI(TAG, "Device[%d] '%s' GPIO%d topics=%s|%s",
-                 d->id, d->name, d->gpio, d->topic_ctrl, d->topic_status);
+        // Initialize physical switch GPIO (input with pull-up)
+        gpio_reset_pin(d->gpio_switch);
+        gpio_set_direction(d->gpio_switch, GPIO_MODE_INPUT);
+        gpio_set_pull_mode(d->gpio_switch, GPIO_PULLUP_ONLY);
+        d->last_switch_state = gpio_get_level(d->gpio_switch);
+
+        ESP_LOGI(TAG, "Device[%d] '%s' Relay=GPIO%d Switch=GPIO%d topics=%s|%s",
+                 d->id, d->name, d->gpio_relay, d->gpio_switch, d->topic_ctrl, d->topic_status);
     }
 }
 
 static void relay_set(relay_device_t *d, uint8_t level)
 {
     d->state = level;
-    gpio_set_level(d->gpio, d->state);
+    gpio_set_level(d->gpio_relay, d->state);
     ESP_LOGI(TAG, "Relay[%d] '%s' -> %s", d->id, d->name, level == 0 ? "ON" : "OFF");
 }
 
@@ -186,6 +196,42 @@ static void reset_button_task(void *arg)
             }
         }
         vTaskDelay(pdMS_TO_TICKS(100));
+    }
+}
+
+// Monitor physical switches and sync with relay state
+static void physical_switch_monitor_task(void *arg)
+{
+    ESP_LOGI(TAG, "Physical switch monitor started");
+    
+    while (1) {
+        for (int i = 0; i < (int)NUM_DEVICES; i++) {
+            relay_device_t *d = &s_devices[i];
+            
+            // Read current physical switch state (active LOW with pull-up)
+            uint8_t current_switch = gpio_get_level(d->gpio_switch);
+            
+            // Detect ANY state change (for toggle switch: both ON→OFF and OFF→ON)
+            if (current_switch != d->last_switch_state) {
+                vTaskDelay(pdMS_TO_TICKS(200)); // Debounce delay
+                current_switch = gpio_get_level(d->gpio_switch); // Re-read
+                
+                // Confirm state has really changed (not just noise)
+                if (current_switch != d->last_switch_state) {
+                    d->last_switch_state = current_switch;
+                    
+                    // Toggle relay state
+                    uint8_t new_state = (d->state == 0) ? 1 : 0;
+                    relay_set(d, new_state);
+                    publish_status(d);
+                    
+                    ESP_LOGI(TAG, "Physical switch[%d] changed (GPIO=%d) -> Relay %s",
+                             d->id, current_switch, new_state == 0 ? "ON" : "OFF");
+                }
+            }
+        }
+        
+        vTaskDelay(pdMS_TO_TICKS(50)); // Check every 50ms
     }
 }
 
@@ -575,6 +621,7 @@ void app_main(void)
 
     devices_init();
     xTaskCreate(reset_button_task, "reset_btn", 2048, NULL, 5, NULL);
+    xTaskCreate(physical_switch_monitor_task, "phys_switch", 4096, NULL, 5, NULL);
 
     s_wifi_event_group = xEventGroupCreate();
 

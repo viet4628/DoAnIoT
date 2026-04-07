@@ -18,9 +18,15 @@ public class TelemetryController {
     }
 
     @GetMapping("/{deviceId}")
-    public ResponseEntity<List<Telemetry>> getByDevice(@PathVariable Long deviceId) {
+    public ResponseEntity<List<Telemetry>> getByDevice(
+            @PathVariable Long deviceId,
+            @RequestParam(defaultValue = "20") int limit) {
+        limit = Math.min(limit, 200); // Cap at 200 to prevent abuse
         return ResponseEntity.ok(
                 telemetryRepository.findTop20ByDeviceIdOrderByTimestampDesc(deviceId)
+                        .stream()
+                        .limit(limit)
+                        .toList()
         );
     }
 

@@ -598,7 +598,7 @@ CONFIG_PARTITION_TABLE_MD5=y
 # Example Configuration
 #
 CONFIG_EXAMPLE_PROV_MGR_MAX_RETRY_CNT=5
-CONFIG_BROKER_URL="mqtt://mqtt.eclipseprojects.io"
+CONFIG_BROKER_URL="mqtt://172.16.12.102:1883"
 # end of Example Configuration
 
 #

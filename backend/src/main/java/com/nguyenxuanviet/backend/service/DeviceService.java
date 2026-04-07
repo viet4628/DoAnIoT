@@ -26,12 +26,12 @@ public class DeviceService {
         this.mqttInboundAdapter = mqttInboundAdapter;
     }
 
-    @Cacheable(value = "devices", unless = "#result == null || #result.isEmpty()")
+    // Removed @Cacheable for real-time IoT updates via MQTT
     public List<Device> findAll() {
         return deviceRepository.findAll();
     }
 
-    @Cacheable(value = "devices", key = "#id", unless = "#result == null || #result.isEmpty()")
+    // Removed @Cacheable for real-time IoT updates via MQTT
     public Optional<Device> findById(Long id) {
         return deviceRepository.findById(id);
     }

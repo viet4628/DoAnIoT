@@ -53,7 +53,7 @@
     "BOOT_ROM_LOG_ALWAYS_ON": true,
     "BOOT_ROM_LOG_ON_GPIO_HIGH": false,
     "BOOT_ROM_LOG_ON_GPIO_LOW": false,
-    "BROKER_URL": "mqtt://mqtt.eclipseprojects.io",
+    "BROKER_URL": "mqtt://172.16.12.102:1883",
     "COMPILER_ASSERT_NDEBUG_EVALUATE": true,
     "COMPILER_CXX_EXCEPTIONS": false,
     "COMPILER_CXX_RTTI": false,

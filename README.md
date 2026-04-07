@@ -34,36 +34,46 @@ Hệ thống quản lý thiết bị IoT thông minh với khả năng mở rộ
 - ✅ **Smart Polling** - 10s interval với debouncing (giảm 50% network load)
 - ✅ **Cross-platform** - Android, iOS, Web, Linux, macOS
 
+### Web Dashboard (ReactJS)
+- ✅ **Real-time Dashboard** - Hiển thị trạng thái thiết bị và thống kê
+- ✅ **Device Control** - Điều khiển thiết bị qua giao diện web
+- ✅ **Automation Manager** - Tạo/chỉnh sửa/xóa automation schedules
+- ✅ **Auto-refresh** - Cập nhật tự động mỗi 10 giây
+- ✅ **Responsive Design** - Tương thích desktop, tablet, mobile browsers
+
 ### ESP32 Firmware (C/FreeRTOS)
 - ✅ **MQTT Client** - Subscribe/publish device status
 - ✅ **WiFi Manager** - Cấu hình mạng qua QR code
 - ✅ **Relay Control** - Điều khiển thiết bị điện 220V
+- ✅ **Physical Switch Support** - Đọc trạng thái công tắc vật lý và đồng bộ với app
 - ✅ **OTA Updates** - Cập nhật firmware từ xa
 
 ## 🏗️ Kiến Trúc Hệ Thống
 
 ```
-┌─────────────────┐
-│  Flutter App    │ ←──── Mobile/Web/Desktop
-└────────┬────────┘
-         │ HTTP/REST
-         ↓
-┌─────────────────┐
-│     Nginx       │ ←──── Reverse Proxy
-└────────┬────────┘
-         │
-         ↓
-┌─────────────────┐      ┌──────────────┐
-│  Spring Boot    │←────→│    Redis     │ Cache Layer
-│    Backend      │      └──────────────┘
-└────────┬────────┘
-         │
-    ┌────┴─────┬──────────┐
-    ↓          ↓          ↓
-┌────────┐ ┌────────┐ ┌────────┐
-│PostgeSQL│ │  EMQX  │ │ESP32   │
-│Database │ │  MQTT  │ │Devices │
-└────────┘ └────────┘ └────────┘
+┌─────────────────┐       ┌─────────────────┐
+│  Flutter App    │       │  React Web App  │ ←──── Clients
+└────────┬────────┘       └────────┬────────┘
+         │                         │
+         └──────────┬──────────────┘
+                    │ HTTP/REST
+                    ↓
+         ┌─────────────────┐
+         │     Nginx       │ ←──── Reverse Proxy
+         └────────┬────────┘
+                  │
+                  ↓
+         ┌─────────────────┐      ┌──────────────┐
+         │  Spring Boot    │←────→│    Redis     │ Cache Layer
+         │    Backend      │      └──────────────┘
+         └────────┬────────┘
+                  │
+         ┌────────┴─────┬──────────┐
+         ↓              ↓          ↓
+    ┌────────┐     ┌────────┐ ┌────────┐
+    │PostgreSQL│     │  EMQX  │ │ESP32   │
+    │Database │     │  MQTT  │ │Devices │
+    └────────┘     └────────┘ └────────┘
 ```
 
 ### Tech Stack
@@ -75,6 +85,7 @@ Hệ thống quản lý thiết bị IoT thông minh với khả năng mở rộ
 | Cache | Redis | 7 |
 | Message Broker | EMQX | latest |
 | Mobile App | Flutter | 3.x |
+| Web Dashboard | ReactJS | 18.2 |
 | Firmware | ESP-IDF | 5.x |
 | Proxy | Nginx | Alpine |
 
@@ -426,13 +437,35 @@ docker exec doaniot-postgres psql -U admin -d smart_home_db \
 
 ## 🌐 Triển Khai Production
 
-### Deployment lên AWS EC2
+Hệ thống hỗ trợ 2 phương thức deploy production:
 
-Hệ thống hỗ trợ deploy lên cloud với hướng dẫn chi tiết cho AWS EC2 Ubuntu Server 22.04.
+### Option 1: Cloud Server (AWS EC2) - Khuyến nghị cho production
 
-**📘 Xem hướng dẫn đầy đủ**: [DEPLOYMENT_AWS_EC2.md](DEPLOYMENT_AWS_EC2.md)
+Phù hợp nếu:
+- ✅ Cần uptime cao (99.99%)
+- ✅ Truy cập từ xa 24/7
+- ✅ Nhiều người dùng đồng thời
+- ✅ Băng thông ổn định
 
-### Quick Start Production Deployment
+**📘 Hướng dẫn đầy đủ**: [DEPLOYMENT_AWS_EC2.md](DEPLOYMENT_AWS_EC2.md)
+
+**Chi phí**: ~$22/tháng (EC2 t3.small + Storage + Data Transfer)
+
+### Option 2: Local Server (Máy Cá Nhân) - Tiết kiệm chi phí
+
+Phù hợp nếu:
+- ✅ Chủ yếu dùng trong LAN (nhà/văn phòng)
+- ✅ Muốn tiết kiệm chi phí (~$5-10/tháng tiền điện)
+- ✅ Có internet ổn định với IP công khai
+- ✅ Chấp nhận downtime khi tắt máy/mất điện
+
+**📘 Hướng dẫn đầy đủ**: [DEPLOYMENT_LOCAL_SERVER.md](DEPLOYMENT_LOCAL_SERVER.md)
+
+**Chi phí**: ~$5-10/tháng (chỉ tiền điện)
+
+---
+
+### Quick Start - AWS EC2
 
 ```bash
 # 1. SSH vào EC2 instance
@@ -716,6 +749,7 @@ MIT License
 ## 🔗 Resources
 
 - [DEPLOYMENT_AWS_EC2.md](DEPLOYMENT_AWS_EC2.md) - Hướng dẫn triển khai lên AWS EC2 Ubuntu 22.04
+- [DEPLOYMENT_LOCAL_SERVER.md](DEPLOYMENT_LOCAL_SERVER.md) - Hướng dẫn dùng máy local làm server (tiết kiệm chi phí)
 - [PERFORMANCE_OPTIMIZATIONS.md](PERFORMANCE_OPTIMIZATIONS.md) - Chi tiết tối ưu hiệu năng
 - [Spring Boot Documentation](https://spring.io/projects/spring-boot)
 - [Flutter Documentation](https://flutter.dev/docs)

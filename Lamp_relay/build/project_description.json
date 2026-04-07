@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "mqtt5",
-    "project_version":    "3743c63-dirty",
+    "project_version":    "b2a7e86-dirty",
     "project_path":       "/home/viet/Downloads/DoAnIoT/Lamp_relay",
     "idf_path":           "/home/viet/esp/esp-idf",
     "build_dir":          "/home/viet/Downloads/DoAnIoT/Lamp_relay/build",
