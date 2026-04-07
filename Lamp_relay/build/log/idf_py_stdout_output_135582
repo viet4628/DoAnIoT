@@ -1,0 +1,1052 @@
+Command: /home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python /home/viet/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyACM0 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /home/viet/Downloads/DoAnIoT/Lamp_relay/build/mqtt5.elf /home/viet/Downloads/DoAnIoT/Lamp_relay/build/bootloader/bootloader.elf -m '/home/viet/.espressif/python_env/idf5.5_py3.10_env/bin/python' '/home/viet/esp/esp-idf/tools/idf.py'
+5
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (24) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (25) boot: chip revision: v0.2[0m
+[0;32mI (28) boot: efuse block revision: v1.3[0m
+[0;32mI (32) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (36) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (48) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (63) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (70) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (76) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22d34h (142644) map[0m
+[0;32mI (112) esp_image: segment 1: paddr=00032d5c vaddr=3fc9aa00 size=04bbch ( 19388) load[0m
+[0;32mI (116) esp_image: segment 2: paddr=00037920 vaddr=40374000 size=086f8h ( 34552) load[0m
+[0;32mI (124) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad3cch (709580) map[0m
+[0;32mI (249) esp_image: segment 4: paddr=000ed3f4 vaddr=4037c6f8 size=0e2ach ( 58028) load[0m
+[0;32mI (262) esp_image: segment 5: paddr=000fb6a8 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (272) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (272) boot: Disabling RNG early entropy source...[0m
+[0;32mI (282) cpu_start: Multicore app[0m
+[0;32mI (290) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (291) cpu_start: Pro cpu start user code[0m
+[0;32mI (291) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (293) app_init: Application information:[0m
+[0;32mI (296) app_init: Project name:     mqtt5[0m
+[0;32mI (300) app_init: App version:      3743c63-dirty[0m
+[0;32mI (305) app_init: Compile time:     Apr  5 2026 19:44:32[0m
+[0;32mI (310) app_init: ELF file SHA256:  8d4da6b85...[0m
+[0;32mI (314) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (318) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (322) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (326) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (330) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (336) heap_init: At 3FCA4008 len 00045708 (277 KiB): RAM[0m
+[0;32mI (341) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (352) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (358) spi_flash: detected chip: boya[0m
+[0;32mI (360) spi_flash: flash io: dio[0m
+[0;33mW (363) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (376) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (382) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (389) main_task: Started on CPU0[0m
+[0;32mI (409) main_task: Calling app_main()[0m
+[0;32mI (439) SMARTHOME: Device[1] 'Den phong khach' GPIO2 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (439) SMARTHOME: Device[2] 'Quat' GPIO4 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (439) SMARTHOME: Device[3] 'Den ngu' GPIO5 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (449) SMARTHOME: Device[4] 'Bom nuoc' GPIO18 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (459) pp: pp rom version: e7ae62f[0m
+[0;32mI (459) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (479) wifi:wifi driver task: 3fcede5c, prio:23, stack:6656, core=0[0m
+[0;32mI (489) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (489) wifi:wifi certification version: v7.0[0m
+[0;32mI (489) wifi:config NVS flash: enabled[0m
+[0;32mI (489) wifi:config nano formatting: disabled[0m
+[0;32mI (489) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (499) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (499) wifi:Init management short buffer num: 32[0m
+[0;32mI (509) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (509) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (519) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (519) wifi:Init static rx buffer num: 10[0m
+[0;32mI (519) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (529) wifi_init: rx ba win: 6[0m
+[0;32mI (529) wifi_init: accept mbox: 6[0m
+[0;32mI (529) wifi_init: tcpip mbox: 32[0m
+[0;32mI (539) wifi_init: udp mbox: 6[0m
+[0;32mI (539) wifi_init: tcp mbox: 6[0m
+[0;32mI (539) wifi_init: tcp tx win: 5760[0m
+[0;32mI (539) wifi_init: tcp rx win: 5760[0m
+[0;32mI (549) wifi_init: tcp mss: 1440[0m
+[0;32mI (549) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (549) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (559) SMARTHOME: No config found, entering app-driven QR provisioning mode[0m
+[0;32mI (569) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (609) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (659) wifi:mode : sta (ac:a7:04:2c:33:40) + softAP (ac:a7:04:2c:33:41)[0m
+[0;32mI (659) wifi:enable tsf[0m
+[0;32mI (659) wifi:Total power save buffer number: 16[0m
+[0;32mI (659) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (669) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (669) SMARTHOME: Pre-scanning WiFi before AP clients join...[0m
+[0;32mI (669) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (679) SMARTHOME: [SCAN] Task started[0m
+[0;32mI (3589) SMARTHOME: [SCAN] scan_start ret=0x0 (ESP_OK)[0m
+[0;32mI (3589) SMARTHOME: [SCAN] Total APs found by driver: 13[0m
+[0;32mI (3589) SMARTHOME: [SCAN] Records written to buffer: 13[0m
+[0;32mI (3589) SMARTHOME: [SCAN] Done. Cached 13 APs[0m
+[0;32mI (3589) SMARTHOME: [SCAN]  [0] SSID='Cty Thai Tan' RSSI=-46[0m
+[0;32mI (3599) SMARTHOME: [SCAN]  [1] SSID='TAN ' RSSI=-52[0m
+[0;32mI (3599) SMARTHOME: [SCAN]  [2] SSID='Hanh' RSSI=-56[0m
+[0;32mI (3609) SMARTHOME: [SCAN]  [3] SSID='banhmioplakemchalua' RSSI=-82[0m
+[0;32mI (3609) SMARTHOME: [SCAN]  [4] SSID='Quân' RSSI=-83[0m
+[0;32mI (3619) SMARTHOME: [SCAN]  [5] SSID='FPT Telecom-57E9-IOT' RSSI=-83[0m
+[0;32mI (3619) SMARTHOME: [SCAN]  [6] SSID='B1' RSSI=-85[0m
+[0;32mI (3629) SMARTHOME: [SCAN]  [7] SSID='AMAZON1 2.4GHz' RSSI=-87[0m
+[0;32mI (3629) SMARTHOME: [SCAN]  [8] SSID='86B1' RSSI=-89[0m
+[0;32mI (3639) SMARTHOME: [SCAN]  [9] SSID='Niem Duong' RSSI=-89[0m
+[0;32mI (3639) SMARTHOME: [SCAN]  [10] SSID='A5' RSSI=-89[0m
+[0;32mI (3649) SMARTHOME: [SCAN]  [11] SSID='FC-3F6D46' RSSI=-92[0m
+[0;32mI (3649) SMARTHOME: [SCAN]  [12] SSID='Nguyen Anh' RSSI=-92[0m
+[0;32mI (3659) SMARTHOME: Pre-scan complete: 13 networks cached[0m
+[0;32mI (3669) SMARTHOME: Provisioning AP started. SSID='SMARTHOME_2C3341'[0m
+[0;32mI (3669) SMARTHOME: ================================================[0m
+[0;32mI (3679) SMARTHOME: SCANNABLE QR CODE FOR PROVISIONING:[0m
+[0;32mI (3679) QRCODE: Encoding below text with ECC LVL 0 & QR Code Version 10[0m
+[0;32mI (3689) QRCODE: {"type":"smarthome-provision","apSsid":"SMARTHOME_2C3341","apPassword":"","endpoint":"http://192.168.4.1/provision","method":"POST","pop":"HUTECHIOT123"}[0m
+                                                  
+  █▀▀▀▀▀█ ▄▀   ▄   █ █▄█ ███ █▀ ▀ ▀▄ ▄▀ █▀▀▀▀▀█   
+  █ ███ █ ▄▄ ▀▀  ██ █▀█▄ ███▀▀▀ ▀█▀█ █▄ █ ███ █   
+  █ ▀▀▀ █ ▄▀█▀▀▄█▄▄ ▄ █▀▀▀█▀▄█▀▀▀  ▄▀▀▀ █ ▀▀▀ █   
+  ▀▀▀▀▀▀▀ ▀ █ ▀▄█▄▀ █ █ ▀ █ ▀▄█▄▀ █ █ █ ▀▀▀▀▀▀▀   
+  █▀▀▀▀▄▀█▀▄██▄█ ▀  ▀▀▀▀████▀█▄ █ ▄   ▄█ ▀ ▀ █▄   
+  ▄██ █ ▀█ █ ▄▄ ▄█▄ ▀▄▀▄▀▀▀▄ ██▄ ██ ███▄▀ ███▀    
+  ▄█▀▀█▄▀█▄▄█▄█▄▄ ▀▀▀   █ ██ █ █▄█▄█▀▀▄▄ ▄   ▀▄   
+  ▀▄█ ██▀  ▄▀ █▀  █ ▀ ▀ ▀████ █▀▄▀█▄▀▀▀▀▀▄▄███▄   
+  ▀▀▀▀▄█▀▀█▄▀▄█▄▄▀ ▄▀▀ ▄ ▀ █ █▄▄▄█▄▀ ▄▄█  ▄█ ██   
+  █▀▄█▄▄▀ ▀▀▀▄▀ █▄▀▄██▀▀▀ ▀▄ █▄▄▄▀█▄▀█▀▀▀▀▄▄▄▀▄   
+  ▄▄▄██▀▀▀█ ▄ █ ▄▀▀█▀▄█▀▀▀█▄ █▄▄▄▄ ▄ ██▀▀▀█▀▄ ▄   
+  ██  █ ▀ █▄ ▄▄▄  ▀   █ ▀ █ ▀█▄ ▄ ▄▄▀ █ ▀ █▄█▀    
+  ▄▀▄ █▀▀▀█ ▀▄▀▄▄▀  ▀█▀█▀▀▀█ █ ███ ▀▀▀█▀▀▀▀▄▄ ▄   
+  ███ ▄ ▀█ ▄█▄  ▄   █ ▄▀▄▄█▀▄▄▄▀ ▄█▀▀▄▀▄▄█▄ █▄▄   
+   █ ███▀██▄▄▄▄ ▄ ▀██▄   █ ▄ █▄██ ▄█▀▄  ▄ ▀▄▄▄█   
+    █▄ ▀▀▀ ▀▀██ ▄▄▀ ▀ ▄▀▄▀▄ ▀▄█▀▄▀█ ██▄█▄█▀▀█▀    
+  ▄▀▀▄▄█▀▀▀   █▄▄▀ ▀██▀▀▄ ▄▄▀  ▄██▄ ▀▄  █▀▀ ▄█▄   
+   ▄▄▄█ ▀   ▀█▀ ▄▀  █▄▀▄ ▄██▄██▀█ ▄▄██▀ ▄█▀ ▄█    
+  ▀  ▀▀ ▀ ▄██▄▄ ▄ ▀▀▀ █▀▀▀██▀ ▄█▄  █  █▀▀▀█▀▄ █   
+  █▀▀▀▀▀█ ▀   ▄▄▄▄▀ ▄▀█ ▀ █▄▀▄█ ▄█▄▀▀ █ ▀ █ ▄▀▄   
+  █ ███ █ ████▄ ▄  ██ ██▀▀█▄  ▄█▄█ ▀▀▀▀█▀██▀ █▀   
+  █ ▀▀▀ █ ██  ▄▀▀  ▄█▄▄█▀  ▄ █▄▀ ▄█▀█▄▀▄ █▄ ▄ ▀   
+  ▀▀▀▀▀▀▀ ▀▀▀     ▀▀▀   ▀ ▀    ▀▀  ▀▀▀  ▀▀▀  ▀    
+                                                  
+
+[0;32mI (4049) SMARTHOME: QR Payload: {"type":"smarthome-provision","apSsid":"SMARTHOME_2C3341","apPassword":"","endpoint":"http://192.168.4.1/provision","method":"POST","pop":"HUTECHIOT123"}[0m
+[0;32mI (4069) SMARTHOME: PROVISIONING PIN: HUTECHIOT123[0m
+[0;32mI (4069) SMARTHOME: ================================================[0m
+[0;32mI (14689) wifi:new:<1,0>, old:<1,1>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (14689) wifi:station: ae:d7:4f:b4:2b:4d join, AID=1, bgn, 20[0m
+[0;32mI (15039) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (15799) wifi:<ba-add>idx:2 (ifx:1, ae:d7:4f:b4:2b:4d), tid:0, ssn:18, winSize:64[0m
+[0;32mI (28399) SMARTHOME: WiFi scan requested... serving 13 cached APs[0m
+[0;32mI (37189) SMARTHOME: Provision saved. SSID='Hanh' broker='mqtt://192.168.1.239:1883'[0m
+[0;32mI (38389) wifi:station: ae:d7:4f:b4:2b:4d leave, AID = 1, reason = 2, bss_flags is 33721459, bss:0x3fcb4b74[0m
+[0;32mI (38389) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (38389) wifi:<ba-del>idx:2, tid:0[0m
+[0;32mI (38399) wifi:new:<1,1>, old:<1,0>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (38449) wifi:flush txq[0m
+[0;32mI (38449) wifi:stop sw txq[0m
+[0;32mI (38449) wifi:lmac stop hw txq[0m
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22d34h (142644) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032d5c vaddr=3fc9aa00 size=04bbch ( 19388) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=00037920 vaddr=40374000 size=086f8h ( 34552) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad3cch (709580) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed3f4 vaddr=4037c6f8 size=0e2ach ( 58028) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb6a8 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (304) app_init: App version:      3743c63-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  5 2026 19:44:32[0m
+[0;32mI (314) app_init: ELF file SHA256:  8d4da6b85...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (326) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4008 len 00045708 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (362) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (386) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' GPIO2 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' GPIO4 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (453) SMARTHOME: Device[3] 'Den ngu' GPIO5 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (453) SMARTHOME: Device[4] 'Bom nuoc' GPIO18 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (463) pp: pp rom version: e7ae62f[0m
+[0;32mI (473) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (483) wifi:wifi driver task: 3fcede5c, prio:23, stack:6656, core=0[0m
+[0;32mI (493) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (493) wifi:wifi certification version: v7.0[0m
+[0;32mI (493) wifi:config NVS flash: enabled[0m
+[0;32mI (493) wifi:config nano formatting: disabled[0m
+[0;32mI (503) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (503) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (503) wifi:Init management short buffer num: 32[0m
+[0;32mI (513) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (513) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (523) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (523) wifi:Init static rx buffer num: 10[0m
+[0;32mI (523) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (533) wifi_init: rx ba win: 6[0m
+[0;32mI (533) wifi_init: accept mbox: 6[0m
+[0;32mI (533) wifi_init: tcpip mbox: 32[0m
+[0;32mI (543) wifi_init: udp mbox: 6[0m
+[0;32mI (543) wifi_init: tcp mbox: 6[0m
+[0;32mI (543) wifi_init: tcp tx win: 5760[0m
+[0;32mI (553) wifi_init: tcp rx win: 5760[0m
+[0;32mI (553) wifi_init: tcp mss: 1440[0m
+[0;32mI (553) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (563) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (563) SMARTHOME: Config found: ssid='Hanh' broker='mqtt://192.168.1.239:1883'[0m
+[0;32mI (593) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (623) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (673) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (673) wifi:enable tsf[0m
+[0;32mI (1863) wifi:new:<10,0>, old:<1,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (1863) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (1863) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (1873) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (4973) wifi:state: run -> init (0xf00)[0m
+[0;32mI (4983) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (4983) SMARTHOME: Wi-Fi retry 1/10[0m
+[0;33mW (7393) SMARTHOME: Wi-Fi retry 2/10[0m
+[0;32mI (7403) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (7403) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (7413) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (7423) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (10523) wifi:state: run -> init (0xf00)[0m
+[0;32mI (10533) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (10533) SMARTHOME: Wi-Fi retry 3/10[0m
+[0;33mW (12943) SMARTHOME: Wi-Fi retry 4/10[0m
+[0;32mI (12953) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (12953) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (12963) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (12963) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (16073) wifi:state: run -> init (0xf00)[0m
+[0;32mI (16083) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (16083) SMARTHOME: Wi-Fi retry 5/10[0m
+[0;33mW (18493) SMARTHOME: Wi-Fi retry 6/10[0m
+[0;32mI (18503) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (18503) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (18513) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (18523) wifi:state: assoc -> run (0x10)[0m
+[1;31mE (20673) SMARTHOME: Wi-Fi failed - clearing config, restarting[0m
+[0;32mI (21183) wifi:state: run -> init (0x0)[0m
+[0;32mI (21193) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (21223) wifi:flush txq[0m
+[0;32mI (21223) wifi:stop sw txq[0m
+[0;32mI (21223) wifi:lmac stop hw txq[0m
+x��ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22d34h (142644) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032d5c vaddr=3fc9aa00 size=04bbch ( 19388) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=00037920 vaddr=40374000 size=086f8h ( 34552) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad3cch (709580) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed3f4 vaddr=4037c6f8 size=0e2ach ( 58028) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb6a8 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (304) app_init: App version:      3743c63-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  5 2026 19:44:32[0m
+[0;32mI (314) app_init: ELF file SHA256:  8d4da6b85...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (326) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4008 len 00045708 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (362) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (386) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' GPIO2 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' GPIO4 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (443) SMARTHOME: Device[3] 'Den ngu' GPIO5 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (453) SMARTHOME: Device[4] 'Bom nuoc' GPIO18 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (463) pp: pp rom version: e7ae62f[0m
+[0;32mI (463) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (483) wifi:wifi driver task: 3fcede5c, prio:23, stack:6656, core=0[0m
+[0;32mI (493) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (493) wifi:wifi certification version: v7.0[0m
+[0;32mI (493) wifi:config NVS flash: enabled[0m
+[0;32mI (493) wifi:config nano formatting: disabled[0m
+[0;32mI (493) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (503) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (503) wifi:Init management short buffer num: 32[0m
+[0;32mI (513) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (513) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (523) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (523) wifi:Init static rx buffer num: 10[0m
+[0;32mI (523) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (533) wifi_init: rx ba win: 6[0m
+[0;32mI (533) wifi_init: accept mbox: 6[0m
+[0;32mI (533) wifi_init: tcpip mbox: 32[0m
+[0;32mI (543) wifi_init: udp mbox: 6[0m
+[0;32mI (543) wifi_init: tcp mbox: 6[0m
+[0;32mI (543) wifi_init: tcp tx win: 5760[0m
+[0;32mI (553) wifi_init: tcp rx win: 5760[0m
+[0;32mI (553) wifi_init: tcp mss: 1440[0m
+[0;32mI (553) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (553) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (563) SMARTHOME: No config found, entering app-driven QR provisioning mode[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (623) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (633) wifi:mode : sta (ac:a7:04:2c:33:40) + softAP (ac:a7:04:2c:33:41)[0m
+[0;32mI (633) wifi:enable tsf[0m
+[0;32mI (633) wifi:Total power save buffer number: 16[0m
+[0;32mI (643) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (643) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (643) SMARTHOME: Pre-scanning WiFi before AP clients join...[0m
+[0;32mI (653) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (663) SMARTHOME: [SCAN] Task started[0m
+[0;32mI (3563) SMARTHOME: [SCAN] scan_start ret=0x0 (ESP_OK)[0m
+[0;32mI (3563) SMARTHOME: [SCAN] Total APs found by driver: 16[0m
+[0;32mI (3563) SMARTHOME: [SCAN] Records written to buffer: 16[0m
+[0;32mI (3563) SMARTHOME: [SCAN] Done. Cached 16 APs[0m
+[0;32mI (3563) SMARTHOME: [SCAN]  [0] SSID='Cty Thai Tan' RSSI=-44[0m
+[0;32mI (3573) SMARTHOME: [SCAN]  [1] SSID='Hanh' RSSI=-49[0m
+[0;32mI (3573) SMARTHOME: [SCAN]  [2] SSID='TAN ' RSSI=-52[0m
+[0;32mI (3583) SMARTHOME: [SCAN]  [3] SSID='banhmioplakemchalua' RSSI=-78[0m
+[0;32mI (3583) SMARTHOME: [SCAN]  [4] SSID='Quân' RSSI=-80[0m
+[0;32mI (3593) SMARTHOME: [SCAN]  [5] SSID='FPT Telecom-57E9-IOT' RSSI=-80[0m
+[0;32mI (3593) SMARTHOME: [SCAN]  [6] SSID='Niem Duong' RSSI=-85[0m
+[0;32mI (3603) SMARTHOME: [SCAN]  [7] SSID='PHONG' RSSI=-85[0m
+[0;32mI (3603) SMARTHOME: [SCAN]  [8] SSID='A5' RSSI=-89[0m
+[0;32mI (3613) SMARTHOME: [SCAN]  [9] SSID='FC-3F6D46' RSSI=-90[0m
+[0;32mI (3613) SMARTHOME: [SCAN]  [10] SSID='B4' RSSI=-90[0m
+[0;32mI (3623) SMARTHOME: [SCAN]  [11] SSID='Starbucks' RSSI=-92[0m
+[0;32mI (3623) SMARTHOME: [SCAN]  [12] SSID='FPT Telecom-3B11-IOT' RSSI=-92[0m
+[0;32mI (3633) SMARTHOME: [SCAN]  [13] SSID='LuckyTea' RSSI=-93[0m
+[0;32mI (3643) SMARTHOME: [SCAN]  [14] SSID='86B1' RSSI=-93[0m
+[0;32mI (3643) SMARTHOME: [SCAN]  [15] SSID='AMAZON1 2.4GHz' RSSI=-93[0m
+[0;32mI (3653) SMARTHOME: Pre-scan complete: 16 networks cached[0m
+[0;32mI (3653) SMARTHOME: Provisioning AP started. SSID='SMARTHOME_2C3341'[0m
+[0;32mI (3663) SMARTHOME: ================================================[0m
+[0;32mI (3663) SMARTHOME: SCANNABLE QR CODE FOR PROVISIONING:[0m
+[0;32mI (3673) QRCODE: Encoding below text with ECC LVL 0 & QR Code Version 10[0m
+[0;32mI (3673) QRCODE: {"type":"smarthome-provision","apSsid":"SMARTHOME_2C3341","apPassword":"","endpoint":"http://192.168.4.1/provision","method":"POST","pop":"HUTECHIOT123"}[0m
+                                                  
+  █▀▀▀▀▀█ ▄▀   ▄   █ █▄█ ███ █▀ ▀ ▀▄ ▄▀ █▀▀▀▀▀█   
+  █ ███ █ ▄▄ ▀▀  ██ █▀█▄ ███▀▀▀ ▀█▀█ █▄ █ ███ █   
+  █ ▀▀▀ █ ▄▀█▀▀▄█▄▄ ▄ █▀▀▀█▀▄█▀▀▀  ▄▀▀▀ █ ▀▀▀ █   
+  ▀▀▀▀▀▀▀ ▀ █ ▀▄█▄▀ █ █ ▀ █ ▀▄█▄▀ █ █ █ ▀▀▀▀▀▀▀   
+  █▀▀▀▀▄▀█▀▄██▄█ ▀  ▀▀▀▀████▀█▄ █ ▄   ▄█ ▀ ▀ █▄   
+  ▄██ █ ▀█ █ ▄▄ ▄█▄ ▀▄▀▄▀▀▀▄ ██▄ ██ ███▄▀ ███▀    
+  ▄█▀▀█▄▀█▄▄█▄█▄▄ ▀▀▀   █ ██ █ █▄█▄█▀▀▄▄ ▄   ▀▄   
+  ▀▄█ ██▀  ▄▀ █▀  █ ▀ ▀ ▀████ █▀▄▀█▄▀▀▀▀▀▄▄███▄   
+  ▀▀▀▀▄█▀▀█▄▀▄█▄▄▀ ▄▀▀ ▄ ▀ █ █▄▄▄█▄▀ ▄▄█  ▄█ ██   
+  █▀▄█▄▄▀ ▀▀▀▄▀ █▄▀▄██▀▀▀ ▀▄ █▄▄▄▀█▄▀█▀▀▀▀▄▄▄▀▄   
+  ▄▄▄██▀▀▀█ ▄ █ ▄▀▀█▀▄█▀▀▀█▄ █▄▄▄▄ ▄ ██▀▀▀█▀▄ ▄   
+  ██  █ ▀ █▄ ▄▄▄  ▀   █ ▀ █ ▀█▄ ▄ ▄▄▀ █ ▀ █▄█▀    
+  ▄▀▄ █▀▀▀█ ▀▄▀▄▄▀  ▀█▀█▀▀▀█ █ ███ ▀▀▀█▀▀▀▀▄▄ ▄   
+  ███ ▄ ▀█ ▄█▄  ▄   █ ▄▀▄▄█▀▄▄▄▀ ▄█▀▀▄▀▄▄█▄ █▄▄   
+   █ ███▀██▄▄▄▄ ▄ ▀██▄   █ ▄ █▄██ ▄█▀▄  ▄ ▀▄▄▄█   
+    █▄ ▀▀▀ ▀▀██ ▄▄▀ ▀ ▄▀▄▀▄ ▀▄█▀▄▀█ ██▄█▄█▀▀█▀    
+  ▄▀▀▄▄█▀▀▀   █▄▄▀ ▀██▀▀▄ ▄▄▀  ▄██▄ ▀▄  █▀▀ ▄█▄   
+   ▄▄▄█ ▀   ▀█▀ ▄▀  █▄▀▄ ▄██▄██▀█ ▄▄██▀ ▄█▀ ▄█    
+  ▀  ▀▀ ▀ ▄██▄▄ ▄ ▀▀▀ █▀▀▀██▀ ▄█▄  █  █▀▀▀█▀▄ █   
+  █▀▀▀▀▀█ ▀   ▄▄▄▄▀ ▄▀█ ▀ █▄▀▄█ ▄█▄▀▀ █ ▀ █ ▄▀▄   
+  █ ███ █ ████▄ ▄  ██ ██▀▀█▄  ▄█▄█ ▀▀▀▀█▀██▀ █▀   
+  █ ▀▀▀ █ ██  ▄▀▀  ▄█▄▄█▀  ▄ █▄▀ ▄█▀█▄▀▄ █▄ ▄ ▀   
+  ▀▀▀▀▀▀▀ ▀▀▀     ▀▀▀   ▀ ▀    ▀▀  ▀▀▀  ▀▀▀  ▀    
+                                                  
+
+[0;32mI (4043) SMARTHOME: QR Payload: {"type":"smarthome-provision","apSsid":"SMARTHOME_2C3341","apPassword":"","endpoint":"http://192.168.4.1/provision","method":"POST","pop":"HUTECHIOT123"}[0m
+[0;32mI (4053) SMARTHOME: PROVISIONING PIN: HUTECHIOT123[0m
+[0;32mI (4063) SMARTHOME: ================================================[0m
+[0;32mI (23213) wifi:new:<1,0>, old:<1,1>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (23213) wifi:station: ae:d7:4f:b4:2b:4d join, AID=1, bgn, 20[0m
+[0;32mI (23323) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (24193) wifi:<ba-add>idx:2 (ifx:1, ae:d7:4f:b4:2b:4d), tid:0, ssn:18, winSize:64[0m
+[0;32mI (49913) SMARTHOME: WiFi scan requested... serving 16 cached APs[0m
+[0;32mI (65453) SMARTHOME: Provision saved. SSID='Hanh' broker='mqtt://192.168.1.239:1883'[0m
+[0;32mI (66653) wifi:station: ae:d7:4f:b4:2b:4d leave, AID = 1, reason = 2, bss_flags is 33721459, bss:0x3fcb4b60[0m
+[0;32mI (66653) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (66653) wifi:<ba-del>idx:2, tid:0[0m
+[0;32mI (66663) wifi:new:<1,1>, old:<1,0>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (66713) wifi:flush txq[0m
+[0;32mI (66713) wifi:stop sw txq[0m
+[0;32mI (66713) wifi:lmac stop hw txq[0m
+x�ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22d34h (142644) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032d5c vaddr=3fc9aa00 size=04bbch ( 19388) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=00037920 vaddr=40374000 size=086f8h ( 34552) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad3cch (709580) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed3f4 vaddr=4037c6f8 size=0e2ach ( 58028) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb6a8 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (304) app_init: App version:      3743c63-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  5 2026 19:44:32[0m
+[0;32mI (314) app_init: ELF file SHA256:  8d4da6b85...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (326) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4008 len 00045708 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (362) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (386) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' GPIO2 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' GPIO4 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (443) SMARTHOME: Device[3] 'Den ngu' GPIO5 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (453) SMARTHOME: Device[4] 'Bom nuoc' GPIO18 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (463) pp: pp rom version: e7ae62f[0m
+[0;32mI (463) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (483) wifi:wifi driver task: 3fcede5c, prio:23, stack:6656, core=0[0m
+[0;32mI (493) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (493) wifi:wifi certification version: v7.0[0m
+[0;32mI (493) wifi:config NVS flash: enabled[0m
+[0;32mI (493) wifi:config nano formatting: disabled[0m
+[0;32mI (493) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (503) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (503) wifi:Init management short buffer num: 32[0m
+[0;32mI (513) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (513) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (523) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (523) wifi:Init static rx buffer num: 10[0m
+[0;32mI (523) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (533) wifi_init: rx ba win: 6[0m
+[0;32mI (533) wifi_init: accept mbox: 6[0m
+[0;32mI (533) wifi_init: tcpip mbox: 32[0m
+[0;32mI (543) wifi_init: udp mbox: 6[0m
+[0;32mI (543) wifi_init: tcp mbox: 6[0m
+[0;32mI (543) wifi_init: tcp tx win: 5760[0m
+[0;32mI (553) wifi_init: tcp rx win: 5760[0m
+[0;32mI (553) wifi_init: tcp mss: 1440[0m
+[0;32mI (553) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (553) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (563) SMARTHOME: Config found: ssid='Hanh' broker='mqtt://192.168.1.239:1883'[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (613) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (653) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (653) wifi:enable tsf[0m
+[0;32mI (1753) wifi:new:<10,0>, old:<1,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (1753) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (1763) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (1773) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (4883) wifi:state: run -> init (0xf00)[0m
+[0;32mI (4893) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (4893) SMARTHOME: Wi-Fi retry 1/10[0m
+[0;33mW (7303) SMARTHOME: Wi-Fi retry 2/10[0m
+[0;32mI (7313) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (7313) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (7323) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (7333) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (10433) wifi:state: run -> init (0xf00)[0m
+[0;32mI (10443) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (10443) SMARTHOME: Wi-Fi retry 3/10[0m
+[0;33mW (12853) SMARTHOME: Wi-Fi retry 4/10[0m
+[0;32mI (12863) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (12863) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (12873) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (12873) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (15983) wifi:state: run -> init (0xf00)[0m
+[0;32mI (15993) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (15993) SMARTHOME: Wi-Fi retry 5/10[0m
+[0;33mW (18403) SMARTHOME: Wi-Fi retry 6/10[0m
+[0;32mI (18413) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (18413) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (18423) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (18423) wifi:state: assoc -> run (0x10)[0m
+[1;31mE (20653) SMARTHOME: Wi-Fi failed - clearing config, restarting[0m
+[0;32mI (21163) wifi:state: run -> init (0x0)[0m
+[0;32mI (21173) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (21203) wifi:flush txq[0m
+[0;32mI (21203) wifi:stop sw txq[0m
+[0;32mI (21203) wifi:lmac stop hw txq[0m
+x��ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22d34h (142644) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032d5c vaddr=3fc9aa00 size=04bbch ( 19388) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=00037920 vaddr=40374000 size=086f8h ( 34552) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad3cch (709580) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed3f4 vaddr=4037c6f8 size=0e2ach ( 58028) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb6a8 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (304) app_init: App version:      3743c63-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  5 2026 19:44:32[0m
+[0;32mI (314) app_init: ELF file SHA256:  8d4da6b85...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (326) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4008 len 00045708 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (362) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (386) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' GPIO2 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' GPIO4 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (443) SMARTHOME: Device[3] 'Den ngu' GPIO5 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (453) SMARTHOME: Device[4] 'Bom nuoc' GPIO18 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (463) pp: pp rom version: e7ae62f[0m
+[0;32mI (463) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (483) wifi:wifi driver task: 3fcede5c, prio:23, stack:6656, core=0[0m
+[0;32mI (493) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (493) wifi:wifi certification version: v7.0[0m
+[0;32mI (493) wifi:config NVS flash: enabled[0m
+[0;32mI (493) wifi:config nano formatting: disabled[0m
+[0;32mI (493) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (503) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (503) wifi:Init management short buffer num: 32[0m
+[0;32mI (513) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (513) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (523) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (523) wifi:Init static rx buffer num: 10[0m
+[0;32mI (523) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (533) wifi_init: rx ba win: 6[0m
+[0;32mI (533) wifi_init: accept mbox: 6[0m
+[0;32mI (533) wifi_init: tcpip mbox: 32[0m
+[0;32mI (543) wifi_init: udp mbox: 6[0m
+[0;32mI (543) wifi_init: tcp mbox: 6[0m
+[0;32mI (543) wifi_init: tcp tx win: 5760[0m
+[0;32mI (543) wifi_init: tcp rx win: 5760[0m
+[0;32mI (553) wifi_init: tcp mss: 1440[0m
+[0;32mI (553) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (553) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (563) SMARTHOME: No config found, entering app-driven QR provisioning mode[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (623) wifi:mode : sta (ac:a7:04:2c:33:40) + softAP (ac:a7:04:2c:33:41)[0m
+[0;32mI (623) wifi:enable tsf[0m
+[0;32mI (623) wifi:Total power save buffer number: 16[0m
+[0;32mI (623) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (623) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (633) SMARTHOME: Pre-scanning WiFi before AP clients join...[0m
+[0;32mI (633) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (643) SMARTHOME: [SCAN] Task started[0m
+[0;32mI (3553) SMARTHOME: [SCAN] scan_start ret=0x0 (ESP_OK)[0m
+[0;32mI (3553) SMARTHOME: [SCAN] Total APs found by driver: 12[0m
+[0;32mI (3553) SMARTHOME: [SCAN] Records written to buffer: 12[0m
+[0;32mI (3553) SMARTHOME: [SCAN] Done. Cached 12 APs[0m
+[0;32mI (3553) SMARTHOME: [SCAN]  [0] SSID='Hanh' RSSI=-58[0m
+[0;32mI (3563) SMARTHOME: [SCAN]  [1] SSID='Cty Thai Tan' RSSI=-62[0m
+[0;32mI (3563) SMARTHOME: [SCAN]  [2] SSID='TAN ' RSSI=-63[0m
+[0;32mI (3573) SMARTHOME: [SCAN]  [3] SSID='Quân' RSSI=-81[0m
+[0;32mI (3573) SMARTHOME: [SCAN]  [4] SSID='FPT Telecom-57E9-IOT' RSSI=-81[0m
+[0;32mI (3583) SMARTHOME: [SCAN]  [5] SSID='banhmioplakemchalua' RSSI=-85[0m
+[0;32mI (3583) SMARTHOME: [SCAN]  [6] SSID='FPT Telecom-3B11-IOT' RSSI=-88[0m
+[0;32mI (3593) SMARTHOME: [SCAN]  [7] SSID='A5' RSSI=-89[0m
+[0;32mI (3603) SMARTHOME: [SCAN]  [8] SSID='VTHH' RSSI=-93[0m
+[0;32mI (3603) SMARTHOME: [SCAN]  [9] SSID='B1' RSSI=-93[0m
+[0;32mI (3603) SMARTHOME: [SCAN]  [10] SSID='B13' RSSI=-94[0m
+[0;32mI (3613) SMARTHOME: [SCAN]  [11] SSID='FC-3F6D46' RSSI=-96[0m
+[0;32mI (3613) SMARTHOME: Pre-scan complete: 12 networks cached[0m
+[0;32mI (3623) SMARTHOME: Provisioning AP started. SSID='SMARTHOME_2C3341'[0m
+[0;32mI (3633) SMARTHOME: ================================================[0m
+[0;32mI (3633) SMARTHOME: SCANNABLE QR CODE FOR PROVISIONING:[0m
+[0;32mI (3643) QRCODE: Encoding below text with ECC LVL 0 & QR Code Version 10[0m
+[0;32mI (3643) QRCODE: {"type":"smarthome-provision","apSsid":"SMARTHOME_2C3341","apPassword":"","endpoint":"http://192.168.4.1/provision","method":"POST","pop":"HUTECHIOT123"}[0m
+                                                  
+  █▀▀▀▀▀█ ▄▀   ▄   █ █▄█ ███ █▀ ▀ ▀▄ ▄▀ █▀▀▀▀▀█   
+  █ ███ █ ▄▄ ▀▀  ██ █▀█▄ ███▀▀▀ ▀█▀█ █▄ █ ███ █   
+  █ ▀▀▀ █ ▄▀█▀▀▄█▄▄ ▄ █▀▀▀█▀▄█▀▀▀  ▄▀▀▀ █ ▀▀▀ █   
+  ▀▀▀▀▀▀▀ ▀ █ ▀▄█▄▀ █ █ ▀ █ ▀▄█▄▀ █ █ █ ▀▀▀▀▀▀▀   
+  █▀▀▀▀▄▀█▀▄██▄█ ▀  ▀▀▀▀████▀█▄ █ ▄   ▄█ ▀ ▀ █▄   
+  ▄██ █ ▀█ █ ▄▄ ▄█▄ ▀▄▀▄▀▀▀▄ ██▄ ██ ███▄▀ ███▀    
+  ▄█▀▀█▄▀█▄▄█▄█▄▄ ▀▀▀   █ ██ █ █▄█▄█▀▀▄▄ ▄   ▀▄   
+  ▀▄█ ██▀  ▄▀ █▀  █ ▀ ▀ ▀████ █▀▄▀█▄▀▀▀▀▀▄▄███▄   
+  ▀▀▀▀▄█▀▀█▄▀▄█▄▄▀ ▄▀▀ ▄ ▀ █ █▄▄▄█▄▀ ▄▄█  ▄█ ██   
+  █▀▄█▄▄▀ ▀▀▀▄▀ █▄▀▄██▀▀▀ ▀▄ █▄▄▄▀█▄▀█▀▀▀▀▄▄▄▀▄   
+  ▄▄▄██▀▀▀█ ▄ █ ▄▀▀█▀▄█▀▀▀█▄ █▄▄▄▄ ▄ ██▀▀▀█▀▄ ▄   
+  ██  █ ▀ █▄ ▄▄▄  ▀   █ ▀ █ ▀█▄ ▄ ▄▄▀ █ ▀ █▄█▀    
+  ▄▀▄ █▀▀▀█ ▀▄▀▄▄▀  ▀█▀█▀▀▀█ █ ███ ▀▀▀█▀▀▀▀▄▄ ▄   
+  ███ ▄ ▀█ ▄█▄  ▄   █ ▄▀▄▄█▀▄▄▄▀ ▄█▀▀▄▀▄▄█▄ █▄▄   
+   █ ███▀██▄▄▄▄ ▄ ▀██▄   █ ▄ █▄██ ▄█▀▄  ▄ ▀▄▄▄█   
+    █▄ ▀▀▀ ▀▀██ ▄▄▀ ▀ ▄▀▄▀▄ ▀▄█▀▄▀█ ██▄█▄█▀▀█▀    
+  ▄▀▀▄▄█▀▀▀   █▄▄▀ ▀██▀▀▄ ▄▄▀  ▄██▄ ▀▄  █▀▀ ▄█▄   
+   ▄▄▄█ ▀   ▀█▀ ▄▀  █▄▀▄ ▄██▄██▀█ ▄▄██▀ ▄█▀ ▄█    
+  ▀  ▀▀ ▀ ▄██▄▄ ▄ ▀▀▀ █▀▀▀██▀ ▄█▄  █  █▀▀▀█▀▄ █   
+  █▀▀▀▀▀█ ▀   ▄▄▄▄▀ ▄▀█ ▀ █▄▀▄█ ▄█▄▀▀ █ ▀ █ ▄▀▄   
+  █ ███ █ ████▄ ▄  ██ ██▀▀█▄  ▄█▄█ ▀▀▀▀█▀██▀ █▀   
+  █ ▀▀▀ █ ██  ▄▀▀  ▄█▄▄█▀  ▄ █▄▀ ▄█▀█▄▀▄ █▄ ▄ ▀   
+  ▀▀▀▀▀▀▀ ▀▀▀     ▀▀▀   ▀ ▀    ▀▀  ▀▀▀  ▀▀▀  ▀    
+                                                  
+
+[0;32mI (4003) SMARTHOME: QR Payload: {"type":"smarthome-provision","apSsid":"SMARTHOME_2C3341","apPassword":"","endpoint":"http://192.168.4.1/provision","method":"POST","pop":"HUTECHIOT123"}[0m
+[0;32mI (4023) SMARTHOME: PROVISIONING PIN: HUTECHIOT123[0m
+[0;32mI (4033) SMARTHOME: ================================================[0m
+[0;32mI (3549) SMARTHOME: [SCAN] scan_start ret=0x0 (ESP_OK)[0m
+[0;32mI (3549) SMARTHOME: [SCAN] Total APs found by driver: 16[0m
+[0;32mI (3549) SMARTHOME: [SCAN] Records written to buffer: 16[0m
+[0;32mI (3549) SMARTHOME: [SCAN] Done. Cached 16 APs[0m
+[0;32mI (3549) SMARTHOME: [SCAN]  [0] SSID='Cty Thai Tan' RSSI=-51[0m
+[0;32mI (3559) SMARTHOME: [SCAN]  [1] SSID='TAN ' RSSI=-56[0m
+[0;32mI (3559) SMARTHOME: [SCAN]  [2] SSID='Hanh' RSSI=-56[0m
+[0;32mI (3569) SMARTHOME: [SCAN]  [3] SSID='banhmioplakemchalua' RSSI=-80[0m
+[0;32mI (3569) SMARTHOME: [SCAN]  [4] SSID='PHONG' RSSI=-81[0m
+[0;32mI (3579) SMARTHOME: [SCAN]  [5] SSID='A5' RSSI=-82[0m
+[0;32mI (3579) SMARTHOME: [SCAN]  [6] SSID='FPT Telecom-57E9-IOT' RSSI=-85[0m
+[0;32mI (3589) SMARTHOME: [SCAN]  [7] SSID='LE NHI 2.4G' RSSI=-86[0m
+[0;32mI (3589) SMARTHOME: [SCAN]  [8] SSID='Quân' RSSI=-87[0m
+[0;32mI (3599) SMARTHOME: [SCAN]  [9] SSID='Niem Duong' RSSI=-88[0m
+[0;32mI (3599) SMARTHOME: [SCAN]  [10] SSID='LuckyTea' RSSI=-90[0m
+[0;32mI (3609) SMARTHOME: [SCAN]  [11] SSID='B1' RSSI=-90[0m
+[0;32mI (3609) SMARTHOME: [SCAN]  [12] SSID='B4' RSSI=-90[0m
+[0;32mI (3619) SMARTHOME: [SCAN]  [13] SSID='FC-3F6D46' RSSI=-93[0m
+[0;32mI (3619) SMARTHOME: [SCAN]  [14] SSID='Starbucks' RSSI=-93[0m
+[0;32mI (3629) SMARTHOME: [SCAN]  [15] SSID='FPT Telecom-3B11-IOT' RSSI=-94[0m
+[0;32mI (3639) SMARTHOME: Pre-scan complete: 16 networks cached[0m
+[0;32mI (3639) SMARTHOME: Provisioning AP started. SSID='SMARTHOME_2C3341'[0m
+[0;32mI (3649) SMARTHOME: ================================================[0m
+[0;32mI (3649) SMARTHOME: SCANNABLE QR CODE FOR PROVISIONING:[0m
+[0;32mI (3659) QRCODE: Encoding below text with ECC LVL 0 & QR Code Version 10[0m
+[0;32mI (3659) QRCODE: {"type":"smarthome-provision","apSsid":"SMARTHOME_2C3341","apPassword":"","endpoint":"http://192.168.4.1/provision","method":"POST","pop":"HUTECHIOT123"}[0m
+                                                  
+  █▀▀▀▀▀█ ▄▀   ▄   █ █▄█ ███ █▀ ▀ ▀▄ ▄▀ █▀▀▀▀▀█   
+  █ ███ █ ▄▄ ▀▀  ██ █▀█▄ ███▀▀▀ ▀█▀█ █▄ █ ███ █   
+  █ ▀▀▀ █ ▄▀█▀▀▄█▄▄ ▄ █▀▀▀█▀▄█▀▀▀  ▄▀▀▀ █ ▀▀▀ █   
+  ▀▀▀▀▀▀▀ ▀ █ ▀▄█▄▀ █ █ ▀ █ ▀▄█▄▀ █ █ █ ▀▀▀▀▀▀▀   
+  █▀▀▀▀▄▀█▀▄██▄█ ▀  ▀▀▀▀████▀█▄ █ ▄   ▄█ ▀ ▀ █▄   
+  ▄██ █ ▀█ █ ▄▄ ▄█▄ ▀▄▀▄▀▀▀▄ ██▄ ██ ███▄▀ ███▀    
+  ▄█▀▀█▄▀█▄▄█▄█▄▄ ▀▀▀   █ ██ █ █▄█▄█▀▀▄▄ ▄   ▀▄   
+  ▀▄█ ██▀  ▄▀ █▀  █ ▀ ▀ ▀████ █▀▄▀█▄▀▀▀▀▀▄▄███▄   
+  ▀▀▀▀▄█▀▀█▄▀▄█▄▄▀ ▄▀▀ ▄ ▀ █ █▄▄▄█▄▀ ▄▄█  ▄█ ██   
+  █▀▄█▄▄▀ ▀▀▀▄▀ █▄▀▄██▀▀▀ ▀▄ █▄▄▄▀█▄▀█▀▀▀▀▄▄▄▀▄   
+  ▄▄▄██▀▀▀█ ▄ █ ▄▀▀█▀▄█▀▀▀█▄ █▄▄▄▄ ▄ ██▀▀▀█▀▄ ▄   
+  ██  █ ▀ █▄ ▄▄▄  ▀   █ ▀ █ ▀█▄ ▄ ▄▄▀ █ ▀ █▄█▀    
+  ▄▀▄ █▀▀▀█ ▀▄▀▄▄▀  ▀█▀█▀▀▀█ █ ███ ▀▀▀█▀▀▀▀▄▄ ▄   
+  ███ ▄ ▀█ ▄█▄  ▄   █ ▄▀▄▄█▀▄▄▄▀ ▄█▀▀▄▀▄▄█▄ █▄▄   
+   █ ███▀██▄▄▄▄ ▄ ▀██▄   █ ▄ █▄██ ▄█▀▄  ▄ ▀▄▄▄█   
+    █▄ ▀▀▀ ▀▀██ ▄▄▀ ▀ ▄▀▄▀▄ ▀▄█▀▄▀█ ██▄█▄█▀▀█▀    
+  ▄▀▀▄▄█▀▀▀   █▄▄▀ ▀██▀▀▄ ▄▄▀  ▄██▄ ▀▄  █▀▀ ▄█▄   
+   ▄▄▄█ ▀   ▀█▀ ▄▀  █▄▀▄ ▄██▄██▀█ ▄▄██▀ ▄█▀ ▄█    
+  ▀  ▀▀ ▀ ▄██▄▄ ▄ ▀▀▀ █▀▀▀██▀ ▄█▄  █  █▀▀▀█▀▄ █   
+  █▀▀▀▀▀█ ▀   ▄▄▄▄▀ ▄▀█ ▀ █▄▀▄█ ▄█▄▀▀ █ ▀ █ ▄▀▄   
+  █ ███ █ ████▄ ▄  ██ ██▀▀█▄  ▄█▄█ ▀▀▀▀█▀██▀ █▀   
+  █ ▀▀▀ █ ██  ▄▀▀  ▄█▄▄█▀  ▄ █▄▀ ▄█▀█▄▀▄ █▄ ▄ ▀   
+  ▀▀▀▀▀▀▀ ▀▀▀     ▀▀▀   ▀ ▀    ▀▀  ▀▀▀  ▀▀▀  ▀    
+                                                  
+
+[0;32mI (4029) SMARTHOME: QR Payload: {"type":"smarthome-provision","apSsid":"SMARTHOME_2C3341","apPassword":"","endpoint":"http://192.168.4.1/provision","method":"POST","pop":"HUTECHIOT123"}[0m
+[0;32mI (4039) SMARTHOME: PROVISIONING PIN: HUTECHIOT123[0m
+[0;32mI (4049) SMARTHOME: ================================================[0m
+[0;32mI (11799) wifi:new:<1,0>, old:<1,1>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (11809) wifi:station: ae:d7:4f:b4:2b:4d join, AID=1, bgn, 20[0m
+[0;32mI (12229) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (12929) wifi:<ba-add>idx:2 (ifx:1, ae:d7:4f:b4:2b:4d), tid:0, ssn:16, winSize:64[0m
+[0;32mI (25839) SMARTHOME: WiFi scan requested... serving 16 cached APs[0m
+[0;32mI (33599) SMARTHOME: Provision saved. SSID='Hanh' broker='mqtt://192.168.1.16:1883'[0m
+[0;32mI (34799) wifi:station: ae:d7:4f:b4:2b:4d leave, AID = 1, reason = 2, bss_flags is 33721443, bss:0x3fcb4b60[0m
+[0;32mI (34799) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (34799) wifi:<ba-del>idx:2, tid:0[0m
+[0;32mI (34809) wifi:new:<1,1>, old:<1,0>, ap:<1,1>, sta:<0,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (34859) wifi:flush txq[0m
+[0;32mI (34859) wifi:stop sw txq[0m
+[0;32mI (34859) wifi:lmac stop hw txq[0m
+x�ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22d34h (142644) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032d5c vaddr=3fc9aa00 size=04bbch ( 19388) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=00037920 vaddr=40374000 size=086f8h ( 34552) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad3cch (709580) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed3f4 vaddr=4037c6f8 size=0e2ach ( 58028) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb6a8 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (304) app_init: App version:      3743c63-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  5 2026 19:44:32[0m
+[0;32mI (314) app_init: ELF file SHA256:  8d4da6b85...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (326) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4008 len 00045708 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (362) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (386) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' GPIO2 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' GPIO4 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (443) SMARTHOME: Device[3] 'Den ngu' GPIO5 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (453) SMARTHOME: Device[4] 'Bom nuoc' GPIO18 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (463) pp: pp rom version: e7ae62f[0m
+[0;32mI (463) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (483) wifi:wifi driver task: 3fcede5c, prio:23, stack:6656, core=0[0m
+[0;32mI (493) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (493) wifi:wifi certification version: v7.0[0m
+[0;32mI (493) wifi:config NVS flash: enabled[0m
+[0;32mI (493) wifi:config nano formatting: disabled[0m
+[0;32mI (493) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (503) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (503) wifi:Init management short buffer num: 32[0m
+[0;32mI (513) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (513) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (523) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (523) wifi:Init static rx buffer num: 10[0m
+[0;32mI (523) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (533) wifi_init: rx ba win: 6[0m
+[0;32mI (533) wifi_init: accept mbox: 6[0m
+[0;32mI (533) wifi_init: tcpip mbox: 32[0m
+[0;32mI (543) wifi_init: udp mbox: 6[0m
+[0;32mI (543) wifi_init: tcp mbox: 6[0m
+[0;32mI (543) wifi_init: tcp tx win: 5760[0m
+[0;32mI (543) wifi_init: tcp rx win: 5760[0m
+[0;32mI (553) wifi_init: tcp mss: 1440[0m
+[0;32mI (553) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (553) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (563) SMARTHOME: Config found: ssid='Hanh' broker='mqtt://192.168.1.16:1883'[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (613) phy_init: Saving new calibration data due to checksum failure or outdated calibration data, mode(0)[0m
+[0;32mI (653) wifi:mode : sta (ac:a7:04:2c:33:40)[0m
+[0;32mI (653) wifi:enable tsf[0m
+[0;32mI (1753) wifi:new:<10,0>, old:<1,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (1753) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (1763) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (1773) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (4873) wifi:state: run -> init (0xf00)[0m
+[0;32mI (4883) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (4883) SMARTHOME: Wi-Fi retry 1/10[0m
+[0;33mW (7293) SMARTHOME: Wi-Fi retry 2/10[0m
+[0;32mI (7303) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (7303) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (7313) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (7323) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (10423) wifi:state: run -> init (0xf00)[0m
+[0;32mI (10433) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (10433) SMARTHOME: Wi-Fi retry 3/10[0m
+[0;33mW (12843) SMARTHOME: Wi-Fi retry 4/10[0m
+[0;32mI (12853) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (12853) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (12863) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (12873) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (15973) wifi:state: run -> init (0xf00)[0m
+[0;32mI (15983) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;33mW (15983) SMARTHOME: Wi-Fi retry 5/10[0m
+[0;33mW (18393) SMARTHOME: Wi-Fi retry 6/10[0m
+[0;32mI (18403) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (18403) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (18413) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (18413) wifi:state: assoc -> run (0x10)[0m
+[1;31mE (20663) SMARTHOME: Wi-Fi failed - clearing config, restarting[0m
+[0;32mI (21173) wifi:state: run -> init (0x0)[0m
+[0;32mI (21183) wifi:new:<10,0>, old:<10,0>, ap:<255,255>, sta:<10,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (21233) wifi:flush txq[0m
+[0;32mI (21233) wifi:stop sw txq[0m
+[0;32mI (21233) wifi:lmac stop hw txq[0m
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037bffc
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x158c
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2f34
+entry 0x403c8924
+[0;32mI (29) boot: ESP-IDF v5.5.2-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Apr  5 2026 15:44:01[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (30) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (36) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (44) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (52) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (61) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00177000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (84) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=22d34h (142644) map[0m
+[0;32mI (116) esp_image: segment 1: paddr=00032d5c vaddr=3fc9aa00 size=04bbch ( 19388) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=00037920 vaddr=40374000 size=086f8h ( 34552) load[0m
+[0;32mI (128) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ad3cch (709580) map[0m
+[0;32mI (254) esp_image: segment 4: paddr=000ed3f4 vaddr=4037c6f8 size=0e2ach ( 58028) load[0m
+[0;32mI (267) esp_image: segment 5: paddr=000fb6a8 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (276) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (276) boot: Disabling RNG early entropy source...[0m
+[0;32mI (286) cpu_start: Multicore app[0m
+[0;32mI (295) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (295) cpu_start: Pro cpu start user code[0m
+[0;32mI (295) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (297) app_init: Application information:[0m
+[0;32mI (301) app_init: Project name:     mqtt5[0m
+[0;32mI (304) app_init: App version:      3743c63-dirty[0m
+[0;32mI (309) app_init: Compile time:     Apr  5 2026 19:44:32[0m
+[0;32mI (314) app_init: ELF file SHA256:  8d4da6b85...[0m
+[0;32mI (318) app_init: ESP-IDF:          v5.5.2-dirty[0m
+[0;32mI (323) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (326) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (330) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (334) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (341) heap_init: At 3FCA4008 len 00045708 (277 KiB): RAM[0m
+[0;32mI (346) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (351) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (356) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (362) spi_flash: detected chip: boya[0m
+[0;32mI (365) spi_flash: flash io: dio[0m
+[0;33mW (368) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (380) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (386) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (393) main_task: Started on CPU0[0m
+[0;32mI (413) main_task: Calling app_main()[0m
+[0;32mI (443) SMARTHOME: Device[1] 'Den phong khach' GPIO2 topics=/home/relay/1/control|/home/relay/1/status[0m
+[0;32mI (443) SMARTHOME: Device[2] 'Quat' GPIO4 topics=/home/relay/2/control|/home/relay/2/status[0m
+[0;32mI (443) SMARTHOME: Device[3] 'Den ngu' GPIO5 topics=/home/relay/3/control|/home/relay/3/status[0m
+[0;32mI (453) SMARTHOME: Device[4] 'Bom nuoc' GPIO18 topics=/home/relay/4/control|/home/relay/4/status[0m
+[0;32mI (463) pp: pp rom version: e7ae62f[0m
+[0;32mI (463) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (483) wifi:wifi driver task: 3fcede5c, prio:23, stack:6656, core=0[0m
+[0;32mI (493) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (493) wifi:wifi certification version: v7.0[0m
+[0;32mI (493) wifi:config NVS flash: enabled[0m
+[0;32mI (493) wifi:config nano formatting: disabled[0m
+[0;32mI (493) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (503) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (503) wifi:Init management short buffer num: 32[0m
+[0;32mI (513) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (513) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (523) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (523) wifi:Init static rx buffer num: 10[0m
+[0;32mI (523) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (533) wifi_init: rx ba win: 6[0m
+[0;32mI (533) wifi_init: accept mbox: 6[0m
+[0;32mI (533) wifi_init: tcpip mbox: 32[0m
+[0;32mI (543) wifi_init: udp mbox: 6[0m
+[0;32mI (543) wifi_init: tcp mbox: 6[0m
+[0;32mI (543) wifi_init: tcp tx win: 5760[0m
+[0;32mI (543) wifi_init: tcp rx win: 5760[0m
+[0;32mI (553) wifi_init: tcp mss: 1440[0m
+[0;32mI (553) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (553) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (563) SMARTHOME: No config found, entering app-driven QR provisioning mode[0m
+[0;32mI (583) phy_init: phy_version 711,97bcf0a2,Aug 25 2025,19:04:10[0m
+[0;32mI (623) wifi:mode : sta (ac:a7:04:2c:33:40) + softAP (ac:a7:04:2c:33:41)[0m
+[0;32mI (623) wifi:enable tsf[0m
+[0;32mI (623) wifi:Total power save buffer number: 16[0m
+[0;32mI (623) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (633) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (633) SMARTHOME: Pre-scanning WiFi before AP clients join...[0m
+[0;32mI (633) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (643) SMARTHOME: [SCAN] Task started[0m
+[0;32mI (3553) SMARTHOME: [SCAN] scan_start ret=0x0 (ESP_OK)[0m
+[0;32mI (3553) SMARTHOME: [SCAN] Total APs found by driver: 18[0m
+[0;32mI (3553) SMARTHOME: [SCAN] Records written to buffer: 18[0m
+[0;32mI (3553) SMARTHOME: [SCAN] Done. Cached 18 APs[0m
+[0;32mI (3553) SMARTHOME: [SCAN]  [0] SSID='Cty Thai Tan' RSSI=-50[0m
+[0;32mI (3563) SMARTHOME: [SCAN]  [1] SSID='TAN ' RSSI=-55[0m
+[0;32mI (3563) SMARTHOME: [SCAN]  [2] SSID='Hanh' RSSI=-57[0m
+[0;32mI (3573) SMARTHOME: [SCAN]  [3] SSID='PHONG' RSSI=-81[0m
+[0;32mI (3573) SMARTHOME: [SCAN]  [4] SSID='FPT Telecom-57E9-IOT' RSSI=-85[0m
+[0;32mI (3583) SMARTHOME: [SCAN]  [5] SSID='A5' RSSI=-86[0m
+[0;32mI (3583) SMARTHOME: [SCAN]  [6] SSID='Quân' RSSI=-87[0m
+[0;32mI (3593) SMARTHOME: [SCAN]  [7] SSID='banhmioplakemchalua' RSSI=-88[0m
+[0;32mI (3593) SMARTHOME: [SCAN]  [8] SSID='LE NHI 2.4G' RSSI=-89[0m
+[0;32mI (3603) SMARTHOME: [SCAN]  [9] SSID='B1' RSSI=-89[0m
+[0;32mI (3603) SMARTHOME: [SCAN]  [10] SSID='B4' RSSI=-91[0m
+[0;32mI (3613) SMARTHOME: [SCAN]  [11] SSID='FPT Telecom-3B11-IOT' RSSI=-91[0m
+[0;32mI (3613) SMARTHOME: [SCAN]  [12] SSID='VTHH' RSSI=-92[0m
+[0;32mI (3623) SMARTHOME: [SCAN]  [13] SSID='Starbucks' RSSI=-92[0m
+[0;32mI (3623) SMARTHOME: [SCAN]  [14] SSID='FC-3F6D46' RSSI=-93[0m
+[0;32mI (3633) SMARTHOME: [SCAN]  [15] SSID='VINH HOANG' RSSI=-94[0m
+[0;32mI (3643) SMARTHOME: [SCAN]  [16] SSID='Ngoc Mai' RSSI=-94[0m
+[0;32mI (3643) SMARTHOME: [SCAN]  [17] SSID='86B1' RSSI=-97[0m
+[0;32mI (3653) SMARTHOME: Pre-scan complete: 18 networks cached[0m
+[0;32mI (3653) SMARTHOME: Provisioning AP started. SSID='SMARTHOME_2C3341'[0m
+[0;32mI (3663) SMARTHOME: ================================================[0m
+[0;32mI (3663) SMARTHOME: SCANNABLE QR CODE FOR PROVISIONING:[0m
+[0;32mI (3673) QRCODE: Encoding below text with ECC LVL 0 & QR Code Version 10[0m
+[0;32mI (3673) QRCODE: {"type":"smarthome-provision","apSsid":"SMARTHOME_2C3341","apPassword":"","endpoint":"http://192.168.4.1/provision","method":"POST","pop":"HUTECHIOT123"}[0m
+                                                  
+  █▀▀▀▀▀█ ▄▀   ▄   █ █▄█ ███ █▀ ▀ ▀▄ ▄▀ █▀▀▀▀▀█   
+  █ ███ █ ▄▄ ▀

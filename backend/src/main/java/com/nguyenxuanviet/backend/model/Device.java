@@ -23,8 +23,6 @@ public class Device {
 
     private String imagePath;
 
-    private String connectionType;
-
     @Column(name = "control_topic")
     private String controlTopic;
 
@@ -33,11 +31,6 @@ public class Device {
 
     private boolean isOn = false;
     private boolean isOnline = false;
-
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "room_id")
-    @JsonIgnoreProperties({"user", "hibernateLazyInitializer", "handler"})
-    private Room room;
 
     @Column(updatable = false)
     private LocalDateTime createdAt = LocalDateTime.now();

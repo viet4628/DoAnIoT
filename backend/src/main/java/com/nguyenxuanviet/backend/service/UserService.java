@@ -38,10 +38,12 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    public Optional<User> login(String username, String password) {
-        return userRepository.findByUsername(username)
+    public Optional<User> login(String identifier, String password) {
+        return userRepository.findByUsername(identifier)
+                .or(() -> userRepository.findByEmail(identifier))
                 .filter(u -> passwordEncoder.matches(password, u.getPassword()));
     }
+
 
     public User update(Long id, User updated) {
         return userRepository.findById(id).map(user -> {

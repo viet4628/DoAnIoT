@@ -37,12 +37,13 @@ public class UserController {
 
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody Map<String, String> body) {
-        String username = body.get("username");
+        String identifier = body.get("username");
         String password = body.get("password");
-        if (username == null || username.isBlank() || password == null || password.isBlank()) {
-            return ResponseEntity.badRequest().body(Map.of("error", "username và password là bắt buộc"));
+        if (identifier == null || identifier.isBlank() || password == null || password.isBlank()) {
+            return ResponseEntity.badRequest().body(Map.of("error", "username/email và password là bắt buộc"));
         }
-        return userService.login(username, password)
+        return userService.login(identifier, password)
+
             .map(user -> ResponseEntity.ok((Object) toUserResponse(user)))
                 .orElse(ResponseEntity.status(HttpStatus.UNAUTHORIZED)
                         .body(Map.of("error", "Sai username hoặc password")));

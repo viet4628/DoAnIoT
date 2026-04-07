@@ -20,8 +20,7 @@ public class DeviceController {
     }
 
     @GetMapping
-    public List<Device> getAll(@RequestParam(required = false) Long roomId) {
-        if (roomId != null) return deviceService.findByRoomId(roomId);
+    public List<Device> getAll() {
         return deviceService.findAll();
     }
 
@@ -33,12 +32,11 @@ public class DeviceController {
     }
 
     @PostMapping
-    public ResponseEntity<?> create(@RequestBody Device device,
-                                    @RequestParam(required = false) Long roomId) {
+    public ResponseEntity<?> create(@RequestBody Device device) {
         try {
             if (device.getName() == null || device.getName().isBlank())
                 return ResponseEntity.badRequest().body(Map.of("error", "name là bắt buộc"));
-            Device saved = deviceService.create(device, roomId);
+            Device saved = deviceService.create(device);
             return ResponseEntity.status(HttpStatus.CREATED).body(saved);
         } catch (IllegalArgumentException e) {
             return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
@@ -47,10 +45,9 @@ public class DeviceController {
 
     @PutMapping("/{id}")
     public ResponseEntity<?> update(@PathVariable Long id,
-                                    @RequestBody Device device,
-                                    @RequestParam(required = false) Long roomId) {
+                                    @RequestBody Device device) {
         try {
-            return ResponseEntity.ok(deviceService.update(id, device, roomId));
+            return ResponseEntity.ok(deviceService.update(id, device));
         } catch (IllegalArgumentException e) {
             return ResponseEntity.notFound().build();
         }
@@ -78,3 +75,4 @@ public class DeviceController {
         return ResponseEntity.noContent().build();
     }
 }
+
